@@ -1,0 +1,77 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'torsionSchubVerteilung_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{358.26912138bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.40677539)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{torsionSchubVerteilung_svg-tex.pdf}}%
+    \put(0.34106318,0.2410491){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$r$\end{tabular}}}}%
+    \put(0.36497566,0.76898984){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.54012975\unitlength}\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{torsionSchubVerteilung_svg-tex.pdf}}%
+    \put(0.88381639,0.14359868){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$\tau(r)$\end{tabular}}}}%
+    \put(0.78499388,0.3411253){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$\tau(r)$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{torsionSchubVerteilung_svg-tex.pdf}}%
+    \put(0.80382956,0.21033161){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$r$\end{tabular}}}}%
+    \put(0.40275118,0.21451098){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$r\theta(x)$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{torsionSchubVerteilung_svg-tex.pdf}}%
+    \put(0.26439421,0.38667051){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$M_t$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{torsionSchubVerteilung_svg-tex.pdf}}%
+    \put(0.73884841,0.38744417){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$M_t$\end{tabular}}}}%
+    \put(0.2584389,0.00505359){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}(a)\end{tabular}}}}%
+    \put(0.7331623,0.00505359){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}(b)\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{torsionSchubVerteilung_svg-tex.pdf}}%
+    \put(0.81802535,0.26672931){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$dA$\end{tabular}}}}%
+    \put(0.11281046,0.21605602){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$\ol{B}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{torsionSchubVerteilung_svg-tex.pdf}}%
+    \put(0.13952162,0.2844512){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}${B}$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

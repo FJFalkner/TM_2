@@ -9,7 +9,7 @@ For the tension or compression bar, the external forces always act in the direct
 The accompanying deformation of the bar can be described as a change in length, see @fig-verformung-biegung.
 This longitudinal displacement is described by the function $u$ in the direction of the coordinate $x$.
 
-![Deformation of the bar under axial and transverse load](images/verformungBiegung.svg){#fig-verformung-biegung}
+![Deformation of the bar under axial and transverse load](images-en/verformungBiegung.svg){#fig-verformung-biegung}
 
 If the external load now acts perpendicular to the bar axis, a markedly different deformation of the bar occurs, see @fig-verformung-biegung.
 The bar experiences a displacement normal to the bar axis.
@@ -25,7 +25,7 @@ The curving of the bar is thus a direct consequence of the bending moment acting
 
 From experiments the following statement can furthermore be made: if one considers a cross-section of the bar that in the undeformed state stands perpendicular to the bar axis, then it remains *plane* during the deformation (curving) of the bar, see @fig-eben-querschnitt.
 
-![The cross-section remains plane](images/ebenQuerschnitt.svg){#fig-eben-querschnitt}
+![The cross-section remains plane](images-en/ebenQuerschnitt.svg){#fig-eben-querschnitt}
 
 In the side view of the beam (@fig-eben-querschnitt) we see the cross-section projected.
 In the deformed state, however, it is still a *plane*.
@@ -45,7 +45,7 @@ From this we recognise that the bending moment produces variable stresses over t
 
 In order to compute the stresses in the cross-section, we must first describe the motion of a cross-section.
 
-![Kinematics of the beam cross-section](images/QuerschnittsVerformung.svg){#fig-querschnitts-verformung}
+![Kinematics of the beam cross-section](images-en/QuerschnittsVerformung.svg){#fig-querschnitts-verformung}
 
 During deformation, it experiences a displacement in the direction of $z$ of magnitude $w$ and simultaneously a rotation by the angle $\vp$, see @fig-querschnitts-verformung.
 In the case of pure bending, i.e. the shear force acting in the cross-section is zero, the centre of rotation coincides with the centroid.
@@ -80,7 +80,7 @@ In the next step a relationship between $\sigma$ and the bending moment about th
 To do so we again consider a point $P$ of a *singly* symmetric cross-section.
 At this point the normal stress $\sigma$ acts, see @fig-dMy.
 
-![Moment of the normal stress about the $y$-axis](images/dMy.svg){#fig-dMy}
+![Moment of the normal stress about the $y$-axis](images-en/dMy.svg){#fig-dMy}
 
 If we multiply this stress by the infinitesimal area element $dA$ on which it acts, we obtain the resultant force.
 If this expression is multiplied by the lever arm $z$, then we obtain the moment that the stress at point $P$ generates about the $y$-axis:
@@ -110,7 +110,7 @@ $$ {#eq-Iy}
 $I_y$ has, for example, the unit cm⁴, is always positive, and depends on the cross-sectional geometry.
 It can often be taken from reference tables, and for two common cross-sections it is given in @fig-Iy.
 
-![Second moment of area of the rectangular and circular cross-section](images/Iy.svg){#fig-Iy}
+![Second moment of area of the rectangular and circular cross-section](images-en/Iy.svg){#fig-Iy}
 
 If we rearrange the expression in ([-@eq-My]) to
 
@@ -137,7 +137,7 @@ $$ {#eq-sigma-NM}
 In @fig-sigma-NM the distribution of the normal stresses due to $N$ and $M$ is shown.
 It can be seen that when a normal force occurs, $\sigma$ is no longer zero at the height of the bar axis.
 
-![Normal stress in the bar due to normal force and bending moment](images/sigmaNM.svg){#fig-sigma-NM}
+![Normal stress in the bar due to normal force and bending moment](images-en/sigmaNM.svg){#fig-sigma-NM}
 
 Furthermore, it is also emphasised that these normal stresses appear in a cross-section normal to the bar axis.
 If the cutting direction is changed, the normal stresses take different values and shear stresses then also act in the considered section.
@@ -146,7 +146,7 @@ If the cutting direction is changed, the normal stresses take different values a
 In this example the largest compressive and tensile stresses of the main structure of a bus-stop canopy are sought.
 The structural system and the cross-section of an I-beam are shown below.
 
-![](images/BeispielSig.svg){fig-align="center"}
+![](images-en/BeispielSig.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -156,7 +156,7 @@ First the internal forces have to be determined, which in this case is possible 
 First we cut vertically immediately to the *right* of point $A$ and obtain:
 
 ::: {layout="[40,60]" layout-valign="center"}
-![](images/BeispielSig2.svg)
+![](images-en/BeispielSig2.svg)
 
 $$
 \begin{aligned}
@@ -170,7 +170,7 @@ $$
 Subsequently we cut horizontally immediately *below* point $A$:
 
 ::: {layout="[40,60]" layout-valign="center"}
-![](images/BeispielSig3.svg)
+![](images-en/BeispielSig3.svg)
 
 $$
 \begin{aligned}
@@ -184,7 +184,7 @@ $$
 In both cases it is the negative cut face, from which the directions of the internal forces at the cuts follow according to the coordinate systems defined in the problem statement.
 The normal-force and bending-moment distributions are shown below.
 
-![](images/BeispielSig4.svg){fig-align="center"}
+![](images-en/BeispielSig4.svg){fig-align="center"}
 
 The normal force and the bending moment each reach their largest value in magnitude in the vertical bar.
 Therefore the largest compressive and tensile stresses also occur there.
@@ -204,7 +204,7 @@ $$
 
 We divide the I-beam into two (three) rectangular cross-sections, i.e. $n=2$.
 
-![](images/BeispielSig5.svg){fig-align="center"}
+![](images-en/BeispielSig5.svg){fig-align="center"}
 
 With the figure above, we then obtain, using [Steiner]{.smallcaps}'s theorem, the second moment of area of the I-beam about the $y$-axis as
 
@@ -230,7 +230,7 @@ $$
 Represented graphically, the normal-stress distribution is shown in the figure below.
 The value at the bar axis is $\sigma(z=0)=N/A=-0.3\,\text{kN/cm}^2$.
 
-![](images/BeispielSig6.svg){fig-align="center"}
+![](images-en/BeispielSig6.svg){fig-align="center"}
 :::
 
 ## Deflection Curve {#sec-biegelinie}
@@ -243,7 +243,7 @@ Up to now we have assumed that a cross-section of the bar remains plane during d
 For *slender* bars it can furthermore be assumed that the right angle between cross-section and bar axis is preserved.
 The deformed, plane cross-section thus also stands *normal* to the *deformed* bar axis, see @fig-bernoulli.
 
-![[Bernoulli]{.smallcaps} hypothesis](images/Bernoulli.svg){#fig-bernoulli}
+![[Bernoulli]{.smallcaps} hypothesis](images-en/Bernoulli.svg){#fig-bernoulli}
 
 These kinematic assumptions are called the [Bernoulli]{.smallcaps} hypothesis.
 
@@ -277,7 +277,7 @@ holds. If the above condition is not fulfilled, then the [Bernoulli]{.smallcaps}
 In accordance with the support conditions, we can make statements in advance at these locations about the magnitude of the deflection or the rotation of the bar axis (or the cross-section).
 In @fig-biegelinie-rb these are shown for common support conditions.
 
-![Deflection and rotation of the bar axis for different supports](images/BiegelinieRB.svg){#fig-biegelinie-rb}
+![Deflection and rotation of the bar axis for different supports](images-en/BiegelinieRB.svg){#fig-biegelinie-rb}
 
 In addition, the support reactions are also entered.
 These forces and moments bring about precisely that the deflection or rotation of the bar axis at the support is exactly zero!
@@ -287,7 +287,7 @@ Finally we want to examine the sign in ([-@eq-biegelinie]) more closely.
 The sign of the curvature is determined by the second derivative of a function.
 Here, however, it must be particularly noted that the $z$-axis points *downwards*^[The $z$-axis thus points exactly in the direction of gravity!], and hence the usual definitions are exactly interchanged.
 
-![Relationship between curvature of the bar axis and the sign of the bending moment](images/konkavKonvex.svg){#fig-konkav-konvex}
+![Relationship between curvature of the bar axis and the sign of the bending moment](images-en/konkavKonvex.svg){#fig-konkav-konvex}
 
 A positive bending moment produces, according to ([-@eq-biegelinie]), a negative curvature, see @fig-konkav-konvex.
 The centre of curvature lies in the negative $z$ range.
@@ -298,7 +298,7 @@ Then the deflection curve has a positive curvature, i.e. is curved to the right.
 ::: {#exm-biegelinie}
 Given is the following statically determinate system:
 
-![](images/BeispielBL.svg){fig-align="center"}
+![](images-en/BeispielBL.svg){fig-align="center"}
 
 Sought are:
 
@@ -315,7 +315,7 @@ To compute the deflection curve with relation ([-@eq-biegelinie]), we must deter
 One way to do this is to first compute the support reactions using the equilibrium conditions and then the bending moment.
 With appropriate practice, in this example the bending-moment distribution can also be determined without knowledge of the support reactions.
 
-![](images/BeispielBL2.svg){fig-align="center"}
+![](images-en/BeispielBL2.svg){fig-align="center"}
 
 From the above representation of $M_y$ one recognises that $M_y$ exhibits a discontinuity at position $B$.
 The entire distribution cannot therefore be described by *one* function, and the segments $A-B$ and $B-C$ must therefore be considered separately.
@@ -324,7 +324,7 @@ For this reason two coordinate systems are chosen: in $x_1-z$, with origin at $A
 The bending moment as a function of $x_1$ in the region $A-B$ can be determined from a cut at an arbitrary position $x_1$ using the moment equilibrium condition:
 
 ::: {layout="[40,60]" layout-valign="center"}
-![](images/BeispielBL3.svg)
+![](images-en/BeispielBL3.svg)
 
 $$
 \pmr\sum M=0:\; M_y(x_1) + A_Vx_1 = 0\rightarrow M_y(x_1) = -\dfrac{Fx_1}{3}
@@ -412,7 +412,7 @@ $$
 
 The tangent to the deflection curves of $w_1$ and $w_2$ has the same slope at position $B$.
 
-![](images/BeispielBL4.svg){fig-align="center"}
+![](images-en/BeispielBL4.svg){fig-align="center"}
 
 Computing the derivatives
 
@@ -440,14 +440,14 @@ $$
 
 The entire deflection curve of the beam is shown below.
 
-![](images/BeispielBL5.svg){fig-align="center"}
+![](images-en/BeispielBL5.svg){fig-align="center"}
 :::
 
 ::: {#exm-biegelinie-dreieckslast}
 Determine the deflection curve of the following system!
 Estimate the location of the largest deflection!
 
-![](images/weitereBSPBL.svg){fig-align="center"}
+![](images-en/weitereBSPBL.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -463,7 +463,7 @@ Estimate the location of the largest deflection!
 Determine the deflection curve between the points $A$ and $B$!
 How large is the horizontal and vertical displacement of point $C$?
 
-![](images/weitereBSPBL2.svg){fig-align="center"}
+![](images-en/weitereBSPBL2.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -479,7 +479,7 @@ How large is the horizontal and vertical displacement of point $C$?
 ::: {#exm-biegelinie-zwei-bereiche}
 Determine the deflection curve $w_1(x_1)$ in the region $A - B$ and $w_2(x_2)$ between $B - C$!
 
-![](images/weitereBSPBL3.svg){fig-align="center"}
+![](images-en/weitereBSPBL3.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -530,19 +530,19 @@ In the cases considered here, it becomes active after the discontinuity ($\xi>\a
 
 | No | Load case | $w_A'$ | $w_B'$ | $w(x)$ |
 |:--:|:--------:|:------:|:------:|:------:|
-| 1 | ![](images/simpleSupportLF1.svg){width=170} | $\dfrac{Fl^2}{6EI_y}(\beta-\beta^3)$ | $-\dfrac{Fl^2}{6EI_y}(\alpha-\alpha^3)$ | $\dfrac{Fl^3}{6EI_y}\Big[\beta\xi(1-\beta^2-\xi^2)+\big\langle \xi-\alpha\big\rangle^3\Big]$ |
-| 2 | ![](images/simpleSupportLF2.svg){width=170} | $\dfrac{ql^3}{24EI_y}$ | $-\dfrac{ql^3}{24EI_y}$ | $\dfrac{ql^4}{24EI_y}\left(\xi-2\xi^3+\xi^4\right)$ |
-| 3 | ![](images/simpleSupportLF3.svg){width=170} | $\dfrac{ql^3}{24EI_y}(1-\beta^2)^2$ | $\dfrac{ql^3}{24EI_y}\Big[4(1-\beta^3)-6(1-\beta^2)+(1-\beta^2)^2\Big]$ | $\dfrac{ql^4}{24EI_y}\Big[\xi^4 -\big\langle\xi-\alpha\big\rangle^4-2(1-\beta^2)\xi^3+(1-\beta^2)^2\xi\Big]$ |
-| 4 | ![](images/simpleSupportLF4.svg){width=170} | $\dfrac{M_0l}{6EI_y}(3\beta^2-1)$ | $\dfrac{M_0l}{6EI_y}(3\alpha^2-1)$ | $\dfrac{M_0l^2}{6EI_y}\Big[\xi(3\beta^2-1)+\xi^3-3\big\langle\xi-\alpha\big\rangle^2\Big]$ |
+| 1 | ![](images-en/simpleSupportLF1.svg){width=170} | $\dfrac{Fl^2}{6EI_y}(\beta-\beta^3)$ | $-\dfrac{Fl^2}{6EI_y}(\alpha-\alpha^3)$ | $\dfrac{Fl^3}{6EI_y}\Big[\beta\xi(1-\beta^2-\xi^2)+\big\langle \xi-\alpha\big\rangle^3\Big]$ |
+| 2 | ![](images-en/simpleSupportLF2.svg){width=170} | $\dfrac{ql^3}{24EI_y}$ | $-\dfrac{ql^3}{24EI_y}$ | $\dfrac{ql^4}{24EI_y}\left(\xi-2\xi^3+\xi^4\right)$ |
+| 3 | ![](images-en/simpleSupportLF3.svg){width=170} | $\dfrac{ql^3}{24EI_y}(1-\beta^2)^2$ | $\dfrac{ql^3}{24EI_y}\Big[4(1-\beta^3)-6(1-\beta^2)+(1-\beta^2)^2\Big]$ | $\dfrac{ql^4}{24EI_y}\Big[\xi^4 -\big\langle\xi-\alpha\big\rangle^4-2(1-\beta^2)\xi^3+(1-\beta^2)^2\xi\Big]$ |
+| 4 | ![](images-en/simpleSupportLF4.svg){width=170} | $\dfrac{M_0l}{6EI_y}(3\beta^2-1)$ | $\dfrac{M_0l}{6EI_y}(3\alpha^2-1)$ | $\dfrac{M_0l^2}{6EI_y}\Big[\xi(3\beta^2-1)+\xi^3-3\big\langle\xi-\alpha\big\rangle^2\Big]$ |
 
 : Elementary load cases of the single-span beam {#tbl-einfeldtraeger tbl-colwidths="[5,20,20,25,30]"}
 
 | No | Load case | $w_A'$ | $w_B'$ | $w(x)$ |
 |:--:|:--------:|:------:|:------:|:------:|
-| 5 | ![](images/cantileverLF1.svg){width=170} | $0$ | $\dfrac{Fa^2}{2EI_y}$ | $\dfrac{Fl^3}{6EI_y}\Big[3\xi^2\alpha-\xi^3+\big\langle \xi -\alpha\big\rangle^3\Big]$ |
-| 6 | ![](images/cantileverLF2.svg){width=170} | $0$ | $\dfrac{ql^3}{6EI_y}$ | $\dfrac{ql^4}{24EI_y}\left(6\xi^2-4\xi^3+\xi^4\right)$ |
-| 7 | ![](images/cantileverLF3.svg){width=170} | $0$ | $-\dfrac{ql^3}{6EI_y}\beta(\beta^2-3\beta+3)$ | $\dfrac{ql^4}{24EI_y}\Big[\big\langle\xi-\alpha\big\rangle^4-4\beta\xi^3+6\beta(2-\beta)\xi^2\Big]$ |
-| 8 | ![](images/cantileverLF4.svg){width=170} | $0$ | $M_0a$ | $\dfrac{M_0l^2}{2EI_y}\Big[\xi^2-\big\langle\xi-\alpha\big\rangle^2\Big]$ |
+| 5 | ![](images-en/cantileverLF1.svg){width=170} | $0$ | $\dfrac{Fa^2}{2EI_y}$ | $\dfrac{Fl^3}{6EI_y}\Big[3\xi^2\alpha-\xi^3+\big\langle \xi -\alpha\big\rangle^3\Big]$ |
+| 6 | ![](images-en/cantileverLF2.svg){width=170} | $0$ | $\dfrac{ql^3}{6EI_y}$ | $\dfrac{ql^4}{24EI_y}\left(6\xi^2-4\xi^3+\xi^4\right)$ |
+| 7 | ![](images-en/cantileverLF3.svg){width=170} | $0$ | $-\dfrac{ql^3}{6EI_y}\beta(\beta^2-3\beta+3)$ | $\dfrac{ql^4}{24EI_y}\Big[\big\langle\xi-\alpha\big\rangle^4-4\beta\xi^3+6\beta(2-\beta)\xi^2\Big]$ |
+| 8 | ![](images-en/cantileverLF4.svg){width=170} | $0$ | $M_0a$ | $\dfrac{M_0l^2}{2EI_y}\Big[\xi^2-\big\langle\xi-\alpha\big\rangle^2\Big]$ |
 
 : Elementary load cases of the cantilever beam {#tbl-kragtraeger tbl-colwidths="[5,20,15,25,35]"}
 
@@ -553,7 +553,7 @@ The horizontal bar, which is loaded by a constant uniform load $q$, is clamped a
 Both bars have length $l$.
 To be determined are the support reactions at $A$ as well as the bending-moment distribution and the deflection curve of the horizontal bar.
 
-![](images/BeispielStatUnb.svg){fig-align="center"}
+![](images-en/BeispielStatUnb.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -561,7 +561,7 @@ To be determined are the support reactions at $A$ as well as the bending-moment 
 
 To determine the support reactions we cut the horizontal bar out and enter all forces made visible by the cut in a sketch.
 
-![](images/BeispielStatUnb1.svg){fig-align="center"}
+![](images-en/BeispielStatUnb1.svg){fig-align="center"}
 
 Due to the hinged connection of the two bars, the only internal force acting in the vertical bar is a normal force.
 In total four unknown force quantities appear, which cannot be determined solely from the three equilibrium conditions.
@@ -575,7 +575,7 @@ The direction may be chosen freely. On the cantilever beam the vertical bar acts
 According to [Newton]{.smallcaps}'s third law, we must apply $X$ on the vertical bar in the other direction.
 These essential steps are shown graphically below.
 
-![](images/BeispielStatUnb2.svg){fig-align="center"}
+![](images-en/BeispielStatUnb2.svg){fig-align="center"}
 
 But how can $X$ be computed? By releasing the constraint, both bars can freely displace relative to each other at point $B$.
 In the real system, however, the deflection of the horizontal bar at $B$ equals the change in length of the vertical bar.
@@ -632,7 +632,7 @@ $$
 Since this is a statically indeterminate system, these depend on the stiffness ratio.
 This dependence of $A_V$ is shown below.
 
-![](images/Av.svg){fig-align="center"}
+![](images-en/Av.svg){fig-align="center"}
 
 If the axial stiffness of the vertical bar is very large, i.e. $EA\rightarrow\infty$, then the change in length of the bar tends to zero, which is equivalent to a vertical support.
 In this limiting case $A_V$ is then equal to $5/8\, ql$.
@@ -660,7 +660,7 @@ The distribution of the bending moment as well as of the deflection curve is sho
 If $EA\rightarrow\infty$, then the smallest bending moment in magnitude is reached, whereby the deflections are also smallest.
 The overall system has the greatest stiffness in this case.
 
-![](images/My.svg){fig-align="center"}
+![](images-en/My.svg){fig-align="center"}
 
 A continuous reduction of $EA$ leads to a bending moment that becomes ever larger in magnitude.
 The same applies to the deflection.
@@ -671,7 +671,7 @@ In this case (cantilever beam) both the bending moment and the deflection curve 
 ::: {#exm-stat-unb-1}
 Compute all support reactions of the system shown below and the deflection at point $C$!
 
-![](images/statUnb1.svg){fig-align="center"}
+![](images-en/statUnb1.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -684,12 +684,12 @@ Compute all support reactions of the system shown below and the deflection at po
 ::: {#exm-stat-unb-2}
 Compute all support reactions of the system shown below! Where between $A$ and $B$ does the largest deflection occur and how large is it?
 
-![](images/statUnb2.svg){fig-align="center"}
+![](images-en/statUnb2.svg){fig-align="center"}
 
 *Hint*:
 The vertical bar is a statically determinate extension. Its effect on the horizontal bar can be replaced by a horizontal force and a bending moment! Note also: reactio = actio!
 
-![](images/statUnb2a.svg){fig-align="center"}
+![](images-en/statUnb2a.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -702,7 +702,7 @@ The vertical bar is a statically determinate extension. Its effect on the horizo
 ::: {#exm-stat-unb-3}
 Determine the normal force in the vertical bar!
 
-![](images/BeispielStatUnb3.svg){fig-align="center"}
+![](images-en/BeispielStatUnb3.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}

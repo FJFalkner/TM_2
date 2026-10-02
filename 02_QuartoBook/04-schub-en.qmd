@@ -8,7 +8,7 @@ In the previous chapters the normal stress due to a normal force and a bending m
 The distribution of the normal stress under pure moment loading is shown for a T-cross-section in @fig-stab-schub(a).
 If a shear force now also acts at this position of the bar, this also produces *shear stresses* in the cross-section (cf. @fig-stab-schub(b)).
 
-![Stresses in the cross-section: (a) normal stresses due to bending moment, (b) shear stresses due to shear force](images/StabSchub.svg){#fig-stab-schub}
+![Stresses in the cross-section: (a) normal stresses due to bending moment, (b) shear stresses due to shear force](images-en/StabSchub.svg){#fig-stab-schub}
 
 In the computation of these shear stresses due to shear force we restrict ourselves here to *thin-walled, open* cross-sections.
 Thin-walled means that the thickness $t$ of the plates of which the cross-section is composed is *small* compared to the outer cross-sectional dimensions, i.e. $t\ll b$.
@@ -31,7 +31,7 @@ The same applies to $\sigma$.
 *Equilibrium* must prevail on this element!
 Under this stress state, however, neither the vertical force equilibrium nor the moment equilibrium is satisfied.
 
-![Theorem of associated shear stresses](images/SatzSchub.svg){#fig-satz-schub}
+![Theorem of associated shear stresses](images-en/SatzSchub.svg){#fig-satz-schub}
 
 To satisfy the vertical force equilibrium, a shear stress of equal magnitude must act upwards on the opposite cut surface (@fig-satz-schub(b)).
 The moment equilibrium is, however, still not satisfied.
@@ -50,7 +50,7 @@ Here $Q$ is the shear force acting at position $x$ and $I_y$ is the second momen
 In the examples considered here we assume a constant plate thickness $t$.
 With the coordinate $s$ a point on the skeleton line is described.
 
-![Definition of the parameters for computing the shear stress](images/BerechnungSchubQ.svg){#fig-berechnung-schub}
+![Definition of the parameters for computing the shear stress](images-en/BerechnungSchubQ.svg){#fig-berechnung-schub}
 
 $S_y$ is the first moment of area of the separated partial area of the cross-section.
 If one wants, for example, to compute the shear stress at point 1 of the I-cross-section in @fig-berechnung-schub, then in ([-@eq-tau-Q]) one must insert for $S_y$ the first moment of area of the orange partial area about the $y$-axis.
@@ -62,7 +62,7 @@ With the relation ([-@eq-tau-Q]) the shear stress at the junction points of the 
 A beam is to be glued together from two wooden parts. What stress must the glue joint transmit?
 Where is the loading greatest?
 
-![](images/BeispielSchubQ.svg){fig-align="center"}
+![](images-en/BeispielSchubQ.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -88,7 +88,7 @@ $$
 \overline{z}_S = \dfrac{S_{\overline{y}}}{A}=\dfrac{2280}{240} = 9.5\,\text{cm}\;.
 $$
 
-![](images/BeispielSchubQ1.svg){fig-align="center"}
+![](images-en/BeispielSchubQ1.svg){fig-align="center"}
 
 The second moment of area about the $y$-axis is computed as
 
@@ -103,7 +103,7 @@ $$
 S_y = 20\cdot 6\cdot (-6.5) = -780\,\text{cm}^3
 $$
 
-![](images/BeispielSchubQ2.svg){fig-align="center"}
+![](images-en/BeispielSchubQ2.svg){fig-align="center"}
 
 The largest shear force in the bar occurs at the supports and is equal to $Q=10\cdot 4/2 = 20\,\text{kN}$.
 Thus the shear stress in the glue joint at the supports is obtained with ([-@eq-tau-Q]) as
@@ -114,7 +114,7 @@ $$
 
 Because of the theorem of associated shear stresses, a shear stress of equal magnitude acts in the glue joint.
 
-![](images/BeispielSchubQ3.svg){fig-align="center"}
+![](images-en/BeispielSchubQ3.svg){fig-align="center"}
 :::
 
 ::: {#exm-offener-querschnitt}
@@ -122,7 +122,7 @@ Given is an open cross-section with a plate thickness of $2\,\text{cm}$.
 Compute the shear stress due to shear force at the blue points in the cross-section!
 In which direction does the shear stress act at these points?
 
-![](images/BeispielSchubQ4.svg){fig-align="center"}
+![](images-en/BeispielSchubQ4.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -142,7 +142,7 @@ The circular shaft shown in @fig-torsion-welle, with radius $R$ and length $l$, 
 First we observe the resulting deformation of the shaft.
 To do so, the displacement of an arbitrary point $B$ at the edge of the shaft is considered.
 
-![Deformation and stress state at the surface of the shaft](images/torsionRW.svg){#fig-torsion-welle}
+![Deformation and stress state at the surface of the shaft](images-en/torsionRW.svg){#fig-torsion-welle}
 
 Through the torsional moment, a displacement in the circumferential direction occurs (point $\ol{B}$ in @fig-torsion-welle), but *no* displacement in the direction of the bar axis!
 For a circular cross-section, and only for this one, this applies to all points of the circular cross-section.
@@ -156,7 +156,7 @@ This deformation can be described by the change of the right angle.
 This change of angle is called *shear strain* $\gamma$ and takes a magnitude of $R\theta'$ at the surface of the shaft.
 In @fig-torsion-verteilung(a) the displacement in the circumferential direction in the circular cross-section is shown.
 
-![Circular shaft: (a) displacement in the circumferential direction, (b) shear-stress distribution in the cross-section](images/torsionSchubVerteilung.svg){#fig-torsion-verteilung}
+![Circular shaft: (a) displacement in the circumferential direction, (b) shear-stress distribution in the cross-section](images-en/torsionSchubVerteilung.svg){#fig-torsion-verteilung}
 
 This is zero at the centroid, grows linearly with the distance $r$, and reaches its maximum value at the surface of the shaft.
 Thus the shear strain also grows linearly with $r$:
@@ -207,7 +207,7 @@ Given is a gear transmission consisting of two solid shafts, connected to each o
 Shaft $\circled{2}$ is loaded by the torsional moment $M_t^{(2)}$.
 Sought are the torsional moment in shaft $\circled{1}$, the maximum shear stresses in shaft $\circled{2}$, and the rotation at point $C$ when point $A$ is held!
 
-![](images/BspGetriebe1.svg){fig-align="center"}
+![](images-en/BspGetriebe1.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -215,7 +215,7 @@ Sought are the torsional moment in shaft $\circled{1}$, the maximum shear stress
 
 From the moment equilibrium on the subsystems it follows:
 
-![](images/BspGetriebe2.svg){fig-align="center"}
+![](images-en/BspGetriebe2.svg){fig-align="center"}
 
 $$
 M_t^{(2)}=F\dfrac{D_2}{2} \quad \text{and} \quad M_t^{(1)}=-F\dfrac{D_1}{2} \; .
@@ -247,7 +247,7 @@ $$
 
 From the rolling condition, the rotation at point $B$ of shaft $\circled{2}$ results:
 
-![](images/BspGetriebe3.svg){fig-align="center"}
+![](images-en/BspGetriebe3.svg){fig-align="center"}
 
 $$
 -\dfrac{D_1}{2}\theta_B^{(1)} = \dfrac{D_2}{2}\theta_B^{(2)} \; \rightarrow \; \theta_B^{(2)} = -\dfrac{D_1}{D_2}\theta_B^{(1)} \; .
@@ -279,7 +279,7 @@ Through $M_t$ the shear stresses shown arise in the cross-section, which are con
 From equilibrium considerations one obtains that the magnitude of the shear stresses does not change over the arc length $s$ of the skeleton line.
 For simplification we consider here only cross-sections with a constant plate thickness.
 
-![Shear stresses in a closed cross-section due to torsion](images/geschlossenerQS.svg){#fig-geschlossener-qs}
+![Shear stresses in a closed cross-section due to torsion](images-en/geschlossenerQS.svg){#fig-geschlossener-qs}
 
 Now a relationship between the shear stresses and the torsional moment must be established.
 To do so one considers an infinitesimal piece of the cross-section of length $ds$, which has an area of $dA=t\,ds$.
@@ -292,7 +292,7 @@ $$ {#eq-dMt}
 
 Note here that, to form the moment, the normal distance $r_n$ must be used, as entered in @fig-geschlossener-qs2.
 
-![Closed cross-section: (a) integration of the shear stresses to the torsional moment, (b) area and circumference of the skeleton line](images/geschlossenerQS2.svg){#fig-geschlossener-qs2}
+![Closed cross-section: (a) integration of the shear stresses to the torsional moment, (b) area and circumference of the skeleton line](images-en/geschlossenerQS2.svg){#fig-geschlossener-qs2}
 
 From this one also recognises that the expression $r_n\,ds$ equals twice the area of the orange triangle $dA_s$ entered in @fig-geschlossener-qs2(a).
 If we sum (i.e. integrate) ([-@eq-dMt]) along the closed skeleton line ($\rightarrow\oint$), we obtain the acting torsional moment:
@@ -312,7 +312,7 @@ In @fig-verwoelbung the deformation of a rectangular hollow section under torsio
 In contrast to the circular shaft, a non-uniform displacement in the longitudinal direction ($x$-direction) occurs!
 Consequently, the cross-section does not remain plane but *warps*.
 
-![Warping and rotation of a rectangular hollow section](images/geschlossenerQSVerwoelbung.svg){#fig-verwoelbung}
+![Warping and rotation of a rectangular hollow section](images-en/geschlossenerQSVerwoelbung.svg){#fig-verwoelbung}
 
 Furthermore, through $M_t$, as with the circular shaft, a rotation of the cross-section about the $x$-axis occurs that varies over the length of the bar and is measured by the angle $\theta(x)$.
 In analogy to the circular shaft we want to compute this rotation with the relation
@@ -345,7 +345,7 @@ $$ {#eq-tau-blech}
 Approximately, the plate can be divided into thin-walled, closed cross-sections.
 One of these cross-sections is shown in orange in @fig-offener-qs.
 
-![Shear stresses on a plate due to torsion](images/offeneQuerschnitt.svg){#fig-offener-qs}
+![Shear stresses on a plate due to torsion](images-en/offeneQuerschnitt.svg){#fig-offener-qs}
 
 If the horizontal transition region is neglected, one obtains with ([-@eq-tau-geschlossen]) the magnitude of the torsional moment acting in the orange cross-section, where $A_s$ is assumed to be $2yh$:
 
@@ -395,7 +395,7 @@ $$ {#eq-It-I}
 
 The maximum value of the shear stress is then of equal magnitude in all plates and can be determined with ([-@eq-tau0]).
 
-![Cross-section assembled from plates](images/offeneQuerschnittZusammen.svg){#fig-offener-qs-zusammen}
+![Cross-section assembled from plates](images-en/offeneQuerschnittZusammen.svg){#fig-offener-qs-zusammen}
 
 ::: {#exm-torsion-querschnitte}
 A rigid plate is welded to a circular bar made of steel ($G=8076\,\text{kN/cm}^2$).
@@ -405,9 +405,9 @@ To be determined is the vertical displacement at the points of application of th
 All cross-sections have the same outer radius.
 Which of the three cross-sections is the most efficient, i.e. for which is the ratio of material usage to displacement the most favourable?
 
-![](images/BeispielTorsion.svg){fig-align="center"}
+![](images-en/BeispielTorsion.svg){fig-align="center"}
 
-![](images/BeispielTorsion1.svg){fig-align="center"}
+![](images-en/BeispielTorsion1.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -474,7 +474,7 @@ At the same time it becomes apparent that thin-walled open cross-sections are su
 Compute the vertical displacement of the force-application point of the following system due to bending and torsion (steel: $E=21000\,\text{kN/cm}^2$ and $G=8076\,\text{kN/cm}^2$)!
 Which contribution is larger and why?
 
-![](images/BeispielTorsion2-1.svg){fig-align="center"}
+![](images-en/BeispielTorsion2-1.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -489,7 +489,7 @@ Sought is the distribution of the torsional moment along the bar for $F=10\,\tex
 Furthermore, the rotations about the bar axis at points $A$ and $B$ are to be determined for the given cross-section (steel: $G=8076\,\text{kN/cm}^2$).
 The dimensioning refers to the skeleton line!
 
-![](images/BeispielTorsion3-1.svg){fig-align="center"}
+![](images-en/BeispielTorsion3-1.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}

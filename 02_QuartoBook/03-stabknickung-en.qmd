@@ -8,13 +8,13 @@ In this section we want to investigate the mechanical behaviour of the bar shown
 It is a vertical bar of length $l$ and bending stiffness $EI_y$, which is hinged at both ends and loaded at its upper end by a vertical force $F$.
 This structural system is often called the [Euler]{.smallcaps} column.
 
-![The [Euler]{.smallcaps} column](images/EulerStab.svg){#fig-euler-stab}
+![The [Euler]{.smallcaps} column](images-en/EulerStab.svg){#fig-euler-stab}
 
 On this system the force $F$ is now continuously increased starting from zero.
 The mechanical behaviour is represented in the form of a load-displacement diagram.
 Here, the deflection, i.e. the horizontal displacement at mid-span $\overline{w}$ (@fig-euler-stab), is plotted against the force $F$ in a diagram, see @fig-euler-ld.
 
-![Load-displacement diagram of the [Euler]{.smallcaps} column with increasing load](images/EulerStabLD.svg){#fig-euler-ld}
+![Load-displacement diagram of the [Euler]{.smallcaps} column with increasing load](images-en/EulerStabLD.svg){#fig-euler-ld}
 
 If a small force $F$ now acts on the bar, it is compressed, but it experiences no deflection, i.e. $\overline{w}=0$ (@fig-euler-ld(a)). A *compressive force* acts in the bar.
 If $F$ is increased further, the compression increases, but the bar still remains straight.
@@ -35,7 +35,7 @@ But how can we now compute this? To do so we consider @fig-euler-ld(b) once more
 Consequently, at this force an equilibrium state *first* also appears on the *deformed* bar!
 To determine $F_k$ we must therefore formulate the equilibrium on the *deformed* bar, see @fig-euler-gleichgewicht.
 
-![Equilibrium on the *deformed* bar](images/EulerStabGleichgewicht.svg){#fig-euler-gleichgewicht}
+![Equilibrium on the *deformed* bar](images-en/EulerStabGleichgewicht.svg){#fig-euler-gleichgewicht}
 
 With the help of @fig-euler-gleichgewicht we formulate the moment equilibrium on the *deformed* bar and obtain
 
@@ -111,7 +111,7 @@ In this case, in the computation of $F_k$, the length $l$ in ([-@eq-knicklast]) 
 This gives the distance between the inflection points (IP) of the buckling shape. In @fig-euler-faelle the buckling shape as well as the buckling length are shown for four different support types of the bar.
 These are also called the four [Euler]{.smallcaps} cases.
 
-![Buckling lengths of the four [Euler]{.smallcaps} cases](images/EulerFaelle.svg){#fig-euler-faelle}
+![Buckling lengths of the four [Euler]{.smallcaps} cases](images-en/EulerFaelle.svg){#fig-euler-faelle}
 
 The buckling length decreases from left to right, which has the consequence that the critical force increases for the same cross-section and material^[<https://www.youtube.com/watch?v=TUE7DKNBIrU> (accessed: 21.03.2017)].
 This can also be justified by the fact that, compared to the free upper end, a hinged support or a clamping increases the horizontal stiffness of the bar.
@@ -123,7 +123,7 @@ A sudden change of the deformation can, however, also occur in a cylinder when a
 Are the two bending bars $\circled{1}$ and $\circled{2}$ at risk of buckling in the system shown below?
 If so, which bar buckles first and at what load?
 
-![](images/bucklingExp.svg){fig-align="center"}
+![](images-en/bucklingExp.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -158,21 +158,21 @@ In this example *both* bars buckle (theoretically) simultaneously at a load of $
 Failure occurs under this load.
 What changes if bar $\circled{2}$ has a length of $2l$?
 
-![](images/bucklingExp1.svg){fig-align="center"}
+![](images-en/bucklingExp1.svg){fig-align="center"}
 :::
 
 ::: {#exm-knick-kragtraeger}
 Given is a spatial cantilever beam.
 At what load and in which direction does the bar buckle for the two given cross-sections? (steel $E=21000\,\text{kN/cm}^2$)
 
-![](images/bucklingExp2.svg){fig-align="center"}
+![](images-en/bucklingExp2.svg){fig-align="center"}
 :::
 
 ::: {#exm-knick-linienlast}
 At what magnitude of the line load $q$ does the vertical bar buckle? Both bars are made of steel ($E=21000\,\text{kN/cm}^2$) of cross-section type HEB^[[Wide-flange beam (Wikipedia)](https://en.wikipedia.org/wiki/Wide_flange) (accessed: 29.03.2017)].
 
 ::: {layout="[65,35]" layout-valign="center"}
-![](images/bucklingExp3.svg)
+![](images-en/bucklingExp3.svg)
 
 **HEB 160**\
 $A=54.3\,\text{cm}^2$, $I_y=2490\,\text{cm}^4$

@@ -20,8 +20,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 SRC = ROOT.parent / "01_LectureNotes"
 EXT = SRC / "InkScape" / "ext"
+LABELS = EXT              # Verzeichnis der .pdf_tex (Beschriftungen); für EN: ext-en
 TIKZ = SRC / "tikz"
-OUT = ROOT / "images"
+OUT = ROOT / "images"     # Ausgabeordner; für EN: images-en
 BUILD = ROOT / "tools" / "_build"
 
 PREAMBLE = r"""\documentclass[12pt,border=2pt]{standalone}
@@ -111,11 +112,11 @@ def export_with_inkscape(name: str) -> Path:
 
 
 def convert_inkscape(name: str):
-    pdf_tex = EXT / f"{name}_svg-tex.pdf_tex"
+    pdf_tex = LABELS / f"{name}_svg-tex.pdf_tex"   # Beschriftungen (DE: ext, EN: ext-en)
     try:
         if not pdf_tex.exists():
             raise FileNotFoundError(pdf_tex)
-        compile_pdf_tex(name, EXT, pdf_tex)
+        compile_pdf_tex(name, EXT, pdf_tex)        # Zeichnung (PDF) immer aus ext
     except (RuntimeError, FileNotFoundError):
         # ext/ fehlt oder passt nicht mehr zum SVG -> frisch aus Inkscape exportieren
         fresh = export_with_inkscape(name)
@@ -136,7 +137,15 @@ def main():
     ap.add_argument("--tikz", nargs="*", default=[])
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--keep", action="store_true", help="Build-Ordner behalten")
+    ap.add_argument("--labels-dir", help="Verzeichnis der .pdf_tex (z.B. ext-en für Englisch)")
+    ap.add_argument("--out-dir", help="Ausgabeordner (z.B. images-en für Englisch)")
     args = ap.parse_args()
+
+    global LABELS, OUT
+    if args.labels_dir:
+        LABELS = Path(args.labels_dir)
+    if args.out_dir:
+        OUT = Path(args.out_dir)
 
     names = list(args.names)
     if args.all:

@@ -1,0 +1,79 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Winde_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{465.06291993bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.39327104)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0.1735302,0.0229674){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$l$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Winde_svg-tex.pdf}}%
+    \put(0.75233369,0.2659878){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}cable\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Winde_svg-tex.pdf}}%
+    \put(0.94588371,0.2067684){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$4$m\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Winde_svg-tex.pdf}}%
+    \put(0.60501813,0.22988295){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{r}$60^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Winde_svg-tex.pdf}}%
+    \put(0.68131242,0.23111037){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{25}\smash{\begin{tabular}[t]{r}$30^\circ$\end{tabular}}}}%
+    \put(0.65299061,0.19483589){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{r}$1$\end{tabular}}}}%
+    \put(0.74360461,0.19804625){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{r}$2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Winde_svg-tex.pdf}}%
+    \put(0.66530182,0.30445611){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$30^\circ$\end{tabular}}}}%
+    \put(0.58614917,0.33828869){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}deflection pulley\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Winde_svg-tex.pdf}}%
+    \put(0.55312787,0.31756133){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$A$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{Winde_svg-tex.pdf}}%
+    \put(0.54580423,0.09491893){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$2000$kg\end{tabular}}}}%
+    \put(0.57358724,0.15111491){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$B$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{Winde_svg-tex.pdf}}%
+    \put(0.84537774,0.20740129){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}winch\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{Winde_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%

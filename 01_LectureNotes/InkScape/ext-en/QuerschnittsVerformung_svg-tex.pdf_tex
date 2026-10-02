@@ -1,0 +1,70 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'QuerschnittsVerformung_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{182.71024113bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.93877701)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{QuerschnittsVerformung_svg-tex.pdf}}%
+    \put(0.7710714,0.8288759){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.34375882}\smash{\begin{tabular}[t]{c}$x$\end{tabular}}}}%
+    \put(0.02419512,0.5185872){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.34375882}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{QuerschnittsVerformung_svg-tex.pdf}}%
+    \put(0.43241007,0.67612181){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.34373999}\smash{\begin{tabular}[t]{r}$z$\end{tabular}}}}%
+    \put(0.55524209,0.64220733){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.34373999}\smash{\begin{tabular}[t]{l}$P$\end{tabular}}}}%
+    \put(0.63827475,0.30984643){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.34373999}\smash{\begin{tabular}[t]{l}$P$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{QuerschnittsVerformung_svg-tex.pdf}}%
+    \put(0.5003563,0.53142041){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.34373999}\smash{\begin{tabular}[t]{c}$\vp$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{QuerschnittsVerformung_svg-tex.pdf}}%
+    \put(0.7192962,0.45652955){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.34373999}\smash{\begin{tabular}[t]{l}$w$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{QuerschnittsVerformung_svg-tex.pdf}}%
+    \put(0.71460966,0.22282716){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.34373999}\smash{\begin{tabular}[t]{l}$u=\vp z$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

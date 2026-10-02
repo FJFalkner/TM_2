@@ -1,0 +1,69 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'BeispielSig6_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{333.95632237bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.61709333)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{BeispielSig6_svg-tex.pdf}}%
+    \put(0.6872934,0.25730594){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$z$\end{tabular}}}}%
+    \put(0.49763164,0.33748088){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$x$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{BeispielSig6_svg-tex.pdf}}%
+    \put(0.64439118,0.32721477){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$-14.0\,\text{kN/cm}^2$\end{tabular}}}}%
+    \put(0.36525436,0.42988487){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$+13.3\,\text{kN/cm}^2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{BeispielSig6_svg-tex.pdf}}%
+    \put(0.50519141,0.50374104){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$N$\end{tabular}}}}%
+    \put(0.57477371,0.54119466){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$M_y$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{BeispielSig6_svg-tex.pdf}}%
+    \put(0.70232521,0.12312818){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$z$\end{tabular}}}}%
+    \put(0.52134977,0.00542151){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$y$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

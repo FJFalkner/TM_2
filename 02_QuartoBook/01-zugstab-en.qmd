@@ -8,7 +8,7 @@ As an example of a tension bar we consider a tow bar as shown in @fig-abschlepps
 In the mechanical model this bar is treated as a *bar* with length $l$ and cross-sectional area $A$.
 The bar axis is the line connecting the centroids of the cross-sections.
 
-![Tow bar as an example of a tension bar](images/Abschleppstange.svg){#fig-abschleppstange}
+![Tow bar as an example of a tension bar](images-en/Abschleppstange.svg){#fig-abschleppstange}
 
 At both ends a force $F$ acts in the direction of the bar.
 These forces are exerted on the bar by the two cars in the directions indicated in @fig-abschleppstange.
@@ -35,7 +35,7 @@ which we call stress.
 As can be seen from @fig-normalspannungen, $\sigma$ represents internal forces distributed over an area whose resultant is exactly equal to the normal force $N$.
 Typical units for stress are, for example, N/mm² or Pa = N/m².
 
-![Normal stresses in the cross-section](images/Normalspannungen.svg){#fig-normalspannungen}
+![Normal stresses in the cross-section](images-en/Normalspannungen.svg){#fig-normalspannungen}
 
 Furthermore, @fig-normalspannungen shows that $\sigma$ acts normal to the cut surface.
 This stress is therefore called *normal stress*.
@@ -45,7 +45,7 @@ Each of the two parts must be in equilibrium!
 
 In the next step we no longer make the cut $s-s$ normal to the bar axis, but inclined by the angle $\alpha$ relative to the vertical, see @fig-schraeger-schnitt.
 
-![Stress on an inclined cut surface](images/schraegerSchnitt.svg){#fig-schraeger-schnitt}
+![Stress on an inclined cut surface](images-en/schraegerSchnitt.svg){#fig-schraeger-schnitt}
 
 The stress, which is now no longer a normal stress, on the cut surface $A'$ is equal to
 
@@ -64,7 +64,7 @@ $$ {#eq-sigma-tau}
 $\sigma$ is then again a normal stress, and the stress $\tau$ acting in the cut surface we shall call *shear stress*.
 Consequently, stresses can also be classified according to their direction of action relative to the cut surface into normal and shear stresses.
 
-![Normal and shear stresses](images/Schubspannungen.svg){#fig-schubspannungen}
+![Normal and shear stresses](images-en/Schubspannungen.svg){#fig-schubspannungen}
 
 From relation ([-@eq-sigma-tau]) it becomes clearly apparent that stresses depend on the *orientation* of the cut surface to which they are referred.
 In the present case $\sigma$ and $\tau$ are a function of the angle $\alpha$.
@@ -78,7 +78,7 @@ The change in total length is $\Delta l$.
 In addition, we also want to know the longitudinal displacement of a cross-section at an arbitrary position $x$.
 This is measured by the function $u$ (@fig-gleichmassdehnung).
 
-![Deformation of the tension bar under constant normal force](images/Gleichmassdehnung.svg){#fig-gleichmassdehnung}
+![Deformation of the tension bar under constant normal force](images-en/Gleichmassdehnung.svg){#fig-gleichmassdehnung}
 
 The distribution of $u$ for a *constant* normal force is also shown there.
 Starting from zero at the left end, it increases linearly and reaches the value $\Delta l$ at the right end.
@@ -98,7 +98,7 @@ In that case one often also speaks of compression.
 
 If, for example, a variable distributed load acts along the bar, so that the normal force is also variable, then the displacement is no longer a linear function, see @fig-veraenderliche-dehnung.
 
-![Deformation of the tension bar under variable normal force](images/veraenderlicheDehnung.svg){#fig-veraenderliche-dehnung}
+![Deformation of the tension bar under variable normal force](images-en/veraenderlicheDehnung.svg){#fig-veraenderliche-dehnung}
 
 The strain can still be interpreted as the slope of $u$ at position $x$.
 Using the first derivative we obtain the slope, i.e. the strain:
@@ -122,7 +122,7 @@ This results in the mechanical model shown in @fig-zugversuch.
 It is the same system as the tow bar.
 Both the force $F$ and the displacement $\Delta l$ at the upper edge are measured and recorded during the test.
 
-![Tensile test](images/Zugversuch.svg){#fig-zugversuch}
+![Tensile test](images-en/Zugversuch.svg){#fig-zugversuch}
 
 ::: {.callout-important .video-box icon=false}
 ## Video
@@ -136,7 +136,7 @@ The relationship between strain and stress can be read off from this diagram.
 Clearly recognisable is that, at the beginning, there is a *linear* relationship between strain and stress.
 A doubling of the strain therefore produces a stress twice as large.
 
-![Stress-strain diagram of a mild steel](images/ArbeitsdiagrammStahl.svg){#fig-arbeitsdiagramm}
+![Stress-strain diagram of a mild steel](images-en/ArbeitsdiagrammStahl.svg){#fig-arbeitsdiagramm}
 
 ::: {.callout-important .plot-box icon=false}
 ## Interactive: stress-strain curves compared
@@ -341,7 +341,7 @@ $$ {#eq-sigma-T}
 A bar of length $l$ and constant cross-section $A$ experiences a uniform temperature change $\Delta T$.
 What differences arise for the two different supports of the bar?
 
-![](images/thermischeDehnungBsp.svg){fig-align="center"}
+![](images-en/thermischeDehnungBsp.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -349,7 +349,7 @@ What differences arise for the two different supports of the bar?
 
 Cutting the supports free:
 
-![](images/thermischeDehnungBsp1.svg){fig-align="center"}
+![](images-en/thermischeDehnungBsp1.svg){fig-align="center"}
 
 Statically determinate?
 
@@ -402,7 +402,7 @@ There, stresses and in general also deformations arise under a temperature chang
 
 With the relations obtained, we now derive the governing equation (differential equation) of the tension or compression bar in @fig-allg-zugstab.
 
-![General tension or compression bar](images/allgemeinerZugstab.svg){#fig-allg-zugstab}
+![General tension or compression bar](images-en/allgemeinerZugstab.svg){#fig-allg-zugstab}
 
 This describes the mechanical behaviour of the bar under the action of a single force $F$ or a distributed longitudinal load $q$.
 
@@ -453,7 +453,7 @@ By solving ([-@eq-dgl]) we can, for a known external load, determine the longitu
 ::: {#exm-haengender-stab}
 Determine the displacement and stress distribution of a hanging bar under self-weight and a single load!
 
-![](images/haengenderStab.svg){fig-align="center"}
+![](images-en/haengenderStab.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -558,7 +558,7 @@ $$ {#eq-gummi}
 where $C$ is a material parameter to be determined experimentally. Rubber exhibits such behaviour.
 In @fig-gummi the associated stress-strain diagram is shown.
 
-![Nonlinear elastic material behaviour](images/MaterialGummi.svg){#fig-gummi}
+![Nonlinear elastic material behaviour](images-en/MaterialGummi.svg){#fig-gummi}
 
 The mechanical behaviour is then determined by the *nonlinear* differential equation^[cf. the *linear* differential equation ([-@eq-dgl])!]
 
@@ -588,7 +588,7 @@ All bars have the same length $l$. Bar $1$ experiences a temperature change of m
 At point $A$ the rigid plate is held horizontally.
 The normal forces in the three bars are to be computed!
 
-![](images/abgehaengterStab.svg){fig-align="center"}
+![](images-en/abgehaengterStab.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -596,7 +596,7 @@ The normal forces in the three bars are to be computed!
 
 To make the sought bar forces visible, we cut the rigid plate out, severing bars $1$ to $3$, and then enter all forces^[Enter normal forces as positive in tension!] in a sketch (method of sections):
 
-![](images/abgehaengterStab2.svg){fig-align="center"}
+![](images-en/abgehaengterStab2.svg){fig-align="center"}
 
 Four unknown forces appear in the cut.
 For a planar force system, however, only three equilibrium conditions are available.
@@ -621,7 +621,7 @@ This renders the bar ineffective, i.e. the normal force in the bar is zero ($N_3
 Through this step a statically *determinate* system is obtained.
 Consequently, the normal forces $N_1$ and $N_2$ as well as $A_H$ can be determined from the equilibrium conditions ([-@eq-gg-platte]).
 
-![](images/abgehaengterStab3.svg){fig-align="center"}
+![](images-en/abgehaengterStab3.svg){fig-align="center"}
 
 Which constraint of the statically indeterminate system is released is immaterial.
 Bar $1$ or bar $3$ can also be severed.
@@ -654,7 +654,7 @@ Now a force $X$, unknown in magnitude, is applied at the two ends of the severed
 This corresponds to the normal force in bar $3$.
 Since, in the real system, a compressive force acts in bar $3$ due to a positive temperature change, we also apply $X$ in this way.
 
-![](images/abgehaengterStab4.svg){fig-align="center"}
+![](images-en/abgehaengterStab4.svg){fig-align="center"}
 
 By cutting free and via the equilibrium conditions one obtains the normal forces, constant over the length, in bars $1$ and $2$ due to $X$:
 
@@ -678,7 +678,7 @@ $$
 
 This depends on the magnitude of $X$.
 
-![](images/abgehaengterStab5.svg){fig-align="center"}
+![](images-en/abgehaengterStab5.svg){fig-align="center"}
 
 In the following sketch the vertical displacement of the lower severed bar end (blue line) due to temperature change and force $X$ is shown.
 The unknown force $X$ also acts, however, on the upper part of the hanging bar $3$.
@@ -690,7 +690,7 @@ $$
 
 But how large are the vertical displacements of the two severed bar ends in the real system?
 
-![](images/abgehaengterStab6.svg){fig-align="center"}
+![](images-en/abgehaengterStab6.svg){fig-align="center"}
 
 These *must* be at the same position, i.e. there must be neither a gap nor an overlap at the severed location!
 From this we can set up the following kinematic compatibility
@@ -733,14 +733,14 @@ From these results important conclusions can be drawn:
 - In statically *determinate* systems ($EA_2=0$), a temperature change causes deformations, but *no* additional forces!
 - If the system is statically *indeterminate*, a temperature change leads to deformations *and* additional forces!
 
-![Normal forces and changes in length of the bars as a function of the stiffness ratio $EA_1/EA_2$](images/axialForceRatio.svg){#fig-steifigkeitsverhaeltnis}
+![Normal forces and changes in length of the bars as a function of the stiffness ratio $EA_1/EA_2$](images-en/axialForceRatio.svg){#fig-steifigkeitsverhaeltnis}
 :::
 
 ::: {#exm-vordach}
 Given is the structural system of a canopy. Both bars have the same axial stiffness $EA$.
 Compute the bar forces, their change in length, and the horizontal and vertical displacement of point $A$! *Small* displacements are assumed!
 
-![](images/Vordach.svg){fig-align="center"}
+![](images-en/Vordach.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -754,7 +754,7 @@ Compute the bar forces, their change in length, and the horizontal and vertical 
 ::: {#exm-drei-staebe}
 Determine the normal forces in bars $1$ to $3$ as well as the horizontal and vertical displacement of point $A$!
 
-![](images/DreiStabe.svg){fig-align="center"}
+![](images-en/DreiStabe.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -769,7 +769,7 @@ A rigid plate is loaded by a single force $F$ and held by two bars.
 How large is the deflection at point $A$?
 By how much would bar $1$ have to be heated so that no deflection occurs?
 
-![](images/starrePlatteT.svg){fig-align="center"}
+![](images-en/starrePlatteT.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -787,7 +787,7 @@ At the common point $A$ of the two bars a deflection pulley with a radius of $30
 The cable with a length of $15\,\text{m}$ and an axial stiffness of $21000\,\text{kN/cm}$ is guided frictionlessly from the suspension point $B$ around this pulley to the winch.
 At point $B$ a mass of $2000\,\text{kg}$ is attached to the cable.
 
-![](images/Winde.svg){fig-align="center"}
+![](images-en/Winde.svg){fig-align="center"}
 
 For the static case, the following are sought:
 

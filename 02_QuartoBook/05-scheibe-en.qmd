@@ -7,7 +7,7 @@
 First it must be defined what in mechanics is understood by a plane element (disc).
 As an example of this we consider the gusset plate of a high-voltage tower, see @fig-knotenblech.
 
-![Example of a plane element: (a) gusset plate of a high-voltage tower, (b) geometry and applied forces](images/BspESZ.svg){#fig-knotenblech}
+![Example of a plane element: (a) gusset plate of a high-voltage tower, (b) geometry and applied forces](images-en/BspESZ.svg){#fig-knotenblech}
 
 A plane element is a *planar* body whose thickness $t$ is substantially smaller than the two other dimensions of the body.
 Furthermore, the external forces all act *in* the plane of the element.
@@ -22,7 +22,7 @@ In analogy to the bar, the positive and negative cut faces can thus be determine
 If the normal vector points in the positive coordinate direction, it is the positive cut face (blue areas in @fig-esz(a)).
 For the opposite direction it is the negative cut face (orange areas).
 
-![State of stress at point $P$: (a) positive and negative cut surfaces, (b) acting normal and shear stresses, (c) naming of the stresses](images/ESZ.svg){#fig-esz}
+![State of stress at point $P$: (a) positive and negative cut surfaces, (b) acting normal and shear stresses, (c) naming of the stresses](images-en/ESZ.svg){#fig-esz}
 
 Thus the acting normal stresses (blue) and shear stresses (orange) can now be entered in each of the four surfaces (@fig-esz(b)).
 As a reminder: on the positive cut face the stresses act in the positive coordinate directions!
@@ -59,7 +59,7 @@ Already for the tension bar it was recognised that the magnitude of the normal a
 The same naturally also applies in a plane element!
 To derive the relations for determining the stresses in arbitrarily oriented surfaces, one now cuts an infinitesimal triangle out around the point $P$ from the element (@fig-koordinatentransformation).
 
-![Equilibrium on the infinitesimal triangle](images/Koordinatentransformation.svg){#fig-koordinatentransformation}
+![Equilibrium on the infinitesimal triangle](images-en/Koordinatentransformation.svg){#fig-koordinatentransformation}
 
 It is assumed that the stress tensor ([-@eq-spannungstensor]) with respect to the $x$-$y$ coordinate system at point $P$ is known.
 The stresses acting in the vertical and horizontal surface are now written into vectors:
@@ -99,7 +99,7 @@ On the basis of this equilibrium consideration, the so-called coordinate transfo
 To be able to describe the orientation of an arbitrary surface, a $\xi$-$\eta$ coordinate system is introduced.
 This is obtained by a rotation through the angle $\vp$, see @fig-esz-transf.
 
-![Stresses at point $P$ in differently oriented coordinate systems](images/ESZtransf.svg){#fig-esz-transf}
+![Stresses at point $P$ in differently oriented coordinate systems](images-en/ESZtransf.svg){#fig-esz-transf}
 
 Note that $\vp$ is counted positive in the counter-clockwise direction.
 In @fig-esz-transf the indices of the stresses in the $\xi$-$\eta$ coordinate system are also entered according to the convention explained at the outset.
@@ -121,7 +121,7 @@ Subsequently the system is rotated by $20^\circ$ in the counter-clockwise direct
 With the help of ([-@eq-transformation]) the stresses in the $\xi$-$\eta$ coordinate system are computed.
 
 ::: {#fig-transformation}
-![](images/transformierteSpannungen.svg)
+![](images-en/transformierteSpannungen.svg)
 
 $$
 \bs{\sigma} =
@@ -161,7 +161,7 @@ From this the changes of the stresses can be estimated in a very simple way.
 - Over the value of the normal stress $\sigma_x$ the shear stress $\tau_{xy}$ is plotted, and over $\sigma_y$ the *negative* value of $\tau_{xy}$.
 - The points $P$ and $P'$ thus obtained are connected to each other. The intersection of this line with the $\sigma$-axis is the centre of the stress circle.
 
-![Construction of [Mohr]{.smallcaps}'s stress circle](images/MohrCircle.svg){#fig-mohr-kreis}
+![Construction of [Mohr]{.smallcaps}'s stress circle](images-en/MohrCircle.svg){#fig-mohr-kreis}
 
 The blue circle in @fig-mohr-kreis is [Mohr]{.smallcaps}'s stress circle.
 
@@ -172,7 +172,7 @@ For the present case, the dashed blue line must therefore be rotated by $40^\cir
 This gives the points $Q$ and $Q'$ in @fig-bsp-mohr.
 The coordinates of these two points then correspond to the stresses in the $\xi$-$\eta$ coordinate system, for point $Q$ lies at ($\sigma_\xi=8.87\,\text{N/mm}^2$, $\tau_{\xi\eta}=1.14\,\text{N/mm}^2$) and $Q'$ at ($\sigma_\xi=-0.87\,\text{N/mm}^2$, $\tau_{\xi\eta}=-1.14\,\text{N/mm}^2$).
 
-![Example of [Mohr]{.smallcaps}'s stress circle (N/mm²)](images/BspMohrscheKreis.svg){#fig-bsp-mohr}
+![Example of [Mohr]{.smallcaps}'s stress circle (N/mm²)](images-en/BspMohrscheKreis.svg){#fig-bsp-mohr}
 
 For the dimensioning of a plane element, the maximum values of the stresses are naturally of interest.
 As one recognises in the example in @fig-transformation, the normal stresses change as a function of the angle $\vp$.
@@ -200,7 +200,7 @@ In the stress circle the line $P-P'$ must be rotated by $53.2^\circ$ clockwise t
 The largest tensile stress of $\sigma_1=9.0\,\text{N/mm}^2$ occurs at an angle of $26.6^\circ$, and the largest compressive stress $\sigma_2=-1.0\,\text{N/mm}^2$ occurs at an angle of $116.6^\circ$.
 It is emphasised once again that in these directions *no* shear stresses act!
 
-![Principal stresses and directions: (a) principal normal stresses, (b) principal shear stress (N/mm²)](images/BspPrincipalStresses.svg){#fig-hauptspannungen}
+![Principal stresses and directions: (a) principal normal stresses, (b) principal shear stress (N/mm²)](images-en/BspPrincipalStresses.svg){#fig-hauptspannungen}
 
 From analogous considerations on [Mohr]{.smallcaps}'s stress circle, the largest shear stresses (principal shear stresses), which occur at the upper and lower vertices, can also be determined.
 Their magnitude corresponds exactly to the radius of the stress circle:
@@ -254,7 +254,7 @@ A glass pane of thickness $t=5\,\text{mm}$ is held at its lower edge and loaded 
 The magnitude of the load in the vertical direction is $p_y=3.5\,\text{kN/cm}$ and in the horizontal direction $p_x=2.0\,\text{kN/cm}$.
 The tensile strength (max. admissible tensile stress) for glass is given as $f_t=3.0\,\text{kN/cm}^2$ and the compressive strength (max. admissible compressive stress) as $f_c=90\,\text{kN/cm}^2$.
 
-![](images/BspGlasscheibe.svg){fig-align="center"}
+![](images-en/BspGlasscheibe.svg){fig-align="center"}
 
 In the central region of the glass pane (orange region) the state of stress can be approximated as
 
@@ -310,7 +310,7 @@ An increase of the shear stress simultaneously increases the radius of [Mohr]{.s
 The centre remains at the same location.
 If the circle touches the failure limit ($\sigma_1=f_t$), fracture occurs!
 
-![](images/GlasscheibeMohrscheKreis.svg){fig-align="center"}
+![](images-en/GlasscheibeMohrscheKreis.svg){fig-align="center"}
 
 How large would the load increase be if $p_x$ and $p_y$ are increased simultaneously?
 (Solution: $\lambda=1.667$).
@@ -322,14 +322,14 @@ Why can the load take larger values in this case?
 In this section it is briefly described which stresses lead to the failure of brittle (glass, cast iron, ceramics, …) and ductile (steel, aluminium, …) materials.
 Instructive in this is to consider the deformation and failure surface of the specimen of a tensile test.
 
-![Failure in the tensile test: (a) brittle fracture, (b) ductile fracture, (c) fully ductile fracture](images/bruecheZugversuch.svg){#fig-brueche-zugversuch}
+![Failure in the tensile test: (a) brittle fracture, (b) ductile fracture, (c) fully ductile fracture](images-en/bruecheZugversuch.svg){#fig-brueche-zugversuch}
 
 In @fig-brueche-zugversuch the fracture pattern of the tensile specimen for brittle and ductile materials is shown schematically.
 For the brittle material the fracture surface is exactly perpendicular to the bar axis (direction of force).
 With increasing ductility the deformation at the fracture location becomes ever more pointed.
 The largest plastic deformations occur in planes inclined to the bar axis.
 
-![Orientation of the failure surfaces: (a) brittle material, (b) ductile material](images/duktilerBruch.svg){#fig-duktiler-bruch}
+![Orientation of the failure surfaces: (a) brittle material, (b) ductile material](images-en/duktilerBruch.svg){#fig-duktiler-bruch}
 
 In @fig-duktiler-bruch real fracture and failure surfaces of a brittle and ductile material are shown.
 The change in length $\Delta l$ of the tensile specimen at failure increases with growing ductility.
@@ -344,7 +344,7 @@ From @fig-mohr-zugversuch(a) one recognises that for the brittle material the fr
 From this it can be deduced that failure occurs at a point of a *brittle* material when the largest normal stress in *tension* (that is $\sigma_1$) reaches the tensile strength of the material.
 According to this criterion the glass pane in the previous example was also dimensioned.
 
-![Acting stresses in the failure surfaces in the tensile test: (a) brittle material – principal normal stress (tension), (b) ductile material – principal shear stress](images/MohrZugversuch.svg){#fig-mohr-zugversuch}
+![Acting stresses in the failure surfaces in the tensile test: (a) brittle material – principal normal stress (tension), (b) ductile material – principal shear stress](images-en/MohrZugversuch.svg){#fig-mohr-zugversuch}
 
 From materials technology it is known that plastic deformations (as they occur in a ductile material) arise from the sliding of atomic layers along slip planes.
 This phenomenon, however, occurs only when shear stresses act in the slip planes.
@@ -355,7 +355,7 @@ If, for a brittle material, the largest tensile stress leads to failure, it is t
 Finally, let another example of the failure of a brittle material be mentioned, namely a torsion fracture (@fig-torsionsfraktur).
 For simplicity, the bones are considered as a bar with a circular cross-section, loaded by a torsional moment.
 
-![Torsion fracture of both lower-leg bones: (a) X-ray image, (b) direction of the largest principal normal stress $\sigma_1$](images/TorsionsFraktur.svg){#fig-torsionsfraktur}
+![Torsion fracture of both lower-leg bones: (a) X-ray image, (b) direction of the largest principal normal stress $\sigma_1$](images-en/TorsionsFraktur.svg){#fig-torsionsfraktur}
 
 As discussed in the section on torsion of the circular shaft (cf. @fig-torsion-welle), only shear stresses appear in the bar cross-section.
 The maximum values are reached at the surface.
@@ -370,7 +370,7 @@ A wooden bar is loaded axially with a tensile stress of $1\,\text{N/cm}^2$ and i
 The glue joint can transmit a maximum shear stress of $0.4\,\text{N/cm}^2$ and a maximum tensile stress of $0.3\,\text{N/cm}^2$.
 How large may the angle $\alpha$ be chosen at most?
 
-![](images/LeimFuge.svg){fig-align="center"}
+![](images-en/LeimFuge.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -385,7 +385,7 @@ In addition, the steel region is also loaded axially by a force $F=620\,\text{kN
 It is assumed that a maximum shear stress of $5\,\text{kN/cm}^2$ in aluminium and $7\,\text{kN/cm}^2$ in steel leads to yielding.
 Is one of the two regions loaded plastically?
 
-![](images/BspESZ2.svg){fig-align="center"}
+![](images-en/BspESZ2.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}
@@ -400,7 +400,7 @@ The fibre direction is given as $\alpha=30^\circ$.
 How large is the normal stress in the fibres?
 What would be the optimal direction of the fibres if their tensile strength is significantly greater than that of the matrix?
 
-![](images/BspESZ3.svg){fig-align="center"}
+![](images-en/BspESZ3.svg){fig-align="center"}
 :::
 
 ::: {.callout-tip .loesung collapse="true" icon=false}

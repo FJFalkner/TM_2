@@ -1,0 +1,71 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'statUnb1_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{222.67324161bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.30720573)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{statUnb1_svg-tex.pdf}}%
+    \put(0.06759133,0.19302402){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.34375}\smash{\begin{tabular}[t]{r}$A$\end{tabular}}}}%
+    \put(0.51617881,0.08444711){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.34375}\smash{\begin{tabular}[t]{c}$B$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{statUnb1_svg-tex.pdf}}%
+    \put(0.93439097,0.24439159){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.34375}\smash{\begin{tabular}[t]{l}$q$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{statUnb1_svg-tex.pdf}}%
+    \put(0.71177572,0.03717528){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.34375}\smash{\begin{tabular}[t]{c}$l$\end{tabular}}}}%
+    \put(0.32081466,0.03858844){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.34375}\smash{\begin{tabular}[t]{c}$l$\end{tabular}}}}%
+    \put(0.89731562,0.14339371){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.34375}\smash{\begin{tabular}[t]{c}$C$\end{tabular}}}}%
+    \put(0.39684033,0.22603795){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.34375}\smash{\begin{tabular}[t]{c}$EI_y$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{statUnb1_svg-tex.pdf}}%
+    \put(0.23611729,0.15409125){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.34375}\smash{\begin{tabular}[t]{c}$x$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{statUnb1_svg-tex.pdf}}%
+    \put(0.15693879,0.09118344){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.34375}\smash{\begin{tabular}[t]{l}$z,w$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

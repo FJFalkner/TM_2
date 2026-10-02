@@ -1,0 +1,68 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'BspESZ2_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{463.66799323bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.22474624)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{BspESZ2_svg-tex.pdf}}%
+    \put(0.76430429,0.02583882){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08332682}\smash{\begin{tabular}[t]{c}$20\,\unit{cm}$\end{tabular}}}}%
+    \put(0.87137693,0.08292342){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08332682}\smash{\begin{tabular}[t]{l}$10\,\unit{cm}$\end{tabular}}}}%
+    \put(0.76753937,0.13200983){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08332682}\smash{\begin{tabular}[t]{c}$t=1\,\unit{cm}$\end{tabular}}}}%
+    \put(0.5744284,0.10132848){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08332682}\smash{\begin{tabular}[t]{c}$M_t$\end{tabular}}}}%
+    \put(0.37258975,0.08604468){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08332682}\smash{\begin{tabular}[t]{l}$F$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{BspESZ2_svg-tex.pdf}}%
+    \put(0.10375159,0.08523259){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08332682}\smash{\begin{tabular}[t]{l}$x$\end{tabular}}}}%
+    \put(0.04192451,0.20761313){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08332682}\smash{\begin{tabular}[t]{l}$y$\end{tabular}}}}%
+    \put(0.22888752,0.08475564){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08332682}\smash{\begin{tabular}[t]{c}St\end{tabular}}}}%
+    \put(0.48004018,0.08404154){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08332682}\smash{\begin{tabular}[t]{c}Al\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

@@ -1,0 +1,127 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'BspPrincipalStresses_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{436.67570214bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.82181007)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.29551444,0.58658828){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08335185}\smash{\begin{tabular}[t]{l}$\xi$\end{tabular}}}}%
+    \put(0.05301403,0.67374041){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$\eta$\end{tabular}}}}%
+    \put(0.28596817,0.55302855){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333755}\smash{\begin{tabular}[t]{l}$\vp_\sigma=26.6^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.27011836,0.67000821){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$9.0$\end{tabular}}}}%
+    \put(0.11344752,0.70986796){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08335185}\smash{\begin{tabular}[t]{l}$1.0$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.15398832,0.61380542){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{c}$P$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.21653025,0.09355062){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08335185}\smash{\begin{tabular}[t]{l}$\xi$\end{tabular}}}}%
+    \put(0.31672131,0.11675158){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333755}\smash{\begin{tabular}[t]{l}$\vp_\tau=18.4^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.14363447,0.21580571){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{c}$P$\end{tabular}}}}%
+    \put(0.11864432,0.33473036){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08335185}\smash{\begin{tabular}[t]{r}$\eta$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.19360005,0.31086474){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08335185}\smash{\begin{tabular}[t]{l}$4.0$\end{tabular}}}}%
+    \put(0.27274349,0.16000233){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08335185}\smash{\begin{tabular}[t]{l}$4.0$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.2000079,0.26258872){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08335185}\smash{\begin{tabular}[t]{l}$5.0$\end{tabular}}}}%
+    \put(0.22240031,0.20701883){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08335185}\smash{\begin{tabular}[t]{l}$5.0$\end{tabular}}}}%
+    \put(0.79219087,0.75081526){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{l}$P$\end{tabular}}}}%
+    \put(0.58932734,0.45820785){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{r}$P'$\end{tabular}}}}%
+    \put(0.79429633,0.33188562){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{l}$P$\end{tabular}}}}%
+    \put(0.59143283,0.0358431){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{r}$P'$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.90411398,0.20528559){\color[rgb]{0,0,0}\rotatebox{0.00000103}{\makebox(0,0)[lt]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{l}$\sigma$\end{tabular}}}}}%
+    \put(0.57421481,0.38318508){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{l}$\tau$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.88483052,0.17050627){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$10$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.81994425,0.17017181){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$8$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.75372014,0.16983736){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$6$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.6232784,0.17017181){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.58128818,0.25355715){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.53245035,0.31812244){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$4$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.68916816,0.16983736){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$4$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.90411397,0.62722794){\color[rgb]{0,0,0}\rotatebox{0.00000103}{\makebox(0,0)[lt]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{l}$\sigma$\end{tabular}}}}}%
+    \put(0.5742148,0.80512744){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{l}$\tau$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.88483051,0.59244862){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$10$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.81994424,0.59211417){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$8$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.75372013,0.59177972){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$6$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.68916815,0.59177972){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$4$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.62327839,0.59211417){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.58128817,0.67549951){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.53245034,0.7400648){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$4$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.51960236,0.62751473){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$\sigma_2$\end{tabular}}}}%
+    \put(0.85727451,0.62751473){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$\sigma_1$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=25]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.7822595,0.64741553){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08332014}\smash{\begin{tabular}[t]{r}$2\vp_\sigma=53.2^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=26]{BspPrincipalStresses_svg-tex.pdf}}%
+    \put(0.75385438,0.29294674){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08332729}\smash{\begin{tabular}[t]{r}$2\vp_\tau=36.8^\circ$\end{tabular}}}}%
+    \put(0.69192732,0.37719908){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08334541}\smash{\begin{tabular}[t]{c}$\tau_{max}$\end{tabular}}}}%
+    \put(0.69137863,0.00402646){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08334541}\smash{\begin{tabular}[t]{c}$\tau_{max}$\end{tabular}}}}%
+    \put(0.05376336,0.7644924){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}(a)\end{tabular}}}}%
+    \put(0.05737179,0.37489687){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}(b)\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

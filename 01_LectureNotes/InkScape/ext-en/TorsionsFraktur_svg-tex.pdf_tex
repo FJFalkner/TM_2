@@ -1,0 +1,84 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'TorsionsFraktur_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{402.2732326bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.61657469)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{TorsionsFraktur_svg-tex.pdf}}%
+    \put(0.94654172,0.21139951){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$\sigma$\end{tabular}}}}%
+    \put(0.75038031,0.37996886){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$\tau$\end{tabular}}}}%
+    \put(0.88530635,0.16964929){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$\sigma_1$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{TorsionsFraktur_svg-tex.pdf}}%
+    \put(0.80221166,0.13523561){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$90^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{TorsionsFraktur_svg-tex.pdf}}%
+    \put(0.72681702,0.09133538){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$\tau$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{TorsionsFraktur_svg-tex.pdf}}%
+    \put(0.80042932,0.5006256){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$M_t$\end{tabular}}}}%
+    \put(0.80274884,0.57482009){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$M_t$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{TorsionsFraktur_svg-tex.pdf}}%
+    \put(0.26177796,0.53315725){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$M_t$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{TorsionsFraktur_svg-tex.pdf}}%
+    \put(0.28823281,0.58578801){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$M_t$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{TorsionsFraktur_svg-tex.pdf}}%
+    \put(0.06146565,0.20487501){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$M_t$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{TorsionsFraktur_svg-tex.pdf}}%
+    \put(0.25804916,0.20487525){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$M_t$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{TorsionsFraktur_svg-tex.pdf}}%
+    \put(0.15000266,0.25026689){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$\tau$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{TorsionsFraktur_svg-tex.pdf}}%
+    \put(0.47867642,0.15468421){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$45^\circ$\end{tabular}}}}%
+    \put(0.47533575,0.10183496){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$\sigma_1$\end{tabular}}}}%
+    \put(0.46944619,0.27547206){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$\sigma_2$\end{tabular}}}}%
+    \put(0.01494341,0.60028664){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}(a)\end{tabular}}}}%
+    \put(0.01995325,0.36415496){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}(b)\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

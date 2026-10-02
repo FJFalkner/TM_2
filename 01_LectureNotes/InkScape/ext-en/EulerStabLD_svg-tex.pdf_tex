@@ -1,0 +1,89 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'EulerStabLD_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{334.56857823bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,1.49768101)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{EulerStabLD_svg-tex.pdf}}%
+    \put(0.28873515,0.41906558){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$F$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{EulerStabLD_svg-tex.pdf}}%
+    \put(0.71978722,0.2162042){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$F_k$\end{tabular}}}}%
+    \put(0.72427061,0.33033628){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$F$\end{tabular}}}}%
+    \put(0.87873989,0.05144036){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$\overline{w}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{EulerStabLD_svg-tex.pdf}}%
+    \put(0.37235102,0.17803427){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$\overline{w}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{EulerStabLD_svg-tex.pdf}}%
+    \put(0.29614346,1.46608589){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$F$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{EulerStabLD_svg-tex.pdf}}%
+    \put(0.7242709,1.31315088){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$F$\end{tabular}}}}%
+    \put(0.87874018,1.03425492){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$\overline{w}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{EulerStabLD_svg-tex.pdf}}%
+    \put(0.28873493,0.87658277){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$F$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{EulerStabLD_svg-tex.pdf}}%
+    \put(0.71978722,0.67820477){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$F_k$\end{tabular}}}}%
+    \put(0.72427061,0.78785347){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$F$\end{tabular}}}}%
+    \put(0.87873989,0.50895761){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$\overline{w}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{EulerStabLD_svg-tex.pdf}}%
+    \put(0.35147862,0.66944159){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$\overline{w}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{EulerStabLD_svg-tex.pdf}}%
+    \put(0.13511994,0.17783068){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$F>F_k$\end{tabular}}}}%
+    \put(0.11817487,0.65229293){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$F=F_k$\end{tabular}}}}%
+    \put(0.11817487,1.19453552){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$F<F_k$\end{tabular}}}}%
+    \put(0.75490285,0.14801616){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}stable\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{EulerStabLD_svg-tex.pdf}}%
+    \put(0.66969473,0.26702466){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}unstable\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{EulerStabLD_svg-tex.pdf}}%
+    \put(0.96116004,1.19098151){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}(a)\end{tabular}}}}%
+    \put(0.96116004,0.64873891){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}(b)\end{tabular}}}}%
+    \put(0.96116004,0.2081668){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}(c)\end{tabular}}}}%
+  \end{picture}%
+\endgroup%
