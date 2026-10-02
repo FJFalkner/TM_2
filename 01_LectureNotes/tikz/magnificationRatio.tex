@@ -1,0 +1,16 @@
+\tikzsetnextfilename{magnificationRatio}
+\begin{tikzpicture}[
+declare function = {
+	V(\x,\xi) = 1/sqrt((1-\x^2)^2+4*\xi^2*\x^2);
+}
+]
+\begin{axis}[title=, xlabel={$\eta=\nu$/$\omega$ (-)}, ylabel={$V$ (-)}, mark=none, domain=0:3,
+			 xmin=0, xmax=3, ymin=0, ymax=16, samples=90, grid=major, ytick={1,3,...,15}]
+	\addplot[smooth, black, very thick]{V(x,0.0)};
+	\addplot[smooth, myBlue, very thick]{V(x,0.03)};
+	\addplot[smooth, myOrange, very thick]{V(x,0.05)};
+	\addplot[smooth, myGreen, very thick]{V(x,0.10)};
+	\addplot[smooth, myRed, very thick]{V(x,0.20)};
+	\legend{$\xi=0\%$,$\xi=3\%$,$\xi=5\%$,$\xi=10\%$,$\xi=20\%$}
+\end{axis}
+\end{tikzpicture}

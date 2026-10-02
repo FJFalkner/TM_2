@@ -1,0 +1,70 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'sigmaNM_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{378.18204206bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.49014965)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{sigmaNM_svg-tex.pdf}}%
+    \put(0.12358182,0.41466824){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$x$\end{tabular}}}}%
+    \put(0.01690828,0.2616673){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
+    \put(0.2774572,0.42656727){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$N$\end{tabular}}}}%
+    \put(0.54555635,0.47153998){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$M_y$\end{tabular}}}}%
+    \put(0.89034712,0.4718363){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$M_y$\end{tabular}}}}%
+    \put(0.96703893,0.42744175){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$N$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{sigmaNM_svg-tex.pdf}}%
+    \put(0.12358182,0.15794896){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$x$\end{tabular}}}}%
+    \put(0.01690828,0.00494802){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$z$\end{tabular}}}}%
+    \put(0.2554081,0.1421003){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$\sigma=\dfrac{N}{A}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{sigmaNM_svg-tex.pdf}}%
+    \put(0.58520804,0.1421003){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$\sigma=\dfrac{M_y}{I_y}z$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

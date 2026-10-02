@@ -1,0 +1,51 @@
+\tikzsetnextfilename{axialForceRatio}
+\begin{tikzpicture}[
+declare function = {
+	N1(\x) = -1/(5+\x);
+	N2(\x) =  2/(5+\x);
+	Dl3(\x) = -1/(5/\x + 1);
+	Dl2(\x) = 2/(5+\x);
+	Dl1(\x) = -1/(5+\x)+1;
+}
+]
+\begin{groupplot}[group style={group size=1 by 2,vertical sep = 0.3cm},
+				  height=6.5cm,width=10cm]
+	\nextgroupplot
+		[xlabel={}, ylabel={}, mark=none, domain=0:160,
+		xmin=0, xmax=160, samples=90, grid=major, ymin=-0.2, ymax=0.4, ytick={-0.2,-0.1,0,0.1,0.2,0.3,0.4},
+		yticklabels={$-\dfrac{1}{5}\cdot EA_1\alpha\Delta T$,
+			$-0.1\cdot\hdots$,$0\cdot\hdots$,$0.1\cdot\hdots$,
+			$0.2\cdot\hdots$,$0.3\cdot\hdots$,
+			$\dfrac{2}{5}\cdot EA_1\alpha\Delta T $},
+		xticklabels={},
+		clip=false,
+		legend style={at={(axis cs:155,0.38)},anchor=north east},
+		legend columns=-1]
+		\addplot[smooth, myOrange, very thick]{N1(x)};
+		\addplot[smooth, myBlue, very thick]{N2(x)};
+		\addplot[mark=*,myBlue] coordinates {(0,0.4)};
+		\addplot[mark=*,myOrange] coordinates {(0,-0.2)};
+		\legend{$N_1= N_3$,$N_2$}
+%
+	\nextgroupplot
+		[mark=none, domain=0.1:160,xmin=0, xmax=160, samples=90, grid=major,domain=0:160,
+		ytick={-1,-0.5,...,1},
+		yticklabels={$-1\cdot\alpha\Delta T l$,$-0.5\cdot\hdots$,
+			$-0\cdot\hdots$, 	$0.5\cdot\hdots$,$1\cdot\alpha\Delta Tl$},
+		xlabel={$\dfrac{EA_1}{EA_2}$},
+		clip=false,
+		legend style={at={(axis cs:155,0.85)},anchor=north east},
+		legend columns=-1
+		]
+		\addplot[smooth, black, very thick]{Dl1(x)}; 		
+		\addplot[smooth, myBlue, very thick]{Dl2(x)}; 		
+		\addplot[smooth, myOrange, very thick]{Dl3(x)}; 	
+		\node[fill=white,draw=white,rotate=90] at(axis cs:0,-1.8){$EA_2=\infty$};
+		\node[fill=white,draw=white] at(axis cs:160,-1.55){$EA_2\rightarrow 0$};
+		\node[fill=white,draw=white] at(axis cs:160,-1.8){$\Rightarrow$statisch bestimmt!};
+		\addplot[mark=*,black] coordinates {(0,0.8)};
+		\addplot[mark=*,myBlue] coordinates {(0,0.4)};
+		\addplot[mark=*,myOrange] coordinates {(0,0)};
+		\legend{$\Delta l_1$,$\Delta l_2$,$\Delta l_3$}
+\end{groupplot}
+\end{tikzpicture}

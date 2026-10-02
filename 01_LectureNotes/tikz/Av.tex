@@ -1,0 +1,35 @@
+\tikzsetnextfilename{Av}
+\begin{tikzpicture}[
+declare function = {
+	Av(\x) = 1-3/8/(1+3*\x);
+}
+]
+\begin{axis}[
+		height=7cm,
+		width=9cm,
+		xlabel={$\beta=EI_y/EAl^2$}, 
+		ylabel={},
+		mark=none, 
+		domain=0:20,
+		xmin=0,
+		xmax=20, 
+		samples=90, 
+		grid=major, 
+		ymin=0.625, 
+		ymax=1, 
+		ytick={0.625,0.7,0.8,0.9,1.0},
+		yticklabels={$\dfrac{5}{8}$,	$0.7$,$0.8$,$0.9$,$ql\cdot 1.0 $},
+		xtick={0,4,...,20},
+		clip=false,
+		%legend style={at={(axis cs:155,0.38)},anchor=north east},
+		%legend columns=-1
+		]
+		\addplot[smooth, myBlue, very thick]{Av(x)};
+		\node at (axis cs:4.4,0.67){\includesvg{cantileverSup}};
+		%\node at (axis cs:16.2,0.93){\includesvg{cantilever}};
+		\node at (axis cs:-4.5,0.8){\rotatebox[origin=c]{90}{$A_V$}};
+		\addplot[mark=*,myBlue] coordinates {(0,0.625)};
+		%\legend{$N_1= N_3$,$N_2$}
+%
+\end{axis}
+\end{tikzpicture}

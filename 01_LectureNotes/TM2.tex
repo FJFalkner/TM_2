@@ -1,0 +1,35 @@
+%\include{chapters/header}
+\include{chapters/header_FJ}
+% \includeonly{
+% 	chapters/titlepage
+% 	chapters/vibration
+% }
+\pdfmapfile{MinionPro.map}
+\begin{document}
+	
+	\frontmatter
+	\pagestyle{empty}
+	\pagenumbering{roman}
+	\include{chapters/titlepage}
+	\include{chapters/introduction}
+	\thispagestyle{plain}
+	\tableofcontents
+
+	\mainmatter
+	\pagenumbering{arabic}
+	\pagestyle{mystyle}
+
+	\include{chapters/1Dstab}
+	\include{chapters/BalkenBiegung}
+	\include{chapters/StabKnickung}
+	\include{chapters/Schub}
+	\include{chapters/ETheory}
+
+	%\include{chapters/bibliography}
+	
+	\renewcommand{\bibname}{Weitere Lehrbücher}
+	\nocite{*}
+	\bibliographystyle{plain}
+	\bibliography{lit}
+
+\end{document}

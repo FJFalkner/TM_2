@@ -1,0 +1,634 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 744.09448819 1052.3622047"
+   id="svg7256"
+   version="1.1"
+   inkscape:version="0.92.0 r15299"
+   sodipodi:docname="colors.svg">
+  <defs
+     id="defs7258">
+    <marker
+       inkscape:stockid="Arrow2Mend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="marker8699"
+       style="overflow:visible"
+       inkscape:isstock="true">
+      <path
+         inkscape:connector-curvature="0"
+         id="path8701"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0d5495;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         transform="scale(-0.6,-0.6)" />
+    </marker>
+    <marker
+       markerWidth="54.035372"
+       markerHeight="54.035437"
+       refX="27.017686"
+       refY="27.017718"
+       orient="auto"
+       id="marker7810">
+      <path
+         inkscape:connector-curvature="0"
+         id="path7808"
+         d="m 18.159443,53.592523 35.43307,-17.71654 -35.43307,-17.71653 0,-17.71653962 -17.71652962,0 0,53.14960962 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.88582677;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="36.324489"
+       markerHeight="36.325188"
+       refX="18.162244"
+       refY="18.162594"
+       orient="auto"
+       id="marker8042">
+      <path
+         inkscape:connector-curvature="0"
+         id="path8040"
+         d="M 0.44856027,35.875966 35.88163,18.159426 0.44856027,0.44288602 l 0,35.43307998"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.88582677;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker15933"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Mstart">
+      <path
+         inkscape:connector-curvature="0"
+         transform="scale(0.6,0.6)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path15935" />
+    </marker>
+    <marker
+       inkscape:isstock="true"
+       style="overflow:visible"
+       id="marker13643"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2Lend">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-1.1,0,0,-1.1,-1.1,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0d5495;stroke-width:0.625;stroke-linejoin:round;stroke-opacity:1"
+         id="path13645" />
+    </marker>
+    <marker
+       markerWidth="7.2539178"
+       markerHeight="5.8793374"
+       refX="3.6269589"
+       refY="2.9396687"
+       orient="auto"
+       id="marker8642">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path8640"
+         d="M 0.44878136,5.434073 6.8110814,2.913993 0.44878136,0.44289296 l 0,4.94221004"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:none;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.88582677;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="16.444867"
+       markerHeight="11.049809"
+       refX="8.2224336"
+       refY="5.5249045"
+       orient="auto"
+       id="marker8759">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path8757"
+         d="M 0.31884951,10.73094 16.12604,5.4888996 0.31884951,0.31886962 c 3.60395999,5.17002998 3.60395999,5.17002998 0,10.41207038 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0d5495;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="11.050533"
+       markerHeight="7.2279101"
+       refX="5.5252663"
+       refY="3.613955"
+       orient="auto"
+       id="marker8881">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path8864"
+         d="M 0.26567543,6.9621938 10.784845,3.7210138 0.31557543,0.26571381 C 3.7334154,3.6356638 3.7334154,3.6356638 0.26567543,6.9621938 Z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0d5495;stroke-width:0.53149605;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="11.050533"
+       markerHeight="7.2279101"
+       refX="5.5252663"
+       refY="3.613955"
+       orient="auto"
+       id="marker8938">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path8864-4"
+         d="M 10.784857,6.9621938 0.26568722,3.7210138 10.734957,0.26571381 C 7.3171172,3.6356638 7.3171172,3.6356638 10.784857,6.9621938 Z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0d5495;stroke-width:0.53149605;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="13.925238"
+       markerHeight="9.3898436"
+       refX="6.9626191"
+       refY="4.6949218"
+       orient="auto"
+       id="marker9036">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9001"
+         d="M 0.3188106,9.0709868 13.606411,4.6949168 0.3188106,0.31885681 c 4.4292,4.37605999 4.4292,4.37605999 0,8.75212999 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="13.925238"
+       markerHeight="9.3898436"
+       refX="6.9626191"
+       refY="4.6949218"
+       orient="auto"
+       id="marker9105">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9001-5"
+         d="M 0.3188106,9.0709868 13.606411,4.6949168 0.3188106,0.31885681 c 4.4292,4.37605999 4.4292,4.37605999 0,8.75212999 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0d5495;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="13.925248"
+       markerHeight="9.3898436"
+       refX="6.9626241"
+       refY="4.6949218"
+       orient="auto"
+       id="marker9180">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9001-8"
+         d="M 13.606438,9.0709868 0.31882762,4.6949168 13.606438,0.31885681 c -4.4292004,4.37605999 -4.4292004,4.37605999 0,8.75212999 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="13.925248"
+       markerHeight="9.3898436"
+       refX="6.9626241"
+       refY="4.6949218"
+       orient="auto"
+       id="marker9261">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9001-5-5"
+         d="M 13.606438,9.0709868 0.31882762,4.6949168 13.606438,0.31885681 c -4.4292004,4.37605999 -4.4292004,4.37605999 0,8.75212999 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0d5495;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="12.100348"
+       markerHeight="8.1844336"
+       refX="6.0501741"
+       refY="4.0922168"
+       orient="auto"
+       id="marker9467">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9432"
+         d="M 0.31881056,7.8655768 11.781521,4.0922068 0.31881056,0.31885682 c 3.82089004,3.77334998 3.82089004,3.77334998 0,7.54671998 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0d5495;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="12.100348"
+       markerHeight="8.1844336"
+       refX="6.0501741"
+       refY="4.0922168"
+       orient="auto"
+       id="marker9554">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9432-0"
+         d="M 0.31881056,7.8655768 11.781521,4.0922068 0.31881056,0.31885682 c 3.82089004,3.77334998 3.82089004,3.77334998 0,7.54671998 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#010100;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="12.100348"
+       markerHeight="8.1844336"
+       refX="6.0501741"
+       refY="4.0922168"
+       orient="auto"
+       id="marker9647">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9432-9"
+         d="M 11.781538,7.8655768 0.31882758,4.0922068 11.781538,0.31885682 c -3.8208904,3.77334998 -3.8208904,3.77334998 0,7.54671998 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0d5495;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="12.100348"
+       markerHeight="8.1844336"
+       refX="6.0501741"
+       refY="4.0922168"
+       orient="auto"
+       id="marker9746">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9432-0-3"
+         d="M 11.781538,7.8655768 0.31882758,4.0922068 11.781538,0.31885682 c -3.8208904,3.77334998 -3.8208904,3.77334998 0,7.54671998 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#010100;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="12.100348"
+       markerHeight="8.1844339"
+       refX="6.0501742"
+       refY="4.092217"
+       orient="auto"
+       id="marker9554-8">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9432-0-6"
+         d="M 0.31881056,7.8655768 11.781521,4.0922068 0.31881056,0.31885682 c 3.82089004,3.77334998 3.82089004,3.77334998 0,7.54671998 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#010100;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="12.100348"
+       markerHeight="8.1844339"
+       refX="6.0501742"
+       refY="4.092217"
+       orient="auto"
+       id="marker9554-85">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9432-0-5"
+         d="M 0.31881056,7.8655768 11.781521,4.0922068 0.31881056,0.31885682 c 3.82089004,3.77334998 3.82089004,3.77334998 0,7.54671998 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#010100;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="12.100348"
+       markerHeight="8.1844339"
+       refX="6.0501742"
+       refY="4.092217"
+       orient="auto"
+       id="marker9554-3">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9432-0-7"
+         d="M 0.31881056,7.8655768 11.781521,4.0922068 0.31881056,0.31885682 c 3.82089004,3.77334998 3.82089004,3.77334998 0,7.54671998 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#010100;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="12.100348"
+       markerHeight="8.1844339"
+       refX="6.0501742"
+       refY="4.092217"
+       orient="auto"
+       id="marker9554-2">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9432-0-2"
+         d="M 0.31881056,7.8655768 11.781521,4.0922068 0.31881056,0.31885682 c 3.82089004,3.77334998 3.82089004,3.77334998 0,7.54671998 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#010100;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="13.925238"
+       markerHeight="9.3898439"
+       refX="6.9626193"
+       refY="4.694922"
+       orient="auto"
+       id="marker9105-9">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9001-5-6"
+         d="M 0.3188106,9.0709868 13.606411,4.6949168 0.3188106,0.31885681 c 4.4292,4.37605999 4.4292,4.37605999 0,8.75212999 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0d5495;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="13.925238"
+       markerHeight="9.3898439"
+       refX="6.9626193"
+       refY="4.694922"
+       orient="auto"
+       id="marker9105-3">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9001-5-4"
+         d="M 0.3188106,9.0709868 13.606411,4.6949168 0.3188106,0.31885681 c 4.4292,4.37605999 4.4292,4.37605999 0,8.75212999 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0d5495;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="13.925238"
+       markerHeight="9.3898439"
+       refX="6.9626193"
+       refY="4.694922"
+       orient="auto"
+       id="marker9105-32">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9001-5-7"
+         d="M 0.3188106,9.0709868 13.606411,4.6949168 0.3188106,0.31885681 c 4.4292,4.37605999 4.4292,4.37605999 0,8.75212999 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0d5495;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="13.925238"
+       markerHeight="9.3898439"
+       refX="6.9626193"
+       refY="4.694922"
+       orient="auto"
+       id="marker9105-4">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9001-5-2"
+         d="M 0.3188106,9.0709868 13.606411,4.6949168 0.3188106,0.31885681 c 4.4292,4.37605999 4.4292,4.37605999 0,8.75212999 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0d5495;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="13.925238"
+       markerHeight="9.3898439"
+       refX="6.9626193"
+       refY="4.694922"
+       orient="auto"
+       id="marker9105-5">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9001-5-1"
+         d="M 0.3188106,9.0709868 13.606411,4.6949168 0.3188106,0.31885681 c 4.4292,4.37605999 4.4292,4.37605999 0,8.75212999 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0d5495;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="13.925238"
+       markerHeight="9.3898439"
+       refX="6.9626193"
+       refY="4.694922"
+       orient="auto"
+       id="marker9105-54">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9001-5-9"
+         d="M 0.3188106,9.0709868 13.606411,4.6949168 0.3188106,0.31885681 c 4.4292,4.37605999 4.4292,4.37605999 0,8.75212999 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0d5495;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="13.925238"
+       markerHeight="9.3898439"
+       refX="6.9626193"
+       refY="4.694922"
+       orient="auto"
+       id="marker9105-58">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9001-5-11"
+         d="M 0.3188106,9.0709868 13.606411,4.6949168 0.3188106,0.31885681 c 4.4292,4.37605999 4.4292,4.37605999 0,8.75212999 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0d5495;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="13.925238"
+       markerHeight="9.3898439"
+       refX="6.9626193"
+       refY="4.694922"
+       orient="auto"
+       id="marker9105-99">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9001-5-49"
+         d="M 0.3188106,9.0709868 13.606411,4.6949168 0.3188106,0.31885681 c 4.4292,4.37605999 4.4292,4.37605999 0,8.75212999 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#0d5495;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="13.925238"
+       markerHeight="9.3898439"
+       refX="6.9626193"
+       refY="4.694922"
+       orient="auto"
+       id="marker9036-0">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9001-1"
+         d="M 0.3188106,9.0709868 13.606411,4.6949168 0.3188106,0.31885681 c 4.4292,4.37605999 4.4292,4.37605999 0,8.75212999 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="13.925238"
+       markerHeight="9.3898439"
+       refX="6.9626193"
+       refY="4.694922"
+       orient="auto"
+       id="marker9036-0-0">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9001-1-9"
+         d="M 0.3188106,9.0709868 13.606411,4.6949168 0.3188106,0.31885681 c 4.4292,4.37605999 4.4292,4.37605999 0,8.75212999 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="13.925238"
+       markerHeight="9.3898439"
+       refX="6.9626193"
+       refY="4.694922"
+       orient="auto"
+       id="marker9036-9">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9001-0"
+         d="M 0.3188106,9.0709868 13.606411,4.6949168 0.3188106,0.31885681 c 4.4292,4.37605999 4.4292,4.37605999 0,8.75212999 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="13.925238"
+       markerHeight="9.3898439"
+       refX="6.9626193"
+       refY="4.694922"
+       orient="auto"
+       id="marker9036-0-2">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9001-1-0"
+         d="M 0.3188106,9.0709868 13.606411,4.6949168 0.3188106,0.31885681 c 4.4292,4.37605999 4.4292,4.37605999 0,8.75212999 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="12.100348"
+       markerHeight="8.1844339"
+       refX="6.0501742"
+       refY="4.092217"
+       orient="auto"
+       id="marker9554-9">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9432-0-57"
+         d="M 0.31881056,7.8655768 11.781521,4.0922068 0.31881056,0.31885682 c 3.82089004,3.77334998 3.82089004,3.77334998 0,7.54671998 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#010100;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="13.925238"
+       markerHeight="9.3898439"
+       refX="6.9626193"
+       refY="4.694922"
+       orient="auto"
+       id="marker9036-5">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9001-04"
+         d="M 0.3188106,9.0709868 13.606411,4.6949168 0.3188106,0.31885681 c 4.4292,4.37605999 4.4292,4.37605999 0,8.75212999 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="13.925238"
+       markerHeight="9.3898439"
+       refX="6.9626193"
+       refY="4.694922"
+       orient="auto"
+       id="marker9036-54">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9001-11"
+         d="M 0.3188106,9.0709868 13.606411,4.6949168 0.3188106,0.31885681 c 4.4292,4.37605999 4.4292,4.37605999 0,8.75212999 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+    <marker
+       markerWidth="13.925238"
+       markerHeight="9.3898439"
+       refX="6.9626193"
+       refY="4.694922"
+       orient="auto"
+       id="marker9036-3">
+      <path
+         sodipodi:nodetypes="cccc"
+         inkscape:connector-curvature="0"
+         id="path9001-3"
+         d="M 0.3188106,9.0709868 13.606411,4.6949168 0.3188106,0.31885681 c 4.4292,4.37605999 4.4292,4.37605999 0,8.75212999 z"
+         style="color:#000000;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#000000;stroke-width:0.63779527;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate" />
+    </marker>
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.2837804"
+     inkscape:cx="132.22589"
+     inkscape:cy="869.15454"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:snap-global="true"
+     inkscape:snap-bbox="true"
+     inkscape:bbox-paths="true"
+     inkscape:bbox-nodes="true"
+     inkscape:snap-bbox-edge-midpoints="true"
+     inkscape:snap-bbox-midpoints="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="962"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid7804"
+       spacingx="7.0866142"
+       spacingy="7.0866143"
+       empspacing="5" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7261">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="354.33072"
+       y="258.66141"
+       id="text12162"><tspan
+         sodipodi:role="line"
+         id="tspan12164"
+         x="354.33072"
+         y="258.66141" /></text>
+    <rect
+       style="fill:#004983;fill-opacity:1;stroke:#000000;stroke-width:1.24015749;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.99489794"
+       id="rect4818"
+       width="35.433071"
+       height="35.433071"
+       x="177.16536"
+       y="131.10234" />
+    <rect
+       style="fill:#f49b00;fill-opacity:1;stroke:#000000;stroke-width:1.24031246;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4818-4"
+       width="35.433071"
+       height="35.433071"
+       x="177.16536"
+       y="201.96849" />
+    <rect
+       style="fill:#000000;fill-opacity:1;stroke-width:1.24031246;stroke-miterlimit:4;stroke-dasharray:none"
+       id="rect4818-4-7"
+       width="35.433071"
+       height="35.433071"
+       x="177.16536"
+       y="60.236206" />
+    <rect
+       style="fill:#aa0000;fill-opacity:1;stroke:#000000;stroke-width:1.24031246;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4818-4-4"
+       width="35.433071"
+       height="35.433071"
+       x="177.16536"
+       y="272.83463" />
+    <rect
+       style="fill:#808000;fill-opacity:1;stroke:#000000;stroke-width:1.24031246;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4818-4-4-4"
+       width="35.433071"
+       height="35.433071"
+       x="177.16536"
+       y="343.70078" />
+  </g>
+</svg>

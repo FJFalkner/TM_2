@@ -1,0 +1,33 @@
+<!-- LaTeX-Makros aus header_FJ.tex für MathJax. Einbinden mit {{< include _macros.qmd >}} -->
+
+::: {.hidden}
+$$
+\definecolor{myBlue}{RGB}{0,73,131}
+\definecolor{myOrange}{RGB}{244,155,0}
+\definecolor{myGreen}{RGB}{128,128,0}
+\definecolor{myRed}{RGB}{170,0,0}
+\newcommand{\bs}[1]{\boldsymbol{#1}}
+\newcommand{\pa}{\partial}
+\newcommand{\myPa}[2]{\dfrac{\partial #1}{\partial #2}}
+\newcommand{\vp}{\varphi}
+\newcommand{\ve}{\varepsilon}
+\newcommand{\dtp}{\dot{\varphi}}
+\newcommand{\ddtp}{\ddot{\varphi}}
+\newcommand{\myfrac}[2]{\frac{\displaystyle #1}{\displaystyle #2}}
+\newcommand{\ol}[1]{\overline{#1}}
+\newcommand{\myBox}[1]{\bbox[6px,border:1.5px solid #004983]{#1}}
+\newcommand{\Cline}[2][red]{\color{#1}{\underline{\color{black}{#2}}}}
+\newcommand{\myprime}{^{\prime}\mkern-1.2mu}
+\newcommand{\mydprime}{^{\prime\prime}\mkern-1.2mu}
+\newcommand{\bm}[1]{{\color{myBlue}{#1}}}
+\newcommand{\bo}[1]{{\color{myOrange}{#1}}}
+\newcommand{\circled}[1]{\enclose{circle}{\kern.15em #1\kern.15em}}
+\newcommand{\pnr}{\underset{+}{\large\rightarrow}}
+\newcommand{\pnl}{\underset{+}{\large\leftarrow}}
+\newcommand{\pqo}{\underset{+}{\large\uparrow}}
+\newcommand{\pqu}{\underset{+}{\large\downarrow}}
+\newcommand{\pmr}{\underset{+}{\large\circlearrowleft}}
+\newcommand{\pml}{\underset{+}{\large\circlearrowright}}
+\newcommand{\cmark}{\checkmark}
+$$
+:::

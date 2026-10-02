@@ -1,0 +1,121 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'BspMohrscheKreis_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{435.93273676bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.82321069)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.27146189,0.52891887){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$x$\end{tabular}}}}%
+    \put(0.09482969,0.72244665){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$y$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.2824978,0.61691953){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$7.0$\end{tabular}}}}%
+    \put(0.15532594,0.74115503){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$1.0$\end{tabular}}}}%
+    \put(0.21996348,0.63683024){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$4.0$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.29123595,0.18521683){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08335185}\smash{\begin{tabular}[t]{l}$\xi$\end{tabular}}}}%
+    \put(0.05310438,0.28079567){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$\eta$\end{tabular}}}}%
+    \put(0.27128918,0.1483664){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08335185}\smash{\begin{tabular}[t]{l}$\vp=20^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.15362699,0.61044803){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{c}$P$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.79508793,0.75252864){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{l}$P$\end{tabular}}}}%
+    \put(0.59187866,0.45942252){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{r}$P'$\end{tabular}}}}%
+    \put(0.79719698,0.33288501){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{l}$P$\end{tabular}}}}%
+    \put(0.59398774,0.03633793){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{r}$P'$\end{tabular}}}}%
+    \put(0.85531817,0.2354336){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[lt]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{l}$Q$\end{tabular}}}}%
+    \put(0.52561446,0.13580885){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[rt]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{r}$Q'$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.17012119,0.67430894){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$4.0$\end{tabular}}}}%
+    \put(0.29061526,0.2476731){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$8.87$\end{tabular}}}}%
+    \put(0.11466879,0.31193924){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[lt]{\lineheight{2.08335185}\smash{\begin{tabular}[t]{l}$0.87$\end{tabular}}}}%
+    \put(0.16236931,0.27712395){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[t]{\lineheight{2.08335185}\smash{\begin{tabular}[t]{c}$1.14$\end{tabular}}}}%
+    \put(0.22191726,0.25508832){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[t]{\lineheight{2.08335185}\smash{\begin{tabular}[t]{c}$1.14$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.90395056,0.20563546){\color[rgb]{0,0,0}\rotatebox{0.00000103}{\makebox(0,0)[lt]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{l}$\sigma$\end{tabular}}}}}%
+    \put(0.57348914,0.38383815){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{l}$\tau$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.88463424,0.17079686){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$10$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.81963738,0.17046183){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$8$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.75330041,0.17012682){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$6$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.68863841,0.17012682){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$4$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=12]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.62263634,0.17046183){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=13]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.58057456,0.25398929){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=14]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.5316535,0.31866462){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$4$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=15]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.15298538,0.20808136){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$P$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=16]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.90395055,0.62829694){\color[rgb]{0,0,0}\rotatebox{0.00000103}{\makebox(0,0)[lt]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{l}$\sigma$\end{tabular}}}}}%
+    \put(0.57348913,0.80649963){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{l}$\tau$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=17]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.88463423,0.59345834){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$10$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=18]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.81963737,0.59312331){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$8$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=19]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.7533004,0.5927883){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$6$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=20]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.6886384,0.5927883){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$4$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=21]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.62263634,0.59312331){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=22]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.58057455,0.67665077){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=23]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.53165349,0.7413261){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$4$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=24]{BspMohrscheKreis_svg-tex.pdf}}%
+    \put(0.78561628,0.23081772){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$2\vp=40^\circ$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

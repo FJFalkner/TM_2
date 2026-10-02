@@ -1,0 +1,26 @@
+# Quarto build output (wird per CI neu erzeugt)
+02_QuartoBook/_book/
+02_QuartoBook/.quarto/
+.quarto/
+
+# Betriebssystem-/Editor-Reste
+.DS_Store
+Thumbs.db
+*~
+
+# LaTeX / latexmk / Inkscape-Build-Artefakte
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.md5
+*.dpth
+*.auxlock

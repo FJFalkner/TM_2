@@ -1,0 +1,79 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'transformierteSpannungen_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{341.99685173bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.35448174)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{transformierteSpannungen_svg-tex.pdf}}%
+    \put(0.31319959,0.06790754){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$x$\end{tabular}}}}%
+    \put(0.08805202,0.31459137){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$y$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{transformierteSpannungen_svg-tex.pdf}}%
+    \put(0.32726673,0.18007924){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$7.0$\end{tabular}}}}%
+    \put(0.16516471,0.33843836){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$1.0$\end{tabular}}}}%
+    \put(0.24755617,0.2054588){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$4.0$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{transformierteSpannungen_svg-tex.pdf}}%
+    \put(0.85885442,0.15101065){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08335185}\smash{\begin{tabular}[t]{l}$\xi$\end{tabular}}}}%
+    \put(0.55531578,0.27284205){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$\eta$\end{tabular}}}}%
+    \put(0.83342887,0.10403848){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08335185}\smash{\begin{tabular}[t]{l}$\vp=20^\circ$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{transformierteSpannungen_svg-tex.pdf}}%
+    \put(0.16299911,0.18060222){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{c}$P$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{transformierteSpannungen_svg-tex.pdf}}%
+    \put(0.18402376,0.25323173){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$4.0$\end{tabular}}}}%
+    \put(0.85806358,0.2306217){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$8.87$\end{tabular}}}}%
+    \put(0.63379009,0.31253974){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08335185}\smash{\begin{tabular}[t]{l}$0.87$\end{tabular}}}}%
+    \put(0.69459247,0.26816178){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08335185}\smash{\begin{tabular}[t]{c}$1.14$\end{tabular}}}}%
+    \put(0.77049637,0.24007365){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08335185}\smash{\begin{tabular}[t]{c}$1.14$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{transformierteSpannungen_svg-tex.pdf}}%
+    \put(0.68263084,0.1801555){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$P$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{transformierteSpannungen_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%

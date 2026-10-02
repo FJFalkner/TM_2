@@ -1,0 +1,43 @@
+\tikzsetnextfilename{axialForceRatio}
+\begin{tikzpicture}[
+declare function = {
+	N1(\x) = -1/(5+\x);
+	N2(\x) =  2/(5+\x);
+}
+]
+\begin{axis}[xlabel={$\dfrac{EA_1}{EA_2}$}, ylabel={}, 
+			mark=none, domain=0:160,
+		xmin=0, xmax=160, samples=90, grid=major, ymin=-0.2, ymax=0.4, ytick={-0.2,-0.1,0,0.1,0.2,0.3,0.4},
+		yticklabels={$-\dfrac{1}{5}\cdot EA_1\alpha\Delta T  $,$-0.1\cdot\hdots$,$0\cdot\hdots$,$0.1\cdot\hdots$,$0.2\cdot\hdots$,$0.3\cdot\hdots$,$\dfrac{2}{5}\cdot EA_1\alpha\Delta T $},
+		clip=false]
+	\addplot[smooth, myOrange, very thick]{N1(x)};
+	\addplot[smooth, myBlue, very thick]{N2(x)};
+	\node[fill=white,draw=white,rotate=90] at(axis cs:0,-0.35){$EA_2=\infty$};
+	\node[fill=white,draw=white] at(axis cs:160,-0.29){$EA_2\rightarrow 0$};
+	\node[fill=white,draw=white] at(axis cs:160,-0.35){$\Rightarrow$statisch bestimmt!};
+	\addplot[mark=*,myBlue] coordinates {(0,0.4)};
+	\addplot[mark=*,myOrange] coordinates {(0,-0.2)};
+	\legend{$N_1= N_3$,$N_2$}
+\end{axis}
+%
+\end{tikzpicture}
+%
+\begin{tikzpicture}[
+declare function = {
+	Dl3(\x) = -1/(5/\x + 1);
+	Dl2(\x) = 2/(5+x);
+	Dl1(\x) = -1/(5+\x)+1;
+}
+]
+\begin{axis}[
+mark=none, domain=0.1:160,
+xmin=0, xmax=160, samples=90, grid=major,domain=0:160,
+ytick={-1,-0.5,...,1},
+yticklabels={$-1\cdot\alpha\Delta T l$,$-0.5\cdot\hdots$,$-0\cdot\hdots$, $0.5\cdot\hdots$,$1\cdot\alpha\Delta Tl$},
+clip=false]
+\addplot[smooth, black, very thick]{Dl1(x)};
+\addplot[smooth, myBlue, very thick]{Dl2(x)};
+\addplot[smooth, myOrange, very thick]{Dl3(x)};
+\legend{$\Delta l_1$,$\Delta l_2$,$\Delta l_3$}
+\end{axis}
+\end{tikzpicture}

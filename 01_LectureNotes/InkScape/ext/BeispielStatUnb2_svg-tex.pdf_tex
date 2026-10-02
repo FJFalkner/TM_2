@@ -1,0 +1,81 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'BeispielStatUnb2_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{461.52162355bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.34947929)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{BeispielStatUnb2_svg-tex.pdf}}%
+    \put(0.0775925,0.23882685){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.34375}\smash{\begin{tabular}[t]{c}$x$\end{tabular}}}}%
+    \put(0.04346539,0.21104622){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.34375}\smash{\begin{tabular}[t]{l}$z,w$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{BeispielStatUnb2_svg-tex.pdf}}%
+    \put(0.14735456,0.33294806){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$q$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{BeispielStatUnb2_svg-tex.pdf}}%
+    \put(0.38469034,0.23882692){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.34375}\smash{\begin{tabular}[t]{c}$x$\end{tabular}}}}%
+    \put(0.35056322,0.21104628){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.34375}\smash{\begin{tabular}[t]{l}$z,w$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{BeispielStatUnb2_svg-tex.pdf}}%
+    \put(0.45445242,0.33294806){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$q$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{BeispielStatUnb2_svg-tex.pdf}}%
+    \put(0.57362401,0.23764124){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{r}$w_B^q$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{BeispielStatUnb2_svg-tex.pdf}}%
+    \put(0.72863983,0.23882695){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.34375}\smash{\begin{tabular}[t]{c}$x$\end{tabular}}}}%
+    \put(0.69451271,0.21104632){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.34375}\smash{\begin{tabular}[t]{l}$z,w$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{BeispielStatUnb2_svg-tex.pdf}}%
+    \put(0.91757363,0.28677686){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{r}$w_B^X$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{BeispielStatUnb2_svg-tex.pdf}}%
+    \put(0.91696423,0.21283058){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{r}$X$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{BeispielStatUnb2_svg-tex.pdf}}%
+    \put(0.96316955,0.31110191){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$X$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{BeispielStatUnb2_svg-tex.pdf}}%
+    \put(0.93169842,0.15719473){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{r}$\Delta l^X$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=11]{BeispielStatUnb2_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%

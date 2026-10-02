@@ -1,0 +1,761 @@
+%!TEX root = ../TM2.tex
+
+\chapter{Der Zug- oder Druckstab}
+
+\section{Spannung}
+
+Als Beispiel für einen Zugstab betrachten wir eine Abschleppstange wie sie in Abb.~\ref{fig:1-1} dargestellt ist.
+Im mechanischen Modell wird diese Stange als ein \emph{Stab} mit der Länge $l$ und der Querschnittfläche $A$ betrachtet.
+Die Stabachse ist dabei die Verbindungslinie der Schwerpunkte der Querschnitte. 
+
+\begin{figure}[h!]
+	\centering
+	\includesvg{Abschleppstange}
+	\caption{Abschleppstange als ein Beispiel für einen Zugstab}
+	\label{fig:1-1}
+\end{figure}
+
+An beiden Enden greift in Richtung des Stabes eine Kraft $F$ an.
+Diese Kräfte werden von den beiden Autos in den eingetragenen Richtungen in Abb.~\ref{fig:1-1} auf die Stange ausgeübt.
+Eine genaue Angabe der Auflagerbedingungen ist für die folgenden Betrachtungen nicht erforderlich.
+
+Mit Hilfe des Schnittprinzips können die Schnittgrößen in der Stange berechnet werden.
+Da nur eine Belastung in Richtung des Stabes angreift, wirkt lediglich eine Normalkraft und diese ergibt sich aus der Gleichgewichtsbedingung in horizontaler Richtung zu 
+%
+\begin{equation}
+\sum H=0 \rightarrow N=F \; .
+\label{eq:1-2}
+\end{equation}
+%
+Diese ist konstant über die Stablänge und hat ein positives Vorzeichen, d.h. es wirkt im Stab eine Zugkraft.
+
+Im nächsten Schritt wird nun der wichtige Begriff der \emph{Spannungen} eingeführt.
+Dazu schneiden wir den Stab \emph{normal} zur Stabachse durch und betrachten die auf die Schnittflächen wirkenden Kräfte, siehe Abb.~\ref{fig:1-2}.
+Wird die Normalkraft $N$ gleichmäßig auf die Schnittfläche $A$ verteilt, erhält man folgende Größe
+%
+\begin{equation}
+\sigma = \dfrac{N}{A} = \dfrac{F}{A} \; ,
+\label{eq:1-1}
+\end{equation}
+%
+die wir als Spannung bezeichnen.
+Wie aus Abb.~\ref{fig:1-2} hervorgeht, handelt es sich bei $\sigma$ um auf eine Fläche verteilte, innere Kräfte, deren Resultierende genau gleich der Normalkraft $N$ ist.
+Typische Einheiten für Spannungen sind z.B. N/mm$^2$ oder Pa=N/m$^2$.
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{Normalspannungen}
+	\caption{Normalspannungen im Querschnitt}
+	\label{fig:1-2}
+\end{figure}
+%
+Des Weiteren erkennt man aus Abb.~\ref{fig:1-2}, dass $\sigma$ normal auf die Schnittfläche steht.
+Diese Spannung wird daher als \emph{Normalspannung} bezeichnet.
+Überdies erfolgt eine weitere Einteilung nach dem Vorzeichen: eine negative Normalspannung wird als \emph{Druckspannung} bezeichnet, eine positive als \emph{Zugspannung}.
+Entsprechend dem dritten \textsc{Newton}'schen Axiom wirkt die gleich große Spannung, aber mit \emph{entgegengesetzter} Richtung, an der gegenüberliegenden Schnittfläche, siehe Abb.~\ref{fig:1-2}.
+Jeder der beiden Teile muss im Gleichgewicht sein!
+
+Im nächsten Schnitt führen wir den Schnitt $s-s$ nicht mehr normal zur Stabachse durch, sondern um den Winkel $\alpha$ geneigt gegenüber der Vertikalen, siehe Abb.~\ref{fig:1-3}. 
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{schraegerSchnitt}
+	\caption{Spannung in einer geneigten Schnittfläche}
+	\label{fig:1-3}
+\end{figure}
+%
+Die Spannung, welche jetzt keine Normalspannung mehr ist, auf die Schnittfläche $A'$ ist gleich
+%
+\begin{equation}
+\sigma' = \dfrac{F}{A'} = \dfrac{F}{A}\cos\alpha \; .
+\label{eq:1-3}
+\end{equation}
+%
+Diese Spannung wird mit Hilfe der Winkelfunktionen aufgeteilt in eine Komponente normal und tangential zur Schnittfläche:
+
+\begin{equation}
+\sigma = \sigma'\cos\alpha = \dfrac{F}{A}\cos{\alpha}^2
+\quad \text{und} \quad
+\tau = \sigma'\sin\alpha = \dfrac{F}{A}\sin\alpha\cos\alpha \; .
+\label{eq:1-4}
+\end{equation}
+
+$\sigma$ ist dann wiederum eine Normalspannung und die in der Schnittfläche wirkende Spannung $\tau$ wollen wir als \emph{Schubspannung} bezeichnen.
+Folglich lassen sich Spannungen auch nach ihrer Wirkungsrichtung bezogen auf die Schnittfläche in Normal- und Schubspannungen unterteilen.
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{Schubspannungen}
+	\caption{Normal- und Schubspannungen}
+	\label{fig:1-4}
+\end{figure}
+%
+Aus der Beziehung \eqref{eq:1-4} wird klar erkennbar, dass Spannungen von der \emph{Orientierung} der Schnittfläche, auf die sie bezogen werden, abhängig sind.
+Im vorliegenden Fall ist $\sigma$ und $\tau$ eine Funktion vom Winkel $\alpha$.
+
+\section{Dehnung}
+
+Als nächstes wollen wir untersuchen, was mit der Abschleppstange in Abb.~\ref{fig:1-1} bei der Lastaufbringung passiert.
+Auch wenn es mit freien Auge schwer erkennbar ist, wird sich die Abschleppstange durch die Zugkraft dehnen, d.h. sie verlängert sich leicht.
+In Abb.~\ref{fig:1-5} ist die Stange vor und nach der Lastaufbringung dargestellt.
+Die Änderung der Gesamtlänge beträgt $\Delta l$.
+Zusätzlich wollen wir aber auch die Längsverschiebung eines  Querschnittes an einer beliebigen Stelle $x$ wissen.
+Diese wird mit der Funktion $u$ gemessen (Abb.~\ref{fig:1-5}). 
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{Gleichmassdehnung}
+	\caption{Verformung des Zugstabes unter konstanter Normalkraft}
+	\label{fig:1-5}
+\end{figure}
+%
+Zusätzlich ist dort auch der Verlauf von $u$ für eine \emph{konstante} Normalkraft dargestellt.
+Ausgehend von Null am linken Ende steigt diese linear an und erreicht am rechten Ende den Wert $\Delta l$.
+Eine weitere wichtige Größe, nämlich die \emph{Dehnung}, erhalten wir, wenn die Längenänderung $\Delta l$ auf die ursprüngliche Länge $l$ bezogen wird: 
+%
+\begin{equation}
+\ve =  \dfrac{\Delta l}{l} \; .
+\label{eq:1-5}
+\end{equation}
+%
+Dieser Wert ist gleich der Steigung von der Längsverschiebung $u$.
+Die Dehnung kann auch als relative Abstandänderung zwischen zwei benachbarten Punkten verstanden werden. 
+
+Die Längenänderung ist, nicht wie in Abb.~\ref{fig:1-5}, meist mit dem freien Auge kaum erkennbar, d.h. $\Delta l \ll l$.
+Folglich ist auch die Dehnung sehr klein ($\ve\ll 1$) und wird aus diesem Grund meist in Prozent oder Promille angegeben.
+Bei einer positiven Dehnung kommt es zu einer Verlängerung des Stabes, bei negativen Werten verkürzt sich der Stab.
+Dann spricht man häufig auch von einer Stauchung.
+
+Greift nun beispielsweise entlang des Stabes eine veränderliche verteilte Last an, wodurch auch die Normalkraft dann eine Veränderliche ist, dann ist die Verschiebung nicht mehr eine lineare Funktion, siehe Abb.~\ref{fig:1-6}.
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{veraenderlicheDehnung}
+	\caption{Verformung des Zugstabes unter veränderlicher Normalkraft}
+	\label{fig:1-6}
+\end{figure}
+%
+Die Dehnung kann aber nach wie vor als die Steigung von $u$ an der Stelle $x$ interpretiert werden.
+Mit Hilfe der ersten Ableitung erhalten wir die Steigung bzw. Dehnung:
+%
+\begin{empheq}[innerbox=\myBox,right=\;.]{equation}
+\ve(x)=\dfrac{du}{dx} 
+\label{eq:1-6}
+\end{empheq}
+%
+Im Gegensatz zum ersten Lastfall ist diese nun nicht mehr konstant über die Stablänge. 
+Bei bekannter Dehnung kann durch Integration obiger Beziehung die Verschiebung und damit die Längenänderung des Stabes berechnet werden.
+
+\section{Werkstoffgesetz}
+
+Wir haben nun zwei neue wichtige mechanische Größen eingeführt: Spannung und Dehnung.
+Doch besteht auch ein Zusammenhang zwischen den Beiden?
+Dazu führen wir einen Zugversuch durch, siehe Abb.~\ref{fig:1-7}.
+Eine Zugprobe, meist von kreisförmigen Querschnitt, wird in eine entsprechende Maschine eingebaut.
+Der untere Rand der Zugprobe ist dabei unverschieblich gelagert.
+Im Gegensatz dazu, kann der obere Rand durch einen hydraulischen Zylinder bewegt werden.
+Daraus ergibt sich das mechanische Modell, welches in Abb.~\ref{fig:1-7} dargestellt ist.
+Es handelt sich um das gleiche System wie bei der Abschleppstange.
+Sowohl die Kraft $F$ als auch die Verschiebung am oberen Rand $\Delta l$ werden während des Versuches gemessen und aufgezeichnet. 
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{Zugversuch}
+	\caption{Zugversuch}
+	\label{fig:1-7}
+\end{figure}
+%
+
+Berechnet man sich aus den Messdaten nach \eqref{eq:1-1} die Spannung und nach \eqref{eq:1-5} die Dehnung und trägt diese in einem Diagramm auf, erhält man die in Abb.~\ref{fig:1-8} dargestellte Kurve.
+Bei der Zugprobe handelt es sich dabei um einen naturharten Stahl.
+Der Zusammenhang zwischen Dehnung und Spannung kann aus diesem Diagramm abgelesen werden.
+Deutlich erkennbar ist, dass zu Beginn ein \emph{linearer} Zusammenhang zwischen Dehnung und Spannung besteht.
+Eine Verdopplung der Dehnung bewirkt folglich eine doppelt so große Spannung. 
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{ArbeitsdiagrammStahl}
+	\caption{Spannungs-Dehnungs Diagramm eines naturharten Stahls}
+	\label{fig:1-8}
+\end{figure}
+%
+Die Steigung der Geraden wird bestimmt durch den \emph{E-Modul}.
+Dabei handelt es sich um einen Materialparameter in der Einheit einer Spannung.
+Bis zum Erreichen der sogenannten \emph{Fließgrenze} $f_y$ herrscht ein \emph{linearer} Zusammenhang zwischen Dehnung und Spannung in der Form
+%
+\begin{empheq}[innerbox=\myBox,right=\;.]{equation}
+\sigma = E\ve 
+\label{eq:1-7}
+\end{empheq}
+% 
+Obige Beziehung wird auch häufig als \textsc{Hooke}'sches Gesetz bezeichnet.
+Im sogenannten \emph{elastischen} Bereich, d.h. wenn die Spannung kleiner der Fließgrenze ist, und nur \emph{hier} gilt dieser Zusammenhang!
+Mit elastischem Materialverhalten wird beschrieben, dass wenn die Kraft $F$ wieder auf Null reduziert wird, die Zugprobe in die \emph{unverformte} Ausgangslage zurückkehrt.
+Am Ende ist somit die Dehnung wieder Null.
+
+Wird die Fließgrenze erreicht bzw. überschritten, kommt es zu \emph{plastischen} Materialverhalten.
+Zunächst kommt es zu einer Zunahme der Dehnung bei gleichbleibender Spannung.
+Anschließend kann die Spannung wieder gesteigert werden bis es zu einer Einschnürung der Zugprobe kommt, die in weiterer Folge zum Bruch führt.
+Erfährt die Zugprobe eine Belastung im plastischen Bereich, d.h. $\sigma\geq f_y$, dann kehrt sie bei vollständiger Entlastung \emph{nicht} in die unverformte Ausgangslage zurück!
+Es verbleibt somit eine Dehnung in der Zugprobe.  
+
+Im Rahmen dieser Vorlesung betrachten wir nur den anfänglichen, linear elastischen Bereich.
+Wir setzten somit die Gültigkeit des \textsc{Hooke}'schen Gesetzes \eqref{eq:1-7} voraus.
+Somit haben wir einen \emph{linearen} Zusammenhang zwischen Dehnung und Spannung gefunden, wobei der Proportionalitätsfaktor der $E$-Modul (Elastizitätsmodul) ist.
+Das \textsc{Hooke}'sche Gesetz ist bei Beschränkung auf kleine Dehnungen (Verschiebungen) für zahlreiche Materialien anwendbar.
+In Tab.~\ref{tab:1-1} ist der $E$-Modul für gängige metallische und nichtmetallische Materialien aufgelistet.
+
+\begin{table}[h!]
+	\centering
+	\caption{Materialkennwerte}
+	\begin{tabular}{l c c}
+		\toprule
+		Material	& $E$ (\unit{N/mm²}) & $\alpha$ (\unit{$1$/°C})  \\
+		\midrule
+		Stahl		& $2.1\cdot 10^5$	& $1.2\cdot 10^{-5}$ \\
+		Aluminium	& $0.7\cdot 10^5$	& $2.3\cdot 10^{-5}$ \\
+		Messing		& $1.0\cdot 10^5$	& $1.8\cdot 10^{-5}$ \\
+		Gusseisen	& $1.0\cdot 10^5$	& $0.9\cdot 10^{-5}$ \\
+		\midrule
+		Holz (in Faser)		& $0.7\hdots 2.0\cdot 10^4$	& $2.2\hdots3.1\cdot 10^{-5}$ \\
+		Beton		& $0.3\cdot 10^5$	& $1.0\cdot 10^{-5}$ \\
+		Glasfaser	& $0.8\cdot 10^5$	& \\
+		\bottomrule
+	\end{tabular}
+\label{tab:1-1}
+\end{table}
+
+
+Neben einer äußeren Belastung kann auch eine Temperatur\emph{änderung} eine Dehnung (Längenänderung) hervorrufen.
+Wird der Stab bei einer Temperatur $T_0$ eingebaut und erfährt anschließend eine gleichförmige\footnote{\emph{Jeder} Punkt erfährt die \emph{gleiche} Temperaturänderung!} Temperaturänderung von $\Delta T$ dann lässt sich experimentell zeigen, dass die Dehnung gleich
+%
+\begin{equation}
+\ve_T = \alpha\Delta T
+\label{eq:1-8}
+\end{equation}
+%
+ist.
+Der \emph{Wärmeausdehnungkoeffizient} $\alpha$ ist ein weiterer Materialparameter und wird in \unit{$1$/°C} angegeben, siehe Tab.~\ref{tab:1-1}.
+Dabei ist zu beachten, dass es bei einer Erwärmung ($\Delta T>0$, $\Delta l>0$) zu einer Dehnung ($\ve_T>0$), und bei einer Abkühlung ($\Delta T<0$) zu einer Stauchung ($\ve_T<0$, $\Delta l<0$) kommt.
+Zusammen mit dem  \textsc{Hooke}'schen Gesetz \eqref{eq:1-7} ergibt sich die Dehnung zufolge äußerer Belastung und Temperaturänderung zu
+%
+\begin{equation}
+\ve = \dfrac{\sigma}{E} + \alpha\Delta T \; .
+\label{eq:1-9}
+\end{equation}
+%
+Diese Beziehung lässt sich auch umschreiben zu
+%
+\begin{equation}
+\sigma = E(\ve-\alpha \Delta T) \; .
+\label{eq:1-10}
+\end{equation}
+% 
+
+\begin{example}
+	Ein Stab der Länge $l$ und konstantem Querschnitt $A$ erfährt eine gleichförmige Temperaturänderung $\Delta T$.
+	Welche Unterschiede ergeben sich bei den zwei verschiedenen Lagerungen des Stabes?
+	\begin{center}
+		\includesvg{thermischeDehnungBsp}
+	\end{center}
+
+	Freischneiden der Auflager:
+	\begin{center}
+		\hspace{-1cm}
+		\includesvg{thermischeDehnungBsp1}
+	\end{center}
+	Statisch bestimmt?
+	\begin{align*}
+		\text{nein!} & & \text{ja!}
+	\end{align*}	
+	Gleichgewichtsbedingung in horizontaler Richtung $\sum H = 0$ :
+	\begin{align*}
+				\Cline[myBlue]{N(x)\neq 0} \rightarrow \sigma(x)\neq 0 & & N(x) = 0 \rightarrow \sigma(x) = 0  \\
+	\end{align*}
+	Längsverschiebung $u$:
+	\begin{align*}
+		u(x) = 0 \rightarrow \ve = 0 & & \Cline[myBlue]{u(x) \neq 0} \rightarrow \ve\neq0 
+	\end{align*}
+	Aus \eqref{eq:1-10} folgt somit:
+	\begin{align*}
+		\ve = 0 = \dfrac{\sigma}{E} + \alpha\Delta T & & \ve = \dfrac{du}{dx} = \alpha\Delta T
+	\end{align*}
+	Lösen nach den Unbekannten:
+	\begin{align*}
+		\sigma(x) = -E\alpha\Delta T \rightarrow \Cline[myBlue]{N(x) = -EA\alpha\Delta T} & & du = \alpha\Delta T dx \rightarrow \int \rightarrow \Cline[myBlue]{u(x) = \alpha\Delta T x}
+	\end{align*}
+	Interpretiere die Lösungen! Worin liegt der Unterschied zwischen $\Delta T>0$ und $\Delta T<0$?
+\end{example} 
+
+Aus diesem einfachen Beispiel stellen wir folgendes fest: Bei statisch bestimmten Systemen bewirkt führt eine reine Temperaturänderung zu Dehnungen (Verformungen), aber keine Spannungen!
+Anders verhält es sich bei statisch \emph{un}bestimmten Systemen.
+Dort entstehen Spannungen und im Allgemeinen auch Verformungen bei veränderter Temperatur!
+ 
+\section{Differentialgleichung für den Zug- und Druckstab}
+
+Mit den gewonnenen Beziehungen soll nun die Bestimmungsgleichung (Differentialgleichung) des Zug- oder Druckstabes in Abb.~\ref{fig:1-9} hergeleitet werden. 
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{InkScape/allgemeinerZugstab}
+	\caption{Allgemeiner Zug- oder Druckstab}
+	\label{fig:1-9}
+\end{figure}
+%
+Diese beschreibt das mechanische Verhalten des Stabes unter Einwirkung einer Einzelkraft $F$ oder einer verteilten Längsbelastung $q$.
+
+In der Mechanik lassen sich drei Kategorien von Gleichungen (Beziehungen) angeben.
+Für den Stab in Abb.~\ref{fig:1-9} lauten diese:
+%
+\begin{itemize}
+	\item \textbf{Gleichgewicht}
+	\begin{equation}
+		\myfrac{dN}{dx} = -q(x)
+		\label{eq:1-11}
+	\end{equation}
+	Sprich: Die Änderung der Normalkraft $N$ in Stablängsrichtung $x$ ist gleich der negativen Längsbelastung $q$!
+	\item \textbf{Kinematische Beziehungen} (Dehnung)
+	%
+	\begin{equation}
+		\ve = \dfrac{du}{dx}
+	\label{eq:1-12}
+	\end{equation}
+	%
+	\item \textbf{Konstitutive Beziehungen} (Werkstoffgesetz)
+	%
+	\begin{equation}
+		\sigma = E\ve
+	\label{eq:1-13}
+	\end{equation}
+	%
+\end{itemize}
+%
+
+Aus der kinematischen und konstitutiven Beziehung folgt unter Beachtung von \eqref{eq:1-1} für die Normalkraft 
+%
+\begin{equation}
+N = A\sigma = A\,E\ve = EA \dfrac{du}{dx} \; .
+\label{eq:1-14}
+\end{equation}
+%
+Einsetzen in die Gleichgewichtsbedingung \eqref{eq:1-11} liefert
+%
+\begin{equation}
+	\dfrac{d}{dx}\left(EA\dfrac{du}{dx}\right) = -q(x) \; .
+\label{eq:1-15}
+\end{equation}
+%
+Wird angenommen, dass sich der Querschnitt und das $E$-Modul entlang des Stabes nicht ändert ($EA=$const.), erhalten wir schließlich\footnote{Die beiden Schreibweisen für die Ableitungen sind ident: $\dfrac{d^2 u}{dx^2}\equiv u''$}
+%
+\begin{empheq}[innerbox=\myBox,right=\;.]{equation}
+\dfrac{d^2u}{dx^2}=-\dfrac{q(x)}{EA}
+\label{eq:1-16}
+\end{empheq}
+%
+Diese \emph{lineare} Differentialgleichung beschreibt das mechanische Verhalten des Zug- oder Druckstabes.
+Durch Lösen von \eqref{eq:1-16} können wir bei bekannter äußerer Belastung die Längsverschiebung $u$ bestimmen, und in weiterer Folge mit den kinematischen und konstitutiven Beziehungen die Dehnung und Spannung.
+
+\begin{example}
+	Bestimme den Verschiebungs- und Spannungsverlauf eines hängenden Stabes unter Eigengewicht und einer Einzellast!
+	%
+	\begin{center}
+		\includesvg{InkScape/haengenderStab}
+	\end{center}
+	%
+	
+	Das Eigengewicht des Stabes pro Längeneinheit ist gegeben zu
+	%
+	\begin{equation}
+		q(x)\equiv q_0 = \rho A g \; .
+	\end{equation}
+	%
+	Die Differentialgleichung \eqref{eq:1-16} lautet somit
+	%
+	\begin{equation}
+		\dfrac{d^2u}{dx^2}=-\dfrac{q_0}{EA} \; .
+	\end{equation}
+	%
+	Durch Trennung der veränderlichen Variablen,
+	%
+	\begin{equation}
+		d^2u = -\dfrac{q_0}{EA}\,dx^2 \; ,
+	\end{equation}
+	%
+	und anschließend zweimaliges integrieren erhalten wir:
+	%
+	\begin{equation}
+		u(x) = -\dfrac{q_0}{EA}\dfrac{x^2}{2} + C_1x + C_2 \; .
+		\label{a}
+	\end{equation}
+	%
+	Nun müssen noch die Integrationskonstanten an die \emph{Randbedingungen} angepasst werden.
+	Am oberen Ende des Stabes muss gelten:
+	%
+	\begin{equation}
+	u(x=0) = 0 \; .
+	\end{equation}
+	%
+	Daraus folgt unmittelbar $C_2=0$.
+	Am unteren Ende können wir keine Aussage über die Verschiebung, jedoch über die Spannung machen:
+	%
+	\begin{equation}
+		\sigma(x=l) = \dfrac{F}{A} \; .
+	\end{equation}
+	%
+	Doch wie berechnet sich die Spannung?
+	Über das \textsc{Hooke}'sche Gesetz \eqref{eq:1-7} und der Dehnung \eqref{eq:1-6} zu
+	%
+	\begin{equation}
+		\sigma = E\ve = E\dfrac{du}{dx} \; .
+	\end{equation}
+	%
+	Einsetzen der Längsverschiebung \eqref{a} und auswerten an der Stelle $x=l$ ergibt:
+	%
+	\begin{equation}
+		\sigma(x=l)=E\ve\big|_{x=l} = E\dfrac{du}{dx}\Bigg|_{x=l} = E\left(-\dfrac{q_0x}{EA}+C_1\right)\Bigg|_{x=l} = E\left(-\dfrac{q_0l}{EA}+C_1\right)=\dfrac{F}{A} \; ,
+	\end{equation}
+	%
+	aus der sich $C_1$ bestimmen lässt zu
+	%
+	\begin{equation}
+		C_1 = \dfrac{1}{EA}\left(F+q_0l\right) \; .
+	\end{equation}
+	%
+	Somit ist die Verschiebung längs des Stabes gegeben zu
+	%
+	\begin{equation}
+		u(x) = \dfrac{1}{EA}\left(-\dfrac{q_0x^2}{2}+q_0lx+Fx\right) \; .
+	\end{equation}
+	%
+	Skizziere diesen Verlauf und den dazugehörigen Spannungsverlauf!	
+\end{example}
+
+Anhand vom obigen Beispiel wollen wir die wichtige Bedeutung eines linearen mechanischen Systems hervorheben.
+Die äußere Belastung auf den hängenden Stab kann in zwei \emph{Lastfälle} (LF) unterteilt werden:
+%
+\begin{equation}
+\text{\textcolor{myBlue}{LF 1}}\rightarrow q_0  \quad \text{und} \quad \text{\textcolor{myOrange}{LF 2}}\rightarrow F \; .
+\end{equation}
+%
+Aufgrund des \emph{linearen} Verhaltens, und die daraus resultierende \emph{lineare} Differentialgleichung \eqref{eq:1-16}, können wir jeden LF \emph{getrennt} berechnen und anschließend die Ergebnisse \emph{addieren} (oder überlagern).
+Diese Möglichkeit der Berechnung wird als \emph{Superpositionsprinzip} bezeichnet.
+Beispielsweise setzt sich dann die Gesamtverschiebung aus der Summe der einzelnen LF zusammen:
+%
+\begin{equation}
+u(x) = u_{LF\;1} + u_{LF\;2} + u_{LF\;3} + \hdots \; .
+\label{eq:1-16a}
+\end{equation}
+%
+Dies erkennt man auch am Ergebnis des vorigen Beispiels:
+%
+\begin{equation}
+u(x) = u_{\textcolor{myBlue}{LF\;1}} \bs{+} u_{\textcolor{myOrange}{LF\;2}} =  \dfrac{1}{EA}\left(\Cline[myBlue]{\textcolor{myBlue}{q_0}(x^2-lx)} \bs{+} \Cline[myOrange]{\textcolor{myOrange}{F}x}\right) \, .
+\label{eq:1-16b}
+\end{equation}
+%
+Gleiches gilt auch für jede andere mechanische Größe wie in diesem Fall Spannung und Dehnung.
+
+Besitzt zumindest eine der grundlegenden Beziehungen (Gleichgewicht, kinematische und konstitutive Beziehungen) nichtlinearen Charakter, dann ist das mechanische Verhalten nicht mehr linear! Als Beispiel hierfür wird das \textsc{Hooke}'sche Gesetz durch ein nichtlinear elastisches Werkstoffgesetz in der Form
+%
+\begin{equation}
+\sigma = C\ln(1+\ve)
+\label{eq:1-16c}
+\end{equation}
+%
+ersetzt, wobei $C$ ein experimentell zu bestimmender Materialparameter ist. Gummi weißt ein derartiges Verhalten auf.
+In Abb.~\ref{fig:1-10a} ist das dazugehörige Spannungs-Dehnungs Diagramm dargestellt.
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{MaterialGummi}
+	\caption{Nichtlinear elastisches Materialverhalten}
+	\label{fig:1-10a}
+\end{figure}
+%
+Das mechanische Verhalten ist dann bestimmt durch die \emph{nichtlineare} Differentialgleichung\footnote{vgl. die \emph{lineare} Differentialgleichung \eqref{eq:1-6}!}
+%
+\begin{equation}
+CA\,\textcolor{myBlue}{\dfrac{1}{1+\dfrac{du}{dx}}}\,\dfrac{d^2u}{dx^2} = q(x) \; .
+\label{eq:1-16d}
+\end{equation}
+%
+In diesem Fall ist das Superpositionsprinzip \emph{nicht} mehr gültig und anwendbar!
+Ein entscheidender Nachteil in der praktischen Berechnung.
+
+
+
+\section{Einfach statisch unbestimmte Systeme}
+
+Bei statisch unbestimmten Systemen reichen die Gleichgewichtsbedingungen nicht aus, um die Auflagerreaktionen und die inneren Stabkräfte zu bestimmen.
+Mit Hilfe sogenannter \emph{kinematischer Zwangsbedingungen} gewinnt man zusätzliche Gleichungen zur Berechnung derartiger Systeme.
+Anhand eines Beispiels wollen wir die Vorgehensweise diskutieren.
+Vorweg lassen sich die wesentlichen Schritte wie folgt angeben:
+%
+\begin{itemize}
+	\item Lösen einer Bindung - Rückführung auf ein statisch \emph{bestimmtes} System.
+	\item Berechnung der Verschiebung/Verformung, die am Ort und Richtung der gelösten Bindung entsteht, am statisch bestimmten System zufolge der äußeren Belastung.
+	\item Ansetzen der zur gelösten Bindung gehörenden, in ihrer Größe unbekannten Kraft $X$ am statisch bestimmten System und Bestimmung der Verschiebung/Verformung am Ort und Richtung von $X$. 
+	\item Aufstellen einer kinematischen Zwangsbedingung und Berechnung der Kraft $X$ aus dieser.
+\end{itemize}
+
+\begin{example}
+	Eine \emph{starre}, gewichtslose Platte ist an drei Stäben aufgehängt.
+	Starr bedeutet, dass sie sich nicht verformt! Zwei Stäbe besitzen eine Dehnsteifigkeit von $EA_1$, der Dritte eine von der Größe $EA_2$.
+	Alle Stäbe haben die gleiche Länge $l$. Stab $1$ erfährt eine Temperaturänderung von der Größe $\Delta T$.
+	Im Punkt $A$ wird die starre Platte horizontal gehalten.
+	Es sind die Normalkräfte in den drei Stäben zu berechnen!
+	% 
+	\begin{center}
+		\includesvg{abgehaengterStab}
+	\end{center}
+	%
+	
+	Um die gesuchten Stabkräfte sichtbar zu machen, schneiden wir die starre Platte heraus, durchtrennen dabei die Stäbe $1$ bis $3$, und tragen anschließend dann alle Kräfte\footnotemark{} in einer Skizze ein (Schnittprinzip):
+	%
+	\begin{center}
+		\includesvg{abgehaengterStab2}
+	\end{center}
+ 	%
+ 	Im Schnitt treten vier unbekannte Kräfte auf.
+ 	Für ein ebenes Kraftsystem stehen allerdings nur drei Gleichgewichtsbedingungen zur Verfügung.
+ 	Folglich handelt es sich um ein \emph{einfach} ($4-3=1$) statisch \emph{unbestimmtes} System.
+ 	Die drei Gleichgewichtsbedingungen lauten:
+ 	%
+ 	\begin{equation}
+ 	\begin{split}
+ 		\sum H=0: & \; A_H = 0 \\
+ 		\sum V=0: & \; N_1 + N_2 + N_3 = 0 \\
+ 		\sum M^{(A)} = 0: & \;  N_1\dfrac{a}{2} + N_2\dfrac{3a}{2} + N_3\dfrac{5a}{2} = 0 \;.
+ 	\end{split}
+ 	\label{eql1}
+ 	\end{equation}
+ 	%
+ 	Aus der ersten folgt unmittelbar $A_H=0$.
+ 	Aus den verbleibenden zwei können wir aber nicht die drei unbekannten Normalkräfte berechnen.
+ 	
+ 	Um die Normalkräfte dennoch berechnen zu können gehen wir wie folgt vor.
+ 	Nun wird eine Bindung gelöst.
+ 	Im vorliegenden Fall bedeutet das, dass Stab $3$ unmittelbar oberhalb der Anbindung an die starre Platte durchtrennt wird.
+ 	Dadurch wird der Stab wirkungslos, d.h. die Normalkraft im Stab ist Null ($N_3=0$).
+ 	Durch diesen Schritt erhält man ein statisch \emph{bestimmtes} System.
+ 	Folglich können die Normalkräfte $N_1$ und $N_2$ sowie $A_H$ aus den Gleichgewichtsbedingungen \eqref{eql1} ermittelt werden. 
+ 	%
+ 	\begin{center}
+ 		\includesvg{abgehaengterStab3}
+ 	\end{center}
+ 	%
+ 	Welche Bindung des statisch unbestimmten Systems gelöst wird, ist gleichgültig.
+ 	Es kann auch Stab $1$ oder Stab $3$ durchtrennt werden.
+ 	
+ 	Wenn jetzt der Stab $1$ am obigen System eine Temperaturänderung von $\Delta T$ erfährt, sind die Normalkräfte $1$ und $2$ gleich Null!\footnotemark{} Folglich ist auch die Normalspannung Null und aus \eqref{eq:1-7} erhält man für die Dehnung im Stab $1$ zu
+ 	%
+ 	\begin{equation}
+ 		\ve = \alpha\Delta T \; .
+ 	\end{equation}
+ 	%
+ 	Diese ist \emph{konstant} über die Stablänge und nach \eqref{eq:1-5} beträgt die Längenänderung dann zufolge Temperaturänderung (Hochzeiger $T$)\footnotemark{}:
+ 	%
+ 	\begin{equation}
+ 		\Delta l_1^{(T)} = \ve l = \alpha\Delta T l \; .
+ 	\end{equation}
+ 	%
+ 	An der Stelle, wo der Stab $3$ durchtrennt wurde, erhalten wir eine Überlappung der beiden Stabenden von der Größe
+ 	%
+ 	\begin{equation}
+ 		\Delta l_3^{(T)} = - \Delta l_1^{(T)} \; .
+ 	\end{equation}
+ 	%
+ 	Diese Überlappung tritt am realen System natürlich nicht auf!
+ 	Im Stab $2$ wirkt weder eine Normalkraft noch eine Temperaturänderung.
+ 	Er erfährt daher keine Dehnung und seine Länge bleibt dadurch unverändert.
+ 	Daraus ergibt sich die oben dargestellt Verschiebung der Platte unter Temperatureinwirkung.
+    
+    Nun wird an den beiden Enden des durchtrennten Stabes eine von der Größe her unbekannte Kraft $X$ angesetzt.
+    Diese entspricht der Normalkraft im Stab $3$.
+    Da am realen System zufolge einer positiven Temperaturänderung eine Druckkraft im Stab $3$ wirkt, setzen wir $X$ auch so an.
+    %
+    \begin{center}
+    	\includesvg{abgehaengterStab4}
+    \end{center}
+	%
+	Durch Freischneiden und über die Gleichgewichtsbedingungen erhält man die über die Länge konstanten Normalkräfte in den Stäben $1$ und $2$ zufolge $X$:
+	%
+	\begin{equation}
+	N_1^{(X)} = -X \quad \text{und} \quad N_2^{(X)} = 2X\; .
+	\end{equation}
+	%
+	In der oberen Skizze sind diese vorzeichenrichtig eingetragen. Bei Kenntnis der Normalkraft können wir wieder mittels \eqref{eq:1-5} und \eqref{eq:1-9} die jeweilige Längenänderung der Stäbe bestimmen:
+	%
+	\begin{equation}
+	 	\Delta l_1^{(X)}= \ve l = \dfrac{\sigma}{E}l = \dfrac{N_1^{(X)}}{EA_1}l = -\dfrac{Xl}{EA_1}
+	 	\quad \text{und} \quad 
+	 	\Delta l_2^{(X)}= \dfrac{N_2^{(X)}}{EA}l = \dfrac{2Xl}{EA_1} \; .
+	\end{equation}
+	%
+	Aus geometrischen Überlegungen (Geradengleichung) ergibt sich für diesen Lastfall eine Klaffung der durchtrennen Stabenden des Stabes $3$ zu:
+	%
+	\begin{equation}
+	\Delta l_3^{(X)}=\Delta l_1^{(X)} +\dfrac{\Delta l_2^{(X)}-\Delta l_1^{(X)}}{a}2a = 2\Delta l_2^{(X)}-\Delta l_1^{(X)} = \dfrac{5Xl}{EA_1} \; .
+	\end{equation}
+	%
+	Diese ist von der Größe von $X$ abhängig.
+	%
+	\begin{center}
+		\includesvg{abgehaengterStab5}
+	\end{center}
+	%
+	In nachfolgender Skizze ist die vertikale Verschiebung des unteren durchtrennten Stabendes (blauer Strich) zufolge Temperaturänderung und Kraft $X$ dargestellt.
+	Die unbekannte Kraft $X$ wirkt aber auch auf den oberen Teil des hängenden Stabes $3$.
+	Die vertikale Verschiebung des oberen Stabendes (oranger Strich) ist 
+	%
+	\begin{equation}
+	\Delta l_3 = -\dfrac{Xl}{EA_2} \; .
+	\end{equation}
+	% 
+	Doch wie groß sind die vertikalen Verschiebungen der beiden durchtrennten Stabenden am realen System?
+	%
+	\begin{center}
+		\includesvg{abgehaengterStab6}
+	\end{center}
+	%
+	Diese \emph{müssen} sich an der selben Position befinden, d.h es darf weder zu einer Klaffung noch einer Überlappung an der durchtrennten Stelle kommen!
+	Daraus können wir folgende kinematische Verträglichkeit aufstellen
+	%
+	\begin{equation}
+	\Delta l_3^{(T)} + \Delta l_3^{(X)} = \Delta l_3 \; .
+	\end{equation}
+	%
+	Und daraus können wir die unbekannte Kraft $X$ bestimmen:
+	%
+	\begin{equation}
+		X = \dfrac{1}{5+\dfrac{EA_1}{EA_2}}\,EA_1\alpha\Delta T  \; .
+	\end{equation}
+	%
+	Da $X$ als Druckkraft auf den Stab $3$ angesetzt wurde, ist $N_3=-X$. Durch Lösen der Gleichgewichtsbedingungen \eqref{eql1} erhalten wir dann die beiden anderen Normalkräfte:
+	%
+	\begin{equation}
+		N_1 = -\dfrac{1}{5+\dfrac{EA_1}{EA_2}}\,EA_1\alpha\Delta T  \quad \text{} \quad 
+		N_2 = \dfrac{2}{5+\dfrac{EA_1}{EA_2}}\,EA_1\alpha\Delta T \; .
+	\end{equation}
+	%
+	Bei Kenntnis der Normalkräfte kann anschließend die Längenänderung der Stäbe bestimmt werden:
+	%
+	\begin{equation}
+	\Delta l_1=  \left(1-\dfrac{1}{5+\dfrac{EA_1}{EA_2}}\right)\alpha\Delta T l \qquad
+	\Delta l_2=  \dfrac{2}{5+\dfrac{EA_1}{EA_2}}\alpha\Delta T l \qquad
+	\Delta l_3= -\dfrac{1}{5+\dfrac{EA_1}{EA_2}}\alpha\Delta T l \; .
+	\end{equation}
+	%
+	In Abb.~\ref{fig:1-10} ist die Normalkraft in den Stäben und ihre Längenänderung für unterschiedliche Steifigkeitsverhältnisse $EA_1/EA_2$ dargestellt.
+	Daraus geht eindeutig hervor, dass bei einem statisch \emph{unbestimmten} System die Auflagerreaktionen und Schnittgrößen auch vom Steifigkeitsverhältnis abhängig sind! 
+	
+	Die eingetragenen Punkte stellen die Lösung für den dehnstarren Stab dar, d.h. $EA_2\rightarrow\infty$.
+	In diesem Fall ist die Längenänderung des Stabes $3$ gleich Null.
+	Der andere Grenzfall, $EA_2=0$, ist gleichbedeutend mit dem fehlen des Stabes.
+	Dann wäre das System statisch bestimmt. 
+	
+	Aus diesen Ergebnissen lassen sich wichtige Schlussfolgerungen ziehen:
+	\begin{itemize}
+		\item Bei statisch \emph{bestimmten} Systemen ($EA_2=0$) bewirkt eine Temperaturänderung Verformungen aber \emph{keine} zusätzlichen Kräfte!
+		\item Ist das System statisch \emph{unbestimmt}, kommt es bei einer Temperaturänderungen zu Verformungen \emph{und} zusätzlichen Kräften!
+	\end{itemize}
+	
+	%
+	\captionsetup{type=figure,justification=centering}
+	\begin{center}
+		\input{tikz/axialForceRatio}
+	\end{center}
+	\nopagebreak
+	\caption{Normalkräfte und Längenänderungen der Stäbe  in Abhängigkeit vom Steifigkeitsverhältnis~$EA_1/EA_2$}
+	\label{fig:1-10}
+	%
+		 
+\end{example}
+
+\footnotetext{Normalkräfte als Zug positiv eintragen!}
+\footnotetext{Warum eigentlich? Beachte das Gleichgewicht!}
+\footnotetext{Beachte: Wenn es zu einer Erwärmung ($\Delta T>0$) kommt, dann erfährt  Stab $1$ eine Dehnung ($\Delta l_1^{(T)}>0$). Bei einer Abkühlung ($\Delta T<0$) wird der Stab gestaucht ($\Delta l_1^{(T)}<0$). }
+
+
+\begin{example}
+	Gegeben ist das statische System eines Vordaches. Beide Stäbe haben die gleiche Dehnsteifigkeit $EA$.
+	Berechne die Stabkräfte, ihre Längenänderung und die Horizontal- und Vertikalverschiebung des Punktes $A$! Dabei werden \emph{kleine} Verschiebungen angenommen!
+	%
+	\begin{center}
+		\includesvg{Vordach}
+	\end{center}
+	%
+	
+	\textit{Lösung}:
+	\begin{itemize}
+		\item Stabkräfte: $S_1 = \dfrac{2F}{\sqrt{3}}, \; S_2=-\dfrac{F}{\sqrt{3}}$ 
+		\item Längenänderung: $\Delta l_1 = \dfrac{4}{\sqrt{3}}\dfrac{Fl}{EA}, \; \Delta l_2 = -\dfrac{1}{\sqrt{3}}\dfrac{Fl}{EA}$ 
+		\item Horizontale und vertikale Verschiebung: $u_H = -\dfrac{1}{\sqrt{3}}\dfrac{Fl}{EA},\; u_V = \dfrac{\sqrt{3}}{2}\Delta l_1 + \sqrt{3}|\Delta l_2| = 3\dfrac{Fl}{EA} $
+	\end{itemize}
+\end{example}
+
+
+\begin{example}
+	Bestimme die Normalkräfte in den Stäben $1$ bis $3$ sowie die Horizontal- und Vertikalverschiebung des Punktes $A$!
+	%
+	\begin{center}
+		\includesvg{DreiStabe}
+	\end{center}
+	%
+	
+	\textit{Lösung:}
+	\begin{itemize}
+		\item Stabkräfte: $S_1 = \dfrac{F}{3}\;, \; S_2 = -F\;, \; S_3 =-\dfrac{2F}{3}$ 
+		\item Horizontale und vertikale Verschiebung: $u_H=\dfrac{Fl}{3EA}\;, \; u_V=\dfrac{Fl}{EA}$
+	\end{itemize}
+	 
+\end{example}
+
+\begin{example}
+	Eine starre Platte wird durch eine Einzelkraft $F$ belastet und durch zwei Stäbe gehalten.
+	Wie groß ist die Absenkung im Punkt $A$?
+	Um wie viel müsste der Stab $1$ erwärmt werden, damit es zu keiner Absenkung kommt?
+	%
+	\begin{center}
+		\includesvg{starrePlatteT}
+	\end{center}
+	%
+	
+	\textit{Lösung}:
+	\begin{itemize}
+		\item Stabkräfte: $S_1 = -2F,\;S_2 = -F$ 
+		\item Absenkung: $u_V = \dfrac{3Fl}{EA}$ 
+		\item Erwärmung: $\Delta T = +\dfrac{3F}{2\alpha EA}$
+	\end{itemize}	
+\end{example}
+
+
+\begin{example}
+	Wir betrachten ein vereinfachtes Modell eines Seilbaggers.
+	Der Ausleger und die Rückverankerung werden als Stäbe mit einer Dehnsteifigkeit von $\unit{42000\,kN/cm}$ betrachtet.
+	Im gemeinsamen Punkt $A$ der beiden Stäbe, ist eine Umlenkrolle mit einem Radius von $\unit{30\,cm}$ angebracht.
+	Das Seil mit einer  Länge von $15\,$m und einer  Dehnsteifigkeit von $\unit{21000\,kN/cm}$ wird  vom Aufhängepunkt $B$ reibungsfrei um diese Rolle zur Winde geführt.
+	Am Seil wird im Punkte $B$ eine Masse von $\unit{2000\,kg}$ angehängt.  
+	%
+	\begin{center}
+		\includesvg{Winde}
+	\end{center}
+	%
+	Gesucht sind für den statischen Fall:
+	\begin{enumerate}[1)]
+		\item Seilkraft vor und nach der Umlenkrolle.
+		\item Krafteinwirkung auf die Stäbe $1$ und $2$ im Punkt $A$.
+		\item Berechnung der Normalkraft in Stab $1$ und Stab $2$.
+		\item Horizontale- und vertikale Verschiebung des Punktes $A$.
+		\item Um wie viel senkt sich der Punkt $B$ in Summe ab?
+	\end{enumerate}
+
+	\textit{Lösung:}
+	\begin{enumerate}[1)]
+		\item $S_\text{vor}=S_\text{nach}=19.62\,$kN
+		\item $F_H=17.0\,\text{kN} \quad F_V=29.43\,\text{kN}$
+		\item $S_1=33.99\,\text{kN} \quad S_2=0$
+		\item $u_H=0.19\,\text{cm} \quad u_V=0.32\,\text{cm}$
+		\item $u_V=1.72\,\text{cm}$
+	\end{enumerate}
+\end{example}

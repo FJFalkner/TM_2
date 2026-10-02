@@ -1,0 +1,27 @@
+::: {.content-visible when-profile="de"}
+# Vorwort {.unnumbered}
+
+::: {.epigraph}
+Eine gute Theorie ist\
+das Praktischste was es gibt.
+
+[Gustav Robert Kirchhoff, 1824–1887]{.quelle}
+:::
+
+In der vorliegenden Version dieser Vorlesungsunterlagen sind noch mehrere Druckfehler enthalten.
+Für Hinweise an [franz-josef.falkner@mci.edu](mailto:franz-josef.falkner@mci.edu) und/oder [lukas.moschen@gmail.com](mailto:lukas.moschen@gmail.com) sind wir sehr dankbar.
+:::
+
+::: {.content-visible when-profile="en"}
+# Preface {.unnumbered}
+
+::: {.epigraph}
+A good theory is\
+the most practical thing there is.
+
+[Gustav Robert Kirchhoff, 1824–1887]{.quelle}
+:::
+
+The present version of these lecture notes still contains several typographical errors.
+We are very grateful for any hints sent to [franz-josef.falkner@mci.edu](mailto:franz-josef.falkner@mci.edu) and/or [lukas.moschen@gmail.com](mailto:lukas.moschen@gmail.com).
+:::

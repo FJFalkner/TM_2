@@ -1,0 +1,316 @@
+%!TEX root = ../TM3.tex
+
+\documentclass[
+	% pdftex,
+	paper=a4,
+    numbers=noendperiod,
+	% footsepline,
+	% headsepline,1
+	% oneside,
+	twoside,
+	open=right, 
+	% twocolumn=true,
+	BCOR=5mm,
+	% DIV=16,
+	headinclude=true,
+	footinclude=false,
+	% headings=optiontohead,
+	headings=optiontotoc,
+	% headings=optiontoheadandtoc,
+	% headlines = 1.25,
+	% headheight=10mm,
+	% footlines = 1.25,
+	% footheight=10mm,
+	pagesize,
+	% draft=true3
+	cleardoublepage=empty,
+	% titlepage=true,
+	titlepage=firstiscover,
+	% abstract=true,
+	% toc=bibnumbered,
+	% toc=listofnumbered,
+	chapterprefix=true,
+	appendixprefix=true,
+	% 11pt,
+	ngerman,
+	% scrheadings,
+	% listof=totoc,
+  	% bibliography=totoc,
+	]{scrbook}
+% \areaset[5mm]{160mm}{260mm}
+% \setlength{\marginparwidth}{1.0\marginparwidth}
+\usepackage[onehalfspacing]{setspace}
+% \usepackage[doublespacing]{setspace}
+\KOMAoptions{DIV=last}
+
+\usepackage[
+	% hidelinks,
+	colorlinks=false,
+	linkcolor=blueLink,
+	% urlcolor=blueLink,
+	% citecolor = black,
+	]{hyperref}
+\hypersetup{
+  pdftitle    = {Technische Mechanik 3},
+  pdfsubject  = {Grundlagen der Kinematik und Kinetik},
+  pdfauthor   = {Lukas Moschen},
+  % pdfkeywords = {Stichwort1, Stichwort2 ...} ,
+  % pdfcreator  = {Mit welcher Anwendung i.d.R. pdflatex},
+  % pdfproducer = {LaTeX with hyperref}
+}
+
+%header and footer
+\usepackage{scrlayer-scrpage}
+ %  \renewcommand*{\chaptermarkformat}{%
+ %    \thechapter\autodot\enskip%
+ %  }
+	% \automark[chapter]{section}
+	% \pagestyle{scrheadings}
+	% % \clearscrheadfoot
+	% \ihead[]{\headmark}
+	% \chead[]{}
+	% \ohead[]{}
+	% \ifoot[]{}
+	% \cfoot[\pagemark]{\pagemark}
+	% \ofoot[]{}
+
+\newcommand{\MONTH}{%
+  \ifcase\the\month
+  \or Januar% 1
+  \or Februar% 2
+  \or März% 3
+  \or April% 4
+  \or Mai% 5
+  \or Juni% 6
+  \or Juli% 7
+  \or August% 8
+  \or September% 9
+  \or Oktober% 10
+  \or November% 11
+  \or Dezember% 12
+  \fi}
+
+\usepackage[
+	% subpreambles=true
+]{standalone}
+
+
+\usepackage[
+			hyperref=true,
+            url=false,
+            isbn=false,
+            doi=false,
+            % backref=true,
+            style=authoryear,
+            % citereset=section,
+            maxcitenames=2,
+            maxbibnames=100,
+            backend=bibtex,
+            % defernumbers=true,
+            bibencoding=utf8,
+            % block=none,
+            autolang = other,
+            natbib = true,
+            uniquename=init,
+            giveninits = true,
+            ]{biblatex}
+% \DeclareNameAlias{sortname}{first-last}
+% \renewcommand*{\bibfont}{\small}
+\addbibresource{chapters/bibliography.bib}
+
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel}
+\usepackage{csquotes}
+\usepackage{lmodern}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\graphicspath{{D:/SynologyDrive/Work/Teaching/MCI/Mechatronik_BB_TM3/2020WS/06_figures/sketches/}}
+\usepackage{tikz}
+\usepackage{pgf}
+\usepackage[shortlabels]{enumitem} 
+\usepackage[notref,final]{showkeys}
+\usepackage{placeins}
+\usepackage{supertabular}
+\usepackage{transparent}
+\usepackage{epigraph}
+\usepackage{mathtools}
+\usepackage{amsmath,amsfonts,amssymb}
+% \usepackage{amsthm}
+\usepackage{commath}
+\usepackage{bm}
+\usepackage{bbm}
+\usepackage[d]{esvect}
+\usepackage{siunitx}
+	\sisetup{
+	locale = DE,
+	per-mode = symbol,
+	output-decimal-marker = {,},
+	round-mode=places,
+	round-precision=2,
+	% round-integer-to-decimal,
+	}
+% \mathtoolsset{showonlyrefs} 
+% \usepackage{relsize}
+\usepackage{microtype}
+% \usepackage[hang]{footmisc}
+% \renewcommand{\footnotemargin}{1em}
+\interfootnotelinepenalty=10000
+% \usepackage{booktabs}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.16}
+\usepgfplotslibrary{external}
+% \usetikzlibrary{external}
+%   % \tikzset{external/export=false}
+	  % \tikzset{external/up to date check=simple}
+	% \tikzset{external/force remake = true}
+	\tikzset{external/figure name=Fig_}
+	\tikzexternalize[prefix=figures/]
+\usepackage{pgfplotstable}
+\usepgfplotslibrary{groupplots}
+\usepackage{empheq}
+\usepackage{pgfpages}
+\usepackage{xparse}
+\usepackage{units}
+\usepackage[figuresright]{rotating}
+\usepackage{adjustbox}
+\usepackage{pifont}
+\usepackage{cancel}
+\usepackage{datetime}
+\usepackage{ifthen}
+\newcommand{\sw}{0}
+\usepackage{nth}
+
+% DEFINE COLORS:
+\ifthenelse{\equal{\sw}{0}}
+{
+	\definecolor{myBlue}{RGB}{0,73,131}
+	\definecolor{myOrange}{RGB}{244,155,0}
+	\definecolor{myGreen}{RGB}{128,128,0}
+	\definecolor{myRed}{RGB}{170,0,0}
+	\definecolor{blueLink}{RGB}{0,73,131}
+	\colorlet{lightBlue}{myBlue!50}
+}
+{
+	\definecolor{myBlue}{RGB}{85,85,85}
+	\definecolor{myOrange}{RGB}{198,198,198}
+	\definecolor{myGreen}{RGB}{55,55,55}
+	\definecolor{myRed}{RGB}{33,33,33}
+	\definecolor{blueLink}{RGB}{0,0,0}
+	\colorlet{lightBlue}{myBlue!50}
+}
+
+% % FORMAT CAPTIONS:
+% \usepackage[labelfont={color=blueLink,bf},format=hang]{caption}
+% \captionsetup[figure]{name=Abb.}
+% \captionsetup[table]{name=Tab.}
+
+
+% % PARAGRAPH INDENT AND SKIP:
+% \setlength{\parindent}{0mm}
+% \setlength{\parskip}{3mm}
+% \setlength{\fboxsep}{2mm} % margin box in math!
+
+% RE-NEW COMMANDS
+\let\oldsin\sin
+\let\oldcos\cos
+\let\oldtan\tan
+\let\oldcot\cot
+\let\oldarcsin\arcsin
+\let\oldarccos\arccos
+\let\oldarctan\arctan
+\DeclareMathOperator{\arccot}{arccot}
+\let\oldarccot\arccot
+\let\oldRe\Re
+\let\oldIm\Im
+\let\oldmax\max
+\let\oldmin\min
+\renewcommand{\sin}[1]{\oldsin\left(#1\right)}
+\renewcommand{\cos}[1]{\oldcos\left(#1\right)}
+\renewcommand{\tan}[1]{\oldtan\left(#1\right)}
+\renewcommand{\cot}[1]{\oldcot\left(#1\right)}
+\renewcommand{\arcsin}[1]{\oldarcsin\left(#1\right)}
+\renewcommand{\arccos}[1]{\oldarccos\left(#1\right)}
+\renewcommand{\arctan}[1]{\oldarctan\left(#1\right)}
+\renewcommand{\arccot}[1]{\oldarccot\left(#1\right)}
+\renewcommand{\Re}[1]{\oldRe\left(#1\right)}
+\renewcommand{\Im}[1]{\oldIm\left(#1\right)}
+\renewcommand{\max}[1]{\oldmax\left(#1\right)}
+\renewcommand{\min}[1]{\oldmin\left(#1\right)}
+
+% NEW COMMANDS:
+\newcommand{\prsn}[1]{\textsc{#1}}
+\newcommand{\mtrx}[1]{\bm{\MakeUppercase{#1}}}
+\newcommand{\vctr}[1]{\vv{{#1}}}
+\newcommand{\uvctr}{\vv{{e}}}
+\newcommand{\euler}{\mathrm{e}}
+\newcommand{\imag}{\mathbbm{i}}
+% \newcommand{\vctr}[1]{\vv{\bm{#1}}}
+% \newcommand{\uvctr}{\vv{\bm{e}}}
+% \newcommand{\bs}[1]{\boldsymbol{#1}}
+% \newcommand{\dtq}{\dot{q}}
+% \newcommand{\dr}{\dot{\bs{r}}}
+% \newcommand{\pa}{\partial}
+% \newcommand{\vp}{\varphi}
+% \newcommand{\ve}{\varepsilon}
+% \newcommand{\dtp}{\dot{\varphi}}
+% \newcommand{\ddtp}{\ddot{\varphi}}
+% \newcommand{\myfrac}[2]{\frac{\displaystyle #1}{\displaystyle #2}}
+% \newcommand{\ol}[1]{\overline{#1}}
+% \newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+% 		\node[shape=circle,draw,inner sep=1.8pt] (char) {#1};}}
+% \newcommand{\pnr}{\underset{+}{\mathlarger{\mathlarger{\rightarrow}}}}
+% \newcommand{\pnl}{\underset{+}{\mathlarger{\mathlarger{\leftarrow}}}}
+% \newcommand{\pqo}{\underset{+}{\mathlarger{\mathlarger{\uparrow}}}}
+% \newcommand{\pqu}{\underset{+}{\mathlarger{\mathlarger{\downarrow}}}}
+% \newcommand{\pmr}{\underset{+}{\mathlarger{\mathlarger{\rotatebox[origin=c]{90}{$\curvearrowleft$}}}}}
+% \newcommand{\pml}{\underset{+}{\mathlarger{\mathlarger{\rotatebox[origin=c]{90}{$\curvearrowright$}}}}}
+% \newcommand{\cmark}{\ding{51}}%
+% \newcommand{\xmark}{\ding{55}}%
+% \newcommand{\myBox}[1]{\fcolorbox{myBlue}{white}{#1}}
+% % underline math mode:
+% \newsavebox\MBox
+% \newcommand\Cline[2][red]{{\sbox\MBox{$#2$}%
+% 		\rlap{\usebox\MBox}\color{#1}\rule[-1.2\dp\MBox]{\wd\MBox}{0.5pt}}}
+
+% \usepackage{framed}
+% \renewenvironment{leftbar}[1][\hsize]
+% {% 
+% 	\def\FrameCommand 
+% 	{%	
+% 		{\color{lightBlue}\vrule width 2pt}%
+% 		\hspace{4pt}
+% 		%\fboxsep=\FrameSep\colorbox{lightgray}%
+% 	}%
+% 	\MakeFramed{\hsize#1\advance\hsize-\width\FrameRestore}%
+% }
+% {\endMakeFramed}
+% \newcounter{example}[chapter]
+% \newcounter{prevequation}
+% \NewDocumentEnvironment {example} {}
+% {%
+% 	\refstepcounter{example}%
+% 	\setcounter{prevequation}{\value{equation}}%
+% 	\setcounter{equation}{0}%
+% 	\def\theequation{\alph{equation}}%
+% 	\def\theHequation{\thechapter.\theexample.\alph{equation}}%
+% 	\leftbar
+% 	\textcolor{blueLink}{\textbf{Beispiel \thechapter.\theexample}}\\[1mm]\nopagebreak\ignorespaces
+% }
+% {%
+% 	\endleftbar
+% 	\setcounter{equation}{\value{prevequation}}%
+% 	\ignorespacesafterend
+% }
+
+\usepackage[noabbrev]{cleveref}
+
+\let\oldFootnote\footnote
+\newcommand\nextToken\relax
+
+\renewcommand\footnote[1]{%
+    \oldFootnote{#1}\futurelet\nextToken\isFootnote}
+
+\newcommand\isFootnote{%
+    \ifx\footnote\nextToken\textsuperscript{,}\fi}

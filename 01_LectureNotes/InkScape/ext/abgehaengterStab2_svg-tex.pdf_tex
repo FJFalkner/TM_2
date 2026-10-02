@@ -1,0 +1,82 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'abgehaengterStab2_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{353.72885758bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.36862616)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{abgehaengterStab2_svg-tex.pdf}}%
+    \put(0.10593811,0.12373071){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
+    \put(0.23602573,0.12373071){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$2$\end{tabular}}}}%
+    \put(0.36611336,0.12279578){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$3$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{abgehaengterStab2_svg-tex.pdf}}%
+    \put(0.71763586,0.02337003){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0.84414761,0.02161825){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{abgehaengterStab2_svg-tex.pdf}}%
+    \put(0.61820211,0.04082089){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$a/2$\end{tabular}}}}%
+    \put(0.04407528,0.10483258){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$A$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{abgehaengterStab2_svg-tex.pdf}}%
+    \put(0.2301453,0.01925112){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}Schnitt\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{abgehaengterStab2_svg-tex.pdf}}%
+    \put(0.6508637,0.12373078){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
+    \put(0.78095132,0.12373078){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$2$\end{tabular}}}}%
+    \put(0.91103895,0.12279585){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$3$\end{tabular}}}}%
+    \put(0.58900088,0.10483265){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$A$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{abgehaengterStab2_svg-tex.pdf}}%
+    \put(0.66151998,0.23286112){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$N_1$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{abgehaengterStab2_svg-tex.pdf}}%
+    \put(0.78973781,0.23426356){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$N_2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{abgehaengterStab2_svg-tex.pdf}}%
+    \put(0.91795556,0.23145872){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$N_3$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{abgehaengterStab2_svg-tex.pdf}}%
+    \put(0.53515946,0.10464333){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$A_H$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

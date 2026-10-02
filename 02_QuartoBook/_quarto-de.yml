@@ -1,0 +1,28 @@
+project:
+  output-dir: _book
+
+lang: de
+
+book:
+  title: "Technische Mechanik 2"
+  subtitle: "Vorlesungsunterlagen"
+  date-format: "MMMM YYYY"
+  chapters:
+    - index.qmd
+    - 01-zugstab.qmd
+    - 02-balkenbiegung.qmd
+    - 03-stabknickung.qmd
+    - 04-schub.qmd
+    - 05-scheibe.qmd
+    - references.qmd
+
+crossref:
+  fig-prefix: Abb.
+  tbl-prefix: Tab.
+  eq-prefix: Gl.
+  exm-title: Beispiel
+  exm-prefix: Beispiel
+
+format:
+  html:
+    toc-title: "Inhalt"

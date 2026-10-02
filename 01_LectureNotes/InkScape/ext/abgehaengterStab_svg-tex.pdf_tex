@@ -1,0 +1,74 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'abgehaengterStab_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{216.39392033bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.60304396)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{abgehaengterStab_svg-tex.pdf}}%
+    \put(0.89387866,0.34258101){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$l$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{abgehaengterStab_svg-tex.pdf}}%
+    \put(0.39214548,0.03820187){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0.59894821,0.03533833){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$a$\end{tabular}}}}%
+    \put(0.29257776,0.44376085){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$EA_1$\end{tabular}}}}%
+    \put(0.50059779,0.44511071){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$EA_1$\end{tabular}}}}%
+    \put(0.70847944,0.44916036){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$EA_2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{abgehaengterStab_svg-tex.pdf}}%
+    \put(0.21877826,0.32871741){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{r}$\Delta T$\end{tabular}}}}%
+    \put(0.28774733,0.23045227){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$1$\end{tabular}}}}%
+    \put(0.50039539,0.23045227){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$2$\end{tabular}}}}%
+    \put(0.71304344,0.22892398){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$3$\end{tabular}}}}%
+    \put(0.74476885,0.07692734){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}starre Platte\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{abgehaengterStab_svg-tex.pdf}}%
+    \put(0.22960584,0.06672798){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$a/2$\end{tabular}}}}%
+    \put(0.1727595,0.17183313){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{l}$A$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

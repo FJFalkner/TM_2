@@ -1,0 +1,37 @@
+<!-- Sprachumschalter DE/EN: wird per JS in die Seitenleiste eingefügt -->
+<template id="lang-switch-tpl">
+  <div class="lang-switch" role="group" aria-label="Language / Sprache">
+    <a id="lang-de" lang="de" title="Deutsch" href="#">
+      <svg viewBox="0 0 5 3" width="20" height="12" aria-hidden="true"><rect width="5" height="1" y="0" fill="#000"/><rect width="5" height="1" y="1" fill="#D00"/><rect width="5" height="1" y="2" fill="#FFCE00"/></svg>
+      Deutsch
+    </a>
+    <a id="lang-en" lang="en" title="English" href="#">
+      <svg viewBox="0 0 60 30" width="20" height="12" aria-hidden="true"><clipPath id="lsS"><path d="M0,0 v30 h60 v-30 z"/></clipPath><clipPath id="lsT"><path d="M30,15 h30 v15 z v15 h-30 z h-30 v-15 z v-15 h30 z"/></clipPath><g clip-path="url(#lsS)"><path d="M0,0 v30 h60 v-30 z" fill="#012169"/><path d="M0,0 L60,30 M60,0 L0,30" stroke="#fff" stroke-width="6"/><path d="M0,0 L60,30 M60,0 L0,30" clip-path="url(#lsT)" stroke="#C8102E" stroke-width="4"/><path d="M30,0 v30 M0,15 h60" stroke="#fff" stroke-width="10"/><path d="M30,0 v30 M0,15 h60" stroke="#C8102E" stroke-width="6"/></g></svg>
+      English
+    </a>
+  </div>
+</template>
+<script>
+(function () {
+  // Seiten: de = <name>.html (Wurzel), en = en/<name>-en.html
+  var path = location.pathname;
+  var isEn = /\/en\/([^\/]*)$/.test(path) || /\/en\/?$/.test(path);
+  var file = path.substring(path.lastIndexOf("/") + 1) || "index.html";
+  var base = file.replace(/\.html$/, "").replace(/-en$/, "");
+  // Startseite heißt in beiden Sprachen index.html, Kapitel tragen in EN das Suffix -en
+  var deFile = base + ".html";
+  var enFile = base === "index" ? "index.html" : base + "-en.html";
+  var deHref = (isEn ? "../" : "") + deFile;
+  var enHref = (isEn ? "" : "en/") + enFile;
+
+  var node = document.getElementById("lang-switch-tpl").content.cloneNode(true);
+  var de = node.getElementById("lang-de"), en = node.getElementById("lang-en");
+  de.href = deHref + location.hash;
+  en.href = enHref + location.hash;
+  (isEn ? en : de).classList.add("active");
+
+  var host = document.querySelector("#quarto-sidebar .sidebar-header");
+  if (host) host.appendChild(node);
+  else { var wrap = document.createElement("div"); wrap.className = "lang-switch-floating"; wrap.appendChild(node); document.body.appendChild(wrap); }
+})();
+</script>

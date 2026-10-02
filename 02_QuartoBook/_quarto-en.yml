@@ -1,0 +1,28 @@
+project:
+  output-dir: _book/en
+
+lang: en
+
+book:
+  title: "Engineering Mechanics 2"
+  subtitle: "Lecture Notes"
+  date-format: "MMMM YYYY"
+  chapters:
+    - index.qmd
+    - 01-zugstab-en.qmd
+    - 02-balkenbiegung-en.qmd
+    - 03-stabknickung-en.qmd
+    - 04-schub-en.qmd
+    - 05-scheibe-en.qmd
+    - references-en.qmd
+
+crossref:
+  fig-prefix: Fig.
+  tbl-prefix: Tab.
+  eq-prefix: Eq.
+  exm-title: Example
+  exm-prefix: Example
+
+format:
+  html:
+    toc-title: "Contents"

@@ -1,0 +1,23 @@
+%!TEX root = ../TM2.tex
+
+\tikzexternaldisable
+\begin{tikzpicture}[
+	remember picture,
+	overlay,
+	]
+	\node[anchor=center,inner sep=0pt,yshift=-1.5cm] at (current page.center)
+	{\includesvg{deckblatt}};
+	\node[anchor=north west,inner sep=0pt,xshift=-1.6cm,yshift=-1.3cm] at (current page.north west){\includegraphics{pdf/mCi.png}};
+	\node[anchor=west,inner sep=0pt] at (0,-2.5)
+	{\color{blueLink}{\fontsize{32}{5}{\bfseries{Technische Mechanik 2}}}};
+	\node[anchor=east,inner sep=0pt] at (10.7,-1.2)
+	{\fontsize{18}{5}{\mdseries{Vorlesungsunterlagen}}};
+	\node[anchor=west,inner sep=0pt] at (0,-19)
+	{\fontsize{15}{5}{\mdseries{Franz-Josef Falkner}}};
+	\node[anchor=west,inner sep=0pt] at (0,-20)
+	{\fontsize{15}{5}{\mdseries{}}};
+	\node[anchor=west,inner sep=0pt] at (0,-21)
+	{\fontsize{13}{5}{\mdseries{Stand: \monthname~\the\year}}};
+\end{tikzpicture}
+\tikzexternalenable
+%\cleardoublepage

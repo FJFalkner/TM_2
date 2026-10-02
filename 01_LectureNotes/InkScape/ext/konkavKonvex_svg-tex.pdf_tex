@@ -1,0 +1,72 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'konkavKonvex_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{275.7392693bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.42362849)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{konkavKonvex_svg-tex.pdf}}%
+    \put(0.97185478,0.23168154){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$x$\end{tabular}}}}%
+    \put(0.09481082,0.06456651){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{r}$z,w$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{konkavKonvex_svg-tex.pdf}}%
+    \put(0.3580248,0.09416565){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$M_y>0\rightarrow w''<0$\end{tabular}}}}%
+    \put(0.77063028,0.30313753){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$M_y<0\rightarrow w''>0$\end{tabular}}}}%
+    \put(0.35611277,0.03930771){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}negative Krümmung\end{tabular}}}}%
+    \put(0.77244279,0.35783822){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}positive Krümmung\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{konkavKonvex_svg-tex.pdf}}%
+    \put(0.11128075,0.26395274){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}+\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{konkavKonvex_svg-tex.pdf}}%
+    \put(0.35794617,0.27488978){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$w(x)$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{konkavKonvex_svg-tex.pdf}}%
+    \put(0.76882618,0.1176246){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{16.66666603}\smash{\begin{tabular}[t]{c}$w(x)$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{konkavKonvex_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%

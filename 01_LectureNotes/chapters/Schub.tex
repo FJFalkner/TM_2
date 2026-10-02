@@ -1,0 +1,598 @@
+%!TEX root = ../TM2.tex
+
+\chapter{Schubspannungen im Stabquerschnitt}
+
+\section{Querkraft}
+
+In den vorherigen Kapiteln wurde die Normalspannung zufolge einer Normalkraft und eines Biegemomentes im Stabquerschnitt diskutiert.
+Der Verlauf der Normalspannung bei reiner Momentenbeanspruchung ist für eine T-Querschnitt in Abb.~\ref{fig:4-1}(a) dargestellt.
+Wirkt nun an dieser Stelle des Stabes auch eine Querkraft, werden dadurch auch \emph{Schubspannungen} im Querschnitt hervor gerufen (vgl. Abb.~\ref{fig:4-1}(b)).
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{StabSchub}
+	\caption{Spannungen im Querschnitt: (a) Normalspannungen zufolge Biegemoment, (b) Schubspannungen zufolge Querkraft}
+	\label{fig:4-1}
+\end{figure}
+%
+
+Bei der Berechnung dieser Schubspannungen zufolge Querkraft beschränken wir uns hier auf \emph{dünnwandige, offene} Querschnitte.
+Dünnwandig bedeutet, dass die Dicke $t$ der Bleche, aus denen sich der Querschnitt zusammensetzt, \emph{klein} gegenüber den äußeren Querschnittsabmessungen ist, d.h. $t\ll b$.
+Die Mittellinie der Bleche, die in Abb.~\ref{fig:4-1}(b) als strichpunktierte Linie eingetragen ist, wird als Skelettlinie bezeichnet.
+Ist diese Skelettlinie \emph{keine} geschlossene Kurve, dann handelt es sich um einen \emph{offenen} Querschnitt.
+Viele bekannte Querschnitte aus dem Stahlbau fallen in diese Kategorie, nicht jedoch quadratische oder kreisförmige Hohlprofile.
+
+Für einen dünnwandigen, offenen Querschnitt kann über den Verlauf und die Verteilung der Schubspannung folgende Annahmen getroffen werden:
+%
+\begin{itemize}
+	\item Aufgrund der kleinen Blechdicke $t$ kann sich die Schubspannung nur in Richtung der Skelettlinie ausbilden
+	\item Die Schubspannung ist \emph{konstant} über die Blechdicke $t$ 
+\end{itemize}
+%
+Diese Eigenschaften von $\tau$ sind in Abb.~\ref{fig:4-1}(b) dargestellt.
+
+Doch in welchen Schnittflächen wirkt jetzt diese Schubspannung?
+Dazu schneiden wir ein infinitesimale Element aus dem Stab heraus, welches in Abb.~\ref{fig:4-1}(b) punktiert dargestellt ist.
+Zunächst tragen wir die wirkende Normalspannung und die an der vorderen Schnittfläche wirkende Schubspannung ein (rAbb.~\ref{fig:4-2}(a)).
+Da es sich bei dieser Fläche um das positive Schnittufer handelt, tragen wir $\tau$ in die positive $z$ Richtung ein.
+Gleiches gilt für $\sigma$.
+An diesem Element muss \emph{Gleichgewicht} herrschen!
+Unter diesem Spannungszustand ist aber weder das vertikale Kräftegleichgewicht noch das Momentengleichgewicht erfüllt.  
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{SatzSchub}
+	\caption{Satz der zugeordneten Schubspannungen}
+	\label{fig:4-2}
+\end{figure}
+%
+Zur Erfüllung des vertikalen Kräftegleichgewichtes muss an der gegenüberliegender Schnittfläche die gleich große Schubspannung nach oben wirken (Abb.~\ref{fig:4-2}(b)).
+Das Momentengleichgewicht ist aber nach wie vor nicht erfüllt.
+Dafür muss in der oberen und unteren Schnittfläche eine Schubspannung wirken.
+Wirkt diese wie in Abb.~\ref{fig:4-2}(c) dargestellten Richtung, dann sind alle drei Gleichgewichtsbedingungen erfüllt.
+Aus dieser Betrachtung erkennt man, dass in allen vier Schnittflächen die \emph{gleich} große Schubspannung wirken muss, in den Richtungen nach Abb.~\ref{fig:4-2}(c).
+Diese wichtige Eigenschaft von $\tau$ wir als Satz der zugeordneten Schubspannungen bezeichnet. 
+
+Die Größe der Schubspannung unter Querkraftbeanspruchung an einer beliebigen Stelle $s$ an der Skelettlinie lässt sich mit folgender Beziehung berechnen:
+%
+\begin{empheq}[innerbox=\myBox,right=\;.]{equation}
+\tau(s) = -\dfrac{Q}{I_y}\dfrac{S_y(s)}{t}
+\label{eq:4-1}
+\end{empheq}
+%
+Darin ist $Q$ die an der Stelle $x$ wirkende Querkraft und $I_y$ das Flächenträgheitsmoment des Querschnittes um die $y$ Achse.
+Bei den hier betrachteten Beispielen, gehen wir von einer gleichbleibenden Blechdicke $t$ aus.
+Mit der Koordinate $s$ wird ein Punkt auf der Skelettlinie beschrieben.
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{BerechnungSchubQ}
+	\caption{Definition der Parameter zur Berechnung der Schubspannung}
+	\label{fig:4-3}
+\end{figure}
+%
+$S_y$ ist das statische Moment der abgetrennten Teilfläche des Querschnitts.
+Will man beispielsweise im Punkt 1 des I-Querschnittes in Abb.~\ref{fig:4-3} die Schubspannung berechnen, dann ist in \eqref{eq:4-1} für $S_y$ das statische Moment der orangen Teilfläche um die $y$ Achse einzusetzen.
+Für $\tau$ im Punkt 2 muss $S_y$ von der blauen Teilfläche in \eqref{eq:4-1} eingesetzt werden.
+Daraus erkennt man deutlich, dass das statische Moment sich entlang der Skelettlinie ändert und dadurch auch die Schubspannung veränderlich, d.h. $\tau$ ist eine Funktion von $s$.
+Mit der Beziehung \eqref{eq:4-1} kann die Schubspannung in den Kreuzungspunkten der Bleche nicht berechnet werden (ausgekreuzte Flächen in Abb.~\ref{fig:4-3}).
+
+\begin{example}
+	Ein Träger soll aus zwei Holzteilen verleimt werden. Welche Spannung muss die Leimfuge übertragen?
+	Wo ist die Beanspruchung am größten?
+	%
+	\begin{center}
+		\includesvg{BeispielSchubQ}
+	\end{center}
+	%
+	
+	Zur Berechnung der Schubspannungen müssen zuerst die Querschnittskennwerte ermittelt werden.
+	Die Querschnittsfläche ergibt sich zu
+	\[
+	A = 20\cdot 6\cdot 2 = 240\,\unit{cm^2} \; .
+	\]
+	Der Schwerpunkt liegt auf der Symmetrieachse des Querschnittes.
+	Zur Bestimmung seiner vertikalen Position wird das statische Moment um die $\overline{y}$--Achse am oberen Rand berechnet (siehe nachfolgende Skizze):
+	\[
+	S_{\overline{y}} = 20\cdot 6\cdot 3 + 20\cdot 6\cdot 16 = 2280\,\unit{cm^3}\;.
+	\]
+	Der vertikale Abstand des Schwerpunktes vom oberen Rand ergibt sich damit zu
+	\[
+	\overline{z}_S = \dfrac{S_{\overline{y}}}{A}=\dfrac{2280}{240} = 9.5\,\unit{cm}\;.
+	\]
+	%
+	\begin{center}
+		\includesvg{BeispielSchubQ1}
+	\end{center}
+	%
+	Das Flächenträgheitsmoment um die $y$--Achse berechnet sich zu
+	\[
+	I_y = \dfrac{20\cdot 6^3}{12}+20\cdot 6 \cdot(9.5-3)^2 + \dfrac{6\cdot 20^3}{12}+20\cdot 6\cdot(6+10-9.5)^2=14500\,\unit{cm^4} \; .
+	\]
+	%
+	Zur Berechnung der Schubspannung an der Stelle der Leimfuge schneiden wir den Querschnitt genau dort auseinander und betrachten den oberen Teil.
+	Das statische Moment dieser Teilfläche um die $y$--Achse ist gleich
+	\[
+	S_y = 20\cdot 6\cdot (-6.5) = -780\,\unit{cm^3}
+	\]
+	%
+	\begin{center}
+		\includesvg{BeispielSchubQ2}
+	\end{center}
+	%
+	Die größte Querkraft im Stab tritt an den Auflager auf und ist gleich $Q=10\cdot 4/2 = 20\,\unit{kN}$.
+	Damit ergibt sich die Schubspannung in der Leimfuge an den Auflagern mit \eqref{eq:4-1} zu
+	%
+	\[
+	\tau = -\dfrac{Q}{I_y}\dfrac{S_y}{t} = -\dfrac{20}{14500}\dfrac{-780}{6}= 0.18\,\unit{kN/cm^2}\; .
+	\]
+	%
+	Aufgrund des Satzes der zugeordneten Schubspannungen wirkt die gleich große Schubspannung in der Leimfuge.
+	%
+	\begin{center}
+		\includesvg{BeispielSchubQ3}
+	\end{center}
+	%
+\end{example}
+
+\begin{example}
+%
+Gegeben ist ein offener Querschnitt mit einer Blechstärke von $2\,$ cm.
+Berechne an den blauen Punkten im Querschnitt die Schubspannung zufolge Querkraft!
+In welche Richtung wirkt die Schubspannung an diesen Punkten?
+%
+\begin{center}
+	\includesvg{BeispielSchubQ4}
+\end{center}
+%	
+
+\textit{Lösung:}
+\begin{itemize}
+	\item Flächenträgheitsmoment: $I_y = 628.4\,\unit{cm^4}$
+	\item Schubspannungen: $\tau_1 = \tau_4 = \tau_7 = 0\,,\;  \tau_2 = \tau_6 = 0.71\,\unit{kN/cm^2}\,,\; \tau_3=\tau_5=0.57\,\unit{kN/cm^2}$
+\end{itemize}
+\end{example}
+
+
+
+\section{Torsion der runden Welle}
+
+Mit Torsion wird die Beanspruchung eines Stabes durch ein Moment um seine Stabachse bezeichnet.
+Im Vergleich zu anderen Stabquerschnitten nimmt die runde Welle (kreisförmiger Querschnitt) eine besondere Stellung bei der Berechnung der auftretenden Spannungen und Verformungen ein.
+Daher betrachten wir in diesem Abschnitt eine solche Welle, die durch ein konstantes Torsionsmoment $M_t$ entlang der Länge beansprucht wird.
+
+Die in Abb.~\ref{fig:4-4} dargestellte runde Welle, mit Radius $R$ und Länge $l$, wird an einem Ende durch ein Torsionsmoment $M_t$ beansprucht und am anderen Ende ist die Verdrehung um die $x$--Achse blockiert.
+Zu Beginn beobachten wir die auftretende Verformung der Welle.
+Dazu wird die Verschiebung eines beliebigen Punktes $B$ am Rand der Welle betrachtet. 
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{torsionRW}
+	\caption{Verformung und Spannungszustand an der Oberfläche der Welle}
+	\label{fig:4-4}
+\end{figure}
+%
+Durch das Torsionsmoment kommt es zu einer Verschiebung in Umfangsrichtung (Punkt $\ol{B}$ in Abb.~\ref{fig:4-4}), aber zu \emph{keiner} Verschiebung in Richtung der Stabachse!
+Für einen Kreisquerschnitt, und nur für diesen, trifft dies für alle Punkte des Kreisquerschnittes zu.
+Der Querschnitt bleibt damit bei Torsionsbeanspruchung \emph{eben}!
+Die Drehung vom Punkt $B$ in $\ol{B}$ wird mit dem Winkel $\theta$ gemessen, der (bei einem konstanten Torsionsmoment) linear zwischen den Punkten $A$ und $B$ anwächst.
+
+Zur Beschreibung der Verformung der Welle, wird am Ende eine dünne Kreisscheibe herunter geschnitten und die Verschiebung in Umfangsrichtung betrachtet.
+Der Punkt $B$ erfährt eine Verschiebung von der Größe $R\theta$.
+Ein quadratisches Element auf der Wellenoberfläche (blaue Fläche in Abb.~\ref{fig:4-4}) wird durch die Torsion zu einer Raute (orange Fläche) verformt.
+Diese Verformung lässt sich mit der Änderung des rechten Winkel beschreiben.
+Diese Winkeländerung wird als \emph{Gleitung} $\gamma$ bezeichnet, und nimmt an der Oberfläche der Welle eine Größe von $R\theta'$ an.
+In Abb.~\ref{fig:4-5}(a) ist die Verschiebung in Umfangsrichtung im Kreisquerschnitt dargestellt.
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{torsionSchubVerteilung}
+	\caption{Runde Welle: (a) Verschiebung in Umfangsrichtung, (b) Schubspannungsverteilung im Querschnitt}
+	\label{fig:4-5}
+\end{figure}
+%
+Diese ist Null im Schwerpunkt und wächst linear mit dem Abstand $r$ an und erreicht den Größtwert an der Oberfläche der Welle.
+Damit wächst auch die Gleitung linear mit $r$
+%
+\begin{equation}
+\gamma = r\theta' \; .
+\label{eq:4-2}
+\end{equation}
+%
+
+Das blaue Flächenelement in Abb.~\ref{fig:4-4} wird durch eine Schubspannung $\tau$ zu einer Raute verformt.
+Wird davon ausgegangen, dass der Winkel $\theta$ klein ist, dann ist die Länge der beiden Kurven $A-B$ und $A-\ol{B}$ in Abb.~\ref{fig:4-4} gleich groß wodurch keine Normalspannungen entstehen.
+Die Verbindung zwischen der Schubspannung und der Gleitung wird durch den \emph{Schubmodul} $G$ angegeben, der ein Materialparameter ist.
+Für die Welle erhält man somit
+%
+\begin{equation}
+\tau(r) = G\gamma = Gr\theta'
+\label{eq:4-3}
+\end{equation}
+%
+Die Schubspannung nimmt somit auch linear mit dem Abstand zum Schwerpunkt zu und erreicht ihren Größtwert an der Oberfläche der Welle, siehe Abb.~\ref{fig:4-5}(b).
+
+Als nächstes gilt es einen Zusammenhang zwischen dem Torsionsmoment und der Schubspannung herzustellen.
+Die Schubspannung $\tau$, welche im Flächenelement $dA$ wirkt, erzeugt ein Moment um den Schwerpunkt von der Größe $r\,\tau dA$.
+Aufsummieren (sprich Integrieren) über den Kreisquerschnitt ergibt zusammen mit \eqref{eq:4-3} das Torsionsmoment: 
+%
+\begin{equation}
+M_t = \int\limits_A r\tau(r)\,dA = \int\limits_0^R\int\limits_0^{2\pi} r\,Gr\theta'\,rd\alpha dr = G\theta'\int\limits_0^R\int\limits_0^{2\pi} r^3\,d\alpha dr = G\theta'\dfrac{\pi R^4}{2} = GI_t \theta'\;.
+\label{eq:4-4}
+\end{equation}
+%
+Dabei ist $I_t$ das \emph{polare Trägheitsmoment} (bzw. Torsionsträgheitsmoment) eines Kreisquerschnittes mit Radius $R$:
+%
+\begin{equation}
+I_t = \dfrac{\pi R^4}{2} \; .
+\label{eq:4-5}
+\end{equation}
+%
+Durch Umformung ergibt sich schließlich zwischen der Verdrehung der Welle und dem Torsionsmoment folgender Zusammenhang:
+%
+\begin{empheq}[innerbox=\myBox,right=\;.]{equation}
+\theta'=\dfrac{M_t}{GI_t}
+\label{eq:4-6}
+\end{empheq}
+%
+Setzt man diesen Ausdruck in \eqref{eq:4-3} ein, dann erhalten wir die Beziehung zur Berechnung der Schubspannung in jedem Punkt des Kreisquerschnittes, wie er in Abb.~\ref{fig:4-5}(b) dargestellt ist:
+%
+\begin{empheq}[innerbox=\myBox,right=\;.]{equation}
+\tau(r) = \dfrac{M_t}{I_t}r
+\label{eq:4-7}
+\end{empheq}
+%
+
+\begin{example}
+%
+Gegeben ist ein Getriebe  aus zwei Vollwellen, die über Zahnräder ($D_1$, $D_2$) miteinander verbunden sind.
+Die Welle $\circled{$2$}$ wird durch das Torsionsmoment $M_t^{(2)}$ belastet.
+Gesucht ist das Torsionsmoment in der Welle $\circled{$1$}$, die maximalen Schubspannungen in der Welle $\circled{$2$}$ und die Verdrehung im Punkt $C$, wenn der Punkt $A$ gehalten wird!
+%
+\begin{center}
+	\includesvg{BspGetriebe1}
+\end{center}
+%
+
+Aus dem Momentengleichgewicht an den Teilsystemen folgt:
+%
+\begin{center}
+	\includesvg{BspGetriebe2}
+\end{center}
+%
+\[ 
+M_t^{(2)}=F\dfrac{D_2}{2} \quad \text{und} \quad M_t^{(1)}=-F\dfrac{D_1}{2} \; .
+\]
+%
+Daraus folgt schließlich
+%
+\[
+\quad M_t^{(1)} = -\dfrac{D_1}{D_2}M_t^{(2)} \; .
+\]
+%
+
+Das polare Trägheitsmoment der Welle $\circled{$2$}$ ist zu
+\[
+I_t^{(2)} = \dfrac{\pi R_2^4}{2} 
+\]
+gegeben und damit die maximalen Schubspannungen in der Welle nach \eqref{eq:4-7} zu
+\[
+\tau = \dfrac{M_t^{(2)}}{I_t}R_2 = \dfrac{2M_t^{(2)}}{\pi R_2^3} \; .
+\]
+
+Wird der Punkt $A$ gehalten, dann ist die Verdrehung im Punkt $B$ der Welle $\circled{1}$ nach \eqref{eq:4-6} gleich
+%
+\[
+\theta_B^{(1)} = \int\limits_0^l\theta'\,dx = \int\limits_0^l\dfrac{M_t^{(1)}}{GI_t^{(1)}}\,dx = \dfrac{M_t^{(1)}l}{GI_t^{(1)}}=-\dfrac{2M_t^{(2)}l}{G\pi R_1^4}\dfrac{D_1}{D_2} \; .
+\]
+% 
+Aus der Abrollbedingung ergibt sich die Verdrehung im Punkt $B$ der Welle $\circled{$2$}$:
+%
+\begin{center}
+	\includesvg{BspGetriebe3}
+\end{center} 
+%
+\[
+-\dfrac{D_1}{2}\theta_B^{(1)} = \dfrac{D_2}{2}\theta_B^{(2)} \; \rightarrow \; \theta_B^{(2)} = -\dfrac{D_1}{D_2}\theta_B^{(1)} \; .
+\]
+%
+Die Verdrehung der Welle im Punkt $C$ ergibt sich damit zu
+%
+\[
+\theta_C=\theta_B^{(2)} + \int\limits_0^l\dfrac{M_t^{(2)}}{GI_t^{(2)}}\,dx = \dfrac{2M_t^{(2)}l}{G\pi R_1^4}\left(\dfrac{D_1}{D_2}\right)^2 + \dfrac{2M_t^{(2)}l}{G\pi R_2^4} =
+\dfrac{2M_tl}{G\pi}\left[\left(\dfrac{D_1}{D_2}\right)^2\dfrac{1}{R_1^4}+\dfrac{1}{R_2^4}\right] \; .
+\]
+%
+Interpretiere das Ergebnis!
+%
+\end{example}
+
+
+
+\section{Torsion am dünnwandigen Querschnitt}
+
+Die Berechnung von Schubspannungen zufolge Torsion in Stäben ist mit einem erhöhten mathematischen Aufwand verbunden.
+Eine Ausnahme bilden dabei dünnwandige Querschnitte. 
+Bei diesen können für die resultierenden Schubspannungen die gleichen Annahmen getroffen werden wie bei der Beanspruchung zufolge Querkraft, d.h. es bilden sich Schubspannungen nur in Richtung der Skelettlinie aus.
+Des Weiteren wird angenommen, dass sich der Stab \emph{frei} in Längsrichtung ($x$-Richtung) verschieben kann und somit \emph{keine} Normalspannung $\sigma$ im Querschnitt entstehen.
+Dieser Fall der sogenannten \textsc{Saint-Venant}'schen Torsion wird im folgenden für dünnwandig geschlossene\footnote{\href{http://www.buschen-stahl.de/stahlrohre.htm}{Geschlossener Querschnitt}\hspace{3mm} Abruf: 20.4.2017} und offene\footnote{\href{http://www.buschen-stahl.de/stahlprofile.htm}{Offener Querschnitte}\hspace{3mm} Abruf: 20.4.2017} Querschnitt betrachtet.  
+ 
+%
+\subsection{Der geschlossene Querschnitt}
+
+Ein allgemeiner geschlossene Querschnitt ist in Abb.~\ref{fig:4-6} dargestellt, der durch ein Torsionsmoment $M_t$ beansprucht wird.
+Die Skelettlinie $\mathcal{C}$ ist eine geschlossene Kurve!
+Durch $M_t$ entstehen im Querschnitt die eingetragenen Schubspannungen, die über die Blechdicke $t$ konstant sind.
+Aus Gleichgewichtsbetrachtungen erhält man, dass sich die Größe der Schubspannungen über die Bogenlänge $s$ der Skelettlinie nicht ändert. 
+Zur Vereinfachung betrachten wir hier nur Querschnitte mit einer konstanten Blechdicke.
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{geschlossenerQS}
+	\caption{Schubspannungen in einem geschlossenen Querschnitt zufolge Torsion}
+	\label{fig:4-6}
+\end{figure}
+%
+
+Nun gilt es einen Zusammenhang zwischen den Schubspannungen und dem Torsionsmoment herzustellen.
+Dazu betrachtet man ein infinitesimales Stück des Querschnittes von der Länge $ds$, welches eine Fläche von $dA=t\,ds$ besitzt.
+Multiplikation dieser Fläche mit der Schubspannung ergibt die darauf wirkende resultierende Kraft.
+Und diese erzeugt ein Moment $dM_t$ um die Schwerachse von der Größe
+%
+\begin{equation}
+dM_t = r_n\,\tau dA =  r_n\,\tau t ds \; .
+\label{eq:4-9}
+\end{equation}
+%
+Dabei ist zu beachten, dass zur Bildung des Momentes der Normalabstand $r_n$ zu verwenden ist, wie er in Abb.~\ref{fig:4-7} eingetragen ist. 
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{geschlossenerQS2}
+	\caption{Geschlossener Querschnitt: (a) Integration der Schubspannungen zum Torsionsmoment, (b) Fläche und Umfang der Skelettlinie}
+	\label{fig:4-7}
+\end{figure}
+%
+Daraus erkennt man aber auch, dass der Ausdruck $r_n\,ds$ gleich der doppelten Fläche des in Abb.~\ref{fig:4-7}(a) eingetragenen orangen Dreiecks $dA_s$ ist.
+Summieren (sprich Integrieren) wir \eqref{eq:4-9} entlang der geschlossenen Skelettlinie ($\rightarrow\oint$) auf, erhalten wir das wirkende Torsionsmoment:
+%
+\begin{equation}
+M_t = \oint\limits_\mathcal{C} dM_t = \oint\limits_\mathcal{C} r_n\,\tau t ds = \tau t \oint\limits_\mathcal{C} r_nds = \tau t \oint\limits_\mathcal{C}2dA_s = \tau t 2A_s \; .
+\label{eq:4-10}
+\end{equation}
+%
+Mit Hilfe von Abb.~\ref{fig:4-7}(a) wird ersichtlich, dass die Integration von $dA_s$ entlang der geschlossenen Skelettlinie $\mathcal{C}$ gleich der von ihr eingeschlossenen Fläche $A_s$ ist (siehe Abb.~\ref{fig:4-7}(b)).
+Umformen von \eqref{eq:4-10} ergibt schließlich den gesuchten Zusammenhang zwischen der Schubspannung um dem Torsionsmoment:
+%
+\begin{empheq}[innerbox=\myBox,right=\;.]{equation}
+\tau = \dfrac{M_t}{2A_s\,t}
+\label{eq:4-11}
+\end{empheq}
+%
+
+In Abb.~\ref{fig:4-8} ist die Verformung eines rechteckigen Hohlprofils bei einer Torsionsbeanspruchung mit blauer Farbe dargestellt.
+Im Gegensatz zur runden Welle kommt es zu einer ungleichförmigen Verschiebung in Längsrichtung ($x$-Richtung)!
+Folglich bleibt der Querschnitt nicht eben sondern \emph{verwölbt} sich. 
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{geschlossenerQSVerwoelbung}
+	\caption{Verwölbung und Verdrehung eines rechteckigen Hohlprofils}
+	\label{fig:4-8}
+\end{figure}
+%
+Des Weiteren kommt es durch $M_t$ wie bei der runden Welle zu einer über die Stablänge veränderlichen Verdrehung des Querschnittes um die $x-$ Achse, die mit dem Winkel $\theta(x)$ gemessen wird.
+In Analogie zur runden Welle wollen wir diese Verdrehung berechnen mit der Beziehung
+%
+\begin{equation}
+\theta' = \dfrac{M_t}{GI_t} \; .
+\label{eq:4-12}
+\end{equation}
+%
+Das Torsionsträgheitsmoment für einen geschlossenen Querschnitt berechnet sich nun allerdings zu 
+%
+\begin{empheq}[innerbox=\myBox,right=\; ,]{equation}
+I_t = \dfrac{4A_s^2t}{U_s}
+\label{eq:4-13}
+\end{empheq}
+%
+worin $U_s$ die Bogenlänge der Skelettlinie ist, siehe Abb.~\ref{fig:4-7}(b). 
+
+\subsection{Der offene Querschnitt}
+
+Zunächst betrachtet wir ein einzelnes Blech, welches durch ein Torsionsmoment beansprucht wird (Abb.~\ref{fig:4-9}).
+Wiederum nehmen wir an, dass sich Schubspannungen nur in Richtung der Skelettlinie ausbilden können.
+Damit aus den Schubspannungen das Torsionsmoment resultiert, wird eine lineare Verteilung von $\tau$ über die Blechdicke $t$ angenommen.
+Für das gegebene Torsionsmoment wirken die Schubspannungen rechts von $z$ nach oben und links davon nach unten.
+Die größten Schubspannungen $\tau_0$ treten an den beiden seitlichen Rändern des Querschnittes auf.
+An einer beliebigen Stelle $y$ ist die Schubspannung damit gleich (vgl. Abb.~\ref{fig:4-9})
+%
+\begin{equation}
+\tau(y) = \tau_0\dfrac{y}{t/2} \; .
+\label{eq:4-14}
+\end{equation}
+%
+Näherungsweise kann das Blech in dünnwandige, geschlossene Querschnitt aufgeteilt werden.
+Einer dieser Querschnitte ist mit oranger Farbe in Abb.~\ref{fig:4-9} dargestellt.
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{offeneQuerschnitt}
+	\caption{Schubspannungen an einem Blech zufolge Torsion}
+	\label{fig:4-9}
+\end{figure}
+%
+Wird der horizontal Übergangsbereich vernachlässigt, erhält man mit \eqref{eq:4-12} die Größe des im orangen Querschnitt wirkenden Torsionsmoments, wobei $A_s$ zu $2yh$ angenommen wird: 
+%
+\begin{equation}
+\tau(y) = \tau_0\dfrac{2y}{t} = \dfrac{dM_t}{2\,A_s\,dy} = \dfrac{dM_t}{2\,2yh\,dy} \;\rightarrow\;dM_t = \dfrac{8\tau_0h}{t}y^2dy \; .
+\label{eq:4-15}
+\end{equation}
+%
+Nun setzen wir den Rechteckquerschnitt aus den einzelnen geschlossenen Querschnitten zusammen und erhalten das Torsionsmoment, d.h. \eqref{eq:4-15} muss über die halbe Blechdicke integriert werden:
+%
+\begin{equation}
+M_t = \int dM_y = \dfrac{8\tau_0h}{t}\int\limits_0^{t/2}y^2\,dy = \dfrac{8\tau_0h}{t}\dfrac{t^3}{24} = \dfrac{\tau_0ht^2}{3} \; .
+\label{eq:4-16}
+\end{equation}
+%
+Damit ist der Zusammenhang zwischen dem Torsionsmoment $M_t$ und der maximalen Schubspannung $\tau_0$ gefunden.
+
+Das Torsionsträgheitsmoment des geschlossenen orangen Querschnittes in Abb.~\ref{fig:4-9} lässt sich mit \eqref{eq:4-13} berechnen zu
+%
+\begin{equation}
+dI_t = \dfrac{4A_s^2dy}{U_s} = \dfrac{4(2yh)^2dy}{2h}=8h\,y^2dy \; .
+\label{eq:4-17}
+\end{equation}
+%
+Wiederum erhält man daraus durch Integration das Torsionsträgheitsmoment eines rechteckigen Bleches:
+%
+\begin{equation}
+I_t = \int dI_t = 8h\int\limits_0^{t/2}y^2\,dy = 8h\dfrac{t^3}{24} = \dfrac{ht^3}{3} \; .
+\label{eq:4-18}
+\end{equation}
+%
+Damit lässt sich der Zusammenhang zwischen $M_t$ und $\tau_0$ nach \eqref{eq:4-16} angeben zu:
+%
+\begin{empheq}[innerbox=\myBox,right=\;.]{equation}
+\tau_0 = \dfrac{M_t}{I_t}t \;
+\label{eq:4-19}
+\end{empheq}
+%
+
+Meist setzt sich ein offener Querschnitten aus $n$ rechteckigen Blechen ($n=3$) zusammen.
+Wird vorausgesetzt, dass die Blechdicke $t$ für alle $n$ Bleche gleich ist, dann ist in diesem Fall das Torsionsträgheitsmoment gleich der Summe der einzelnen Bleche:
+%
+\begin{empheq}[innerbox=\myBox,right=\;.]{equation}
+I_t = \dfrac{t^3}{3}\sum\limits_{i=1}^n h_i
+\label{eq:4-20}
+\end{empheq}
+%
+Beispielsweise setzt sich der in Abb.~\ref{fig:4-10} dargestellte \textsc{I}-Querschnitt aus drei Blechen zusammen.
+Für diesen Querschnitt ist $I_t$ nach \eqref{eq:4-20} dann gleich
+%
+\begin{equation}
+I_t = \dfrac{t^3}{3}\sum\limits_{i=1}^3 h_i=\dfrac{t^3}{3}(h_1+h_2+h_3) \; .
+\label{eq:4-21}
+\end{equation}
+%
+Der Maximalwert der Schubspannung ist dann in allen Blechen gleich groß und kann mit \eqref{eq:4-19} ermittelt werden. 
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{offeneQuerschnittZusammen}
+	\caption{Aus Blechen zusammengesetzter Querschnitt}
+	\label{fig:4-10}
+\end{figure}
+%
+ 
+
+
+\begin{example}
+	Eine starre Platte wird an einen kreisrunden Stab aus Stahl ($G=8076\,\unit{kN/cm^2}$) angeschweißt.
+	An dieser Platte greift ein Kräftepaar an und beansprucht den Stab auf Torsion.
+	Am anderen Ende wird der Stab festgehalten.
+	Zu bestimmen ist die Vertikalverschiebung an den Angriffspunkten der Kräfte für die nachfolgenden drei kreisrunden Querschnitte!
+	Alle Querschnitte haben den gleichen Außenradius.
+	Welcher der drei Querschnitt ist der Effizienteste, d.h. bei welchem ist das Verhältnis von Materialeinsatz zu Verschiebung am günstigsten?
+	%
+	\begin{center}
+		\includesvg{BeispielTorsion}
+	\end{center}
+	%
+	
+	%
+	\begin{center}
+		\includesvg{BeispielTorsion1}
+	\end{center}
+	%
+	
+	Das Kräftepaar erzeugt ein Torsionsmoment im Stab von 
+	\[
+	M_t = 4\cdot 10 = 40\,\unit{kNcm} \; .
+	\]
+	Alle anderen Schnittgrößen sind Null.
+	
+	
+	Zur Bestimmung der Vertikalverschiebung an den Angriffspunkten der Kräfte benötigen wir zuerst die Verdrehung des Stabes.
+	Dazu integrieren wir \eqref{eq:4-5} und erhalten für die Verdrehung am Ende des Stabes 
+	\[
+	\theta = \int\limits_0^l\theta'\,dx = \int\limits_0^l\dfrac{M_t}{GI_t}\,dx = \dfrac{M_t}{GI_t}l = \dfrac{40\cdot 100}{8076}\dfrac{1}{I_t} = 0.4953\dfrac{1}{I_t} \; .
+	\]
+	%
+	Nun gilt es noch das Torsionsträgheitsmoment der einzelnen Querschnitte zu bestimmen.
+	% 
+	\begin{itemize}
+		\item Querschnitt $\circled{1}$ : Runde Welle nach \eqref{eq:4-5}
+		\[
+		I_t = \dfrac{\pi\cdot 3^4}{2} = 127.2\,\unit{cm^4}
+		\] 
+		\item Querschnitt $\circled{2}$ : Dünnwandiger \emph{geschlossener} Querschnitt nach \eqref{eq:4-13}
+		\[
+		I_t = \dfrac{4\cdot(2.7^2\cdot\pi)^2\cdot 0.6}{2\cdot2.7\cdot\pi} = 74.2\,\unit{cm^4}
+		\]
+		\item Querschnitt $\circled{3}$ : Dünnwandiger \emph{offener} Querschnitt nach \eqref{eq:4-20}
+		\[
+		I_t = \dfrac{0.6^3}{3}\cdot 2\cdot 2.7\cdot\pi = 1.2\,\unit{cm^4}
+		\] 
+	\end{itemize}
+	%
+	Die Stabendverdrehung ergibt sich somit zu
+	%
+	\[
+	\circled{1}\rightarrow\theta = 0.0039\,\unit{rad} = 0.22\,\unit{^o} \quad \circled{2}\rightarrow\theta = 0.0067\,\unit{rad} = 0.38\,\unit{^o} \quad \circled{3}\rightarrow\theta = 0.4128\,\unit{rad} = 23.7\,\unit{^o} \; .
+	\]
+	%
+	Unter der Annahme von kleinen Verdrehungen ($\tan\theta\approx\theta$) ergibt sich die Vertikalverschiebung der Kraftangriffspunkte zu $w=\theta\cdot 10/2$.
+	Für die drei Querschnitte erhält man somit
+	%
+	\[
+	\circled{1}\rightarrow w = 0.02\,\unit{cm} \quad \circled{2}\rightarrow w = 0.03\,\unit{cm} \quad \circled{3}\rightarrow w = 2.06\,\unit{cm} \; .
+	\]
+	%
+	Die kleinste Verschiebung wird erwartungsgemäß mit der runden Welle erreicht.
+	Bei der Hohlwelle (Querschnitt $\circled{2}$) vergrößert sie sich um das 1.5-fache und beim Querschnitt $\circled{3}$ um das 103-fache!
+	
+	Die Vertikalverschiebung hängt primär vom Torsionsträgheitsmoment des Querschnittes ab.
+	Setzen wir dieses in Verhältnis zum Volumen $V$ (=Material) des Stabes erhalten wir
+	%
+	\[
+	\circled{1}\rightarrow V/I_t = 22.2 \quad \circled{2}\rightarrow V/I_t = 13.7\rightarrow\text{min!}  \quad \circled{3}\rightarrow V/I_t = 848.2 \; .
+	\]
+	%
+	Daraus sehen wir, dass  Querschnitt $\circled{2}$ der effizienteste ist, da bei gleichem Materialeinsatz dort die größte Torsionssteifigkeit erzielt wird.
+	Gleichzeitig wird ersichtlich, dass dünnwandige offene Querschnitte nur für sehr kleine Torsionsbeanspruchungen geeignet sind!
+\end{example}
+
+\begin{example}
+	Berechne vom nachfolgenden System die Vertikalverschiebung des Kraftangriffpunktes zufolge Biegung und Torsion (Stahl: $E=21000\,\unit{kN/cm^2}$ und $G=8076\,\unit{kN/cm^2}$)!
+	Welcher Anteil ist größer und warum?
+	%
+	\begin{center}
+		\includesvg{BeispielTorsion2-1}
+	\end{center}
+	%
+	
+	\textit{Lösung:}
+	
+	Biegung: $w_B = 0.13\,\unit{cm}$ \hspace{4mm} Torsion: $w_T = 0.96\,\unit{cm}$ \hspace{4mm} Gesamt: $w = 1.1\,\unit{cm}$  \hspace{4mm} $w_T>w_B!$
+	
+\end{example}
+
+\begin{example}
+	Der nachfolgende Stab wird auf Torsion beansprucht.
+	Gesucht ist der Verlauf der Torsionsmoments entlang des Stabes für $F=10\,\unit{kN}$ und $h=2\,\unit{m}$.
+	Des Weiteren sind die Verdrehungen um die Stabachse im Punkt $A$ und $B$ zu bestimmen für den angegebenen Querschnitt (Stahl: $G=8076\,\unit{kN/cm^2}$).
+	Die Bemaßung bezieht sich auf die Skelettlinie!
+	%
+	\begin{center}
+		\includesvg{BeispielTorsion3-1}
+	\end{center}
+	%
+	
+	\textit{Lösung:}
+	
+	$\theta_A = 0.039\,\unit{rad} = 2.2\,\unit{^o}$ und $\theta_B = 0.019\,\unit{rad} = 1.1\,\unit{^o}$	
+\end{example}
+
+

@@ -1,0 +1,82 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'GlasscheibeMohrscheKreis_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{238.05242359bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.88879621)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{GlasscheibeMohrscheKreis_svg-tex.pdf}}%
+    \put(0.91338404,0.41263961){\color[rgb]{0,0,0}\rotatebox{0.00000103}{\makebox(0,0)[t]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{c}$\sigma$\end{tabular}}}}}%
+    \put(0.60690448,0.79341046){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08333516}\smash{\begin{tabular}[t]{r}$\tau$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{GlasscheibeMohrscheKreis_svg-tex.pdf}}%
+    \put(0.74447809,0.33958908){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{GlasscheibeMohrscheKreis_svg-tex.pdf}}%
+    \put(0.8603974,0.34180319){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$4$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{GlasscheibeMohrscheKreis_svg-tex.pdf}}%
+    \put(0.50118348,0.33486179){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$-2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{GlasscheibeMohrscheKreis_svg-tex.pdf}}%
+    \put(0.25997203,0.33833244){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$-6$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{GlasscheibeMohrscheKreis_svg-tex.pdf}}%
+    \put(0.14023409,0.33659717){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$-8$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{GlasscheibeMohrscheKreis_svg-tex.pdf}}%
+    \put(0.66984248,0.49436528){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$2$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{GlasscheibeMohrscheKreis_svg-tex.pdf}}%
+    \put(0.66984248,0.61410332){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$4$\end{tabular}}}}%
+    \put(0.66947327,0.7323552){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$6$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=9]{GlasscheibeMohrscheKreis_svg-tex.pdf}}%
+    \put(0.62341705,0.33878185){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$0$\end{tabular}}}}%
+    \put(0.61486479,0.42990132){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[rt]{\lineheight{2.08331871}\smash{\begin{tabular}[t]{r}$\lambda\tau_{xy}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=10]{GlasscheibeMohrscheKreis_svg-tex.pdf}}%
+    \put(0.96902311,0.8597027){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$\sigma_1>f_t$\end{tabular}}}}%
+    \put(0.77715484,0.8597027){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$\sigma_1<f_t$\end{tabular}}}}%
+    \put(0.38318072,0.33659717){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$-4$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

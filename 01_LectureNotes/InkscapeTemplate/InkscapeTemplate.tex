@@ -1,0 +1,29 @@
+\documentclass[12pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english,ngerman]{babel}
+
+% INCLUDE INKSCAPE FIGURES:
+\usepackage{svg,svg-extract}
+\svgpath{{InkScape/}}
+\svgsetup{inkscapepath=InkScape/ext/} 	% folder for generated files
+\svgsetup{extract=false}				% set this option to true to extract pdf files for the graphics
+\svgsetup{clean=false} 					% will remove any generated files created other than the extracted output format
+\pdfsuppresswarningpagegroup=1			% suppress pdfTeX warning: pdflatex.exe(file hfilename i.pdf): PDF inclusion:
+% multiple pdfs with page group included in a single page
+
+\svghidepreamblestart
+
+\begin{document}
+
+
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{undampedSDOF}
+	\caption{Einmasseschwinger}
+	\label{fig:3-2}
+\end{figure}
+%
+\end{document}
+

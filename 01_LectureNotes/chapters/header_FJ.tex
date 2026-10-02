@@ -1,0 +1,208 @@
+\documentclass[12pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[english,ngerman]{babel}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{pgf}
+\usepackage{tikz}
+\usepackage[shortlabels]{enumitem} 
+\usepackage[notref,final]{showkeys}
+\usepackage[top=1cm,includehead,left=2.5cm,right=2.5cm,bottom=1cm,includefoot,textheight=10cm,headsep=1.5cm]{geometry}
+\usepackage{placeins}
+\usepackage{supertabular}
+\usepackage{transparent}
+\usepackage{epigraph}
+\usepackage{amsmath}
+\usepackage{mathtools}
+\mathtoolsset{showonlyrefs} 
+\usepackage{relsize}
+\usepackage{microtype}
+\usepackage[hang]{footmisc}
+\renewcommand{\footnotemargin}{1em}
+\usepackage{booktabs}
+\usepackage{pgfplots}
+\usetikzlibrary{external}
+\tikzexternalize[prefix=tikz/ext/]
+\usepackage{pgfplotstable}
+\usepgfplotslibrary{groupplots,patchplots}
+\usepackage{empheq}
+\usepackage{pgfpages}
+\usepackage{xparse}
+\usepackage{units}
+\usepackage[figuresright]{rotating}
+\usepackage{adjustbox}
+\usepackage[minionint,openg,mathlf]{MinionPro}
+\usepackage{pifont}
+\usepackage{cancel}
+\usepackage{datetime}
+\usepackage{ifthen}
+\usepackage{multirow}
+\usepackage[toc]{appendix}
+\usepackage[framed,numbered]{matlab-prettifier}
+
+% greyscale:
+\newcommand{\sw}{0}
+
+% DEFINE COLORS:
+\ifthenelse{\equal{\sw}{0}}
+{
+	\definecolor{myBlue}{RGB}{0,73,131}
+	\definecolor{myOrange}{RGB}{244,155,0}
+	\definecolor{myGreen}{RGB}{128,128,0}
+	\definecolor{myRed}{RGB}{170,0,0}
+	\definecolor{blueLink}{RGB}{0,73,131}
+	\colorlet{lightBlue}{myBlue!50}
+}
+{
+	\definecolor{myBlue}{RGB}{85,85,85}
+	\definecolor{myOrange}{RGB}{198,198,198}
+	\definecolor{myGreen}{RGB}{55,55,55}
+	\definecolor{myRed}{RGB}{33,33,33}
+	\definecolor{blueLink}{RGB}{0,0,0}
+	\colorlet{lightBlue}{myBlue!50}
+}
+
+% FORMAT CAPTIONS:
+\usepackage[labelfont={color=blueLink,bf},format=hang]{caption}
+
+% HEAD AND FOOT:
+\usepackage[pagestyles]{titlesec}
+\newpagestyle{mystyle}{
+	\sethead
+	[\textcolor{blueLink}{\thesection. \sectiontitle}][][\textcolor{blueLink}{\thepage}]
+	{\textcolor{blueLink}{\textbf{\thechapter. \chaptertitle}}}{}{\textcolor{blueLink}{\thepage}}
+	%
+	\setfoot
+	{\footnotesize Departement für Mechatronik}{}{{\footnotesize Technische Mechanik 2}}
+}
+
+\renewpagestyle{plain}{%
+	\sethead
+	[][][\textcolor{blueLink}{\thepage}]
+	{}{}{\textcolor{blueLink}{\thepage}}
+	\setfoot{}{}{}
+}
+
+\titleformat{\chapter}[display]
+{}
+{
+	\tikzexternaldisable
+	\begin{tikzpicture}[remember picture, overlay]
+		\node[anchor=north west,inner sep=0pt,xshift=-1.6cm,yshift=-1.3cm] at (current page.north west){\includegraphics{pdf/mCi.png}};
+		\node[anchor=west,inner sep=0pt] (0,0) {\bfseries\Huge{\chaptername~\thechapter}};
+	\end{tikzpicture}
+	\tikzexternalenable
+}
+{8mm}
+{\bfseries\huge}
+
+% PARAGRAPH INDENT AND SKIP:
+\setlength{\parindent}{0mm}
+\setlength{\parskip}{3mm}
+\setlength{\fboxsep}{2mm} % margin box in math!
+
+% NEW COMMANDS:
+\newcommand{\bs}[1]{\boldsymbol{#1}}
+\newcommand{\dtq}{\dot{q}}
+\newcommand{\dr}{\dot{\bs{r}}}
+\newcommand{\pa}{\partial}
+\newcommand{\myPa}[2]{\dfrac{\partial #1}{\partial #2}}
+\newcommand{\vp}{\varphi}
+\newcommand{\ve}{\varepsilon}
+\newcommand{\dtp}{\dot{\varphi}}
+\newcommand{\ddtp}{\ddot{\varphi}}
+\newcommand{\myfrac}[2]{\frac{\displaystyle #1}{\displaystyle #2}}
+\newcommand{\ol}[1]{\overline{#1}}
+\newcommand*\circled[1]{\tikz[baseline=(char.base)]{
+		\node[shape=circle,draw,inner sep=1.8pt] (char) {#1};}}
+\newcommand{\pnr}{\underset{+}{\mathlarger{\mathlarger{\rightarrow}}}}
+\newcommand{\pnl}{\underset{+}{\mathlarger{\mathlarger{\leftarrow}}}}
+\newcommand{\pqo}{\underset{+}{\mathlarger{\mathlarger{\uparrow}}}}
+\newcommand{\pqu}{\underset{+}{\mathlarger{\mathlarger{\downarrow}}}}
+\newcommand{\pmr}{\underset{+}{\mathlarger{\mathlarger{\rotatebox[origin=c]{90}{$\curvearrowleft$}}}}}
+\newcommand{\pml}{\underset{+}{\mathlarger{\mathlarger{\rotatebox[origin=c]{90}{$\curvearrowright$}}}}}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}%
+\newcommand{\myBox}[1]{\fcolorbox{myBlue}{white}{#1}}
+\newcommand{\mdim}[2]{[$\,#1\,$x$\,#2\,$]}
+\newcommand{\myCancel}[1]{\color{myBlue}\cancel{\color{black}#1}\color{black}}
+\newcommand{\ci}{\mathrm{i}}
+\newcommand{\co}[1]{\underline#1}
+\newcommand{\cg}[1]{\underline#1^*}
+%\newcommand{\dq}{\dot{\bs{q}}}
+\newcommand{\ddq}{\ddot{\bs{q}}}
+
+% underline math mode:
+\newsavebox\MBox
+\newcommand\Cline[2][red]{{\sbox\MBox{$#2$}%
+		\rlap{\usebox\MBox}\color{#1}\rule[-1.2\dp\MBox]{\wd\MBox}{0.5pt}}}
+\newcommand{\I}{\text{i}}
+
+\newcommand*{\myprime}{^{\prime}\mkern-1.2mu}
+\newcommand*{\mydprime}{^{\prime\prime}\mkern-1.2mu}
+
+\newcommand{\bm}[1]{{\color{myBlue}{#1}}}
+\newcommand{\bo}[1]{{\color{myOrange}{#1}}}
+\newcommand{\bn}[1]{^\text{\fbox{#1}}}
+\setlength{\fboxsep}{1.2pt}
+
+\renewcommand{\arraystretch}{1.5}
+
+% EXAMPLE ENVIRONMENT:
+% leftbar:
+\usepackage{framed}
+\renewenvironment{leftbar}[1][\hsize]
+{% 
+	\def\FrameCommand 
+	{%	
+		{\color{lightBlue}\vrule width 2pt}%
+		\hspace{4pt}
+		%\fboxsep=\FrameSep\colorbox{lightgray}%
+	}%
+	\MakeFramed{\hsize#1\advance\hsize-\width\FrameRestore}%
+}
+{\endMakeFramed}
+%
+% define environment and equation labeling:
+%
+\def\exampleCaption{Example }
+\newcounter{example}[chapter]
+\newcounter{prevequation}
+\NewDocumentEnvironment {example} {}
+{%
+	\refstepcounter{example}%
+	\setcounter{prevequation}{\value{equation}}%
+	\setcounter{equation}{0}%
+	\def\theequation{\alph{equation}}%
+	\def\theHequation{\thechapter.\theexample.\alph{equation}}%
+	\leftbar
+	\textcolor{blueLink}{\textbf{\exampleCaption  \thechapter.\theexample}}\\[1mm]\nopagebreak\ignorespaces
+}
+{%
+	\endleftbar
+	\setcounter{equation}{\value{prevequation}}%
+	\ignorespacesafterend
+}
+
+% HYPER REFERENCES:
+\usepackage[colorlinks=true,linkcolor=blueLink,urlcolor=blueLink]{hyperref}
+
+% INCLUDE INKSCAPE FIGURES:
+\usepackage{svg,svg-extract}
+\svgpath{{InkScape/}}
+\svgsetup{inkscapepath=InkScape/ext/} 	% folder for generated files
+\svgsetup{extract=false}				% set this option to true to extract pdf files for the graphics
+\svgsetup{clean=true} 					% will remove any generated files created other than the extracted output format
+\pdfsuppresswarningpagegroup=1			% suppress pdfTeX warning: pdflatex.exe(file hfilename i.pdf): PDF inclusion:
+% multiple pdfs with page group included in a single page
+
+\svghidepreamblestart
+
+% CAPTIONS:
+\addto\captionsngerman{\renewcommand{\figurename}{Abb.}}
+\addto\captionsenglish{\renewcommand{\figurename}{Fig.}}
+\renewcommand{\tablename}{Tab.}
+\renewcommand{\lstlistingname}{List.}
+\addto\captionsngerman{\renewcommand{\exampleCaption}{Beispiel }}
+\addto\captionsenglish{\renewcommand{\exampleCaption}{Example }}

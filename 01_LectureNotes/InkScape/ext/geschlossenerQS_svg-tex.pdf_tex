@@ -1,0 +1,71 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'geschlossenerQS_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{297.03497702bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.41564693)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{geschlossenerQS_svg-tex.pdf}}%
+    \put(0.83321216,0.11045282){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333588}\smash{\begin{tabular}[t]{l}$x$\end{tabular}}}}%
+    \put(0.62964645,0.19551771){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333588}\smash{\begin{tabular}[t]{c}$M_t$\end{tabular}}}}%
+    \put(0.78132121,0.21185792){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08333588}\smash{\begin{tabular}[t]{l}$\tau$\end{tabular}}}}%
+    \put(0.42498256,0.00453974){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333588}\smash{\begin{tabular}[t]{c}$\tau$\end{tabular}}}}%
+    \put(0.38310332,0.32253388){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{2.08333588}\smash{\begin{tabular}[t]{r}$\tau$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{geschlossenerQS_svg-tex.pdf}}%
+    \put(0.65964435,0.3750211){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[lt]{\lineheight{2.08333588}\smash{\begin{tabular}[t]{l}$s$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{geschlossenerQS_svg-tex.pdf}}%
+    \put(0.21819457,0.21258388){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333588}\smash{\begin{tabular}[t]{l}$t$\end{tabular}}}}%
+    \put(0.65065371,0.05471616){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333588}\smash{\begin{tabular}[t]{l}Skelettlinie $\mathcal{C}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{geschlossenerQS_svg-tex.pdf}}%
+    \put(0.52451724,0.21109562){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$S$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{geschlossenerQS_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%

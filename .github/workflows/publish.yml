@@ -1,0 +1,49 @@
+name: Quarto Book veröffentlichen
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    defaults:
+      run:
+        working-directory: 02_QuartoBook
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Quarto einrichten
+        uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: Deutsch rendern (-> _book/)
+        run: quarto render --profile de
+
+      - name: Englisch rendern (-> _book/en/)
+        run: quarto render --profile en
+
+      - name: Pages konfigurieren
+        uses: actions/configure-pages@v5
+
+      - name: Artefakt hochladen
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: 02_QuartoBook/_book
+
+      - name: Auf GitHub Pages deployen
+        id: deployment
+        uses: actions/deploy-pages@v4

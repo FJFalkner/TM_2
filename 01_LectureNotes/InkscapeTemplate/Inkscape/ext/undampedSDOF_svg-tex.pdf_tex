@@ -1,0 +1,76 @@
+%% Creator: Inkscape 1.0.1 (3bc2e813f5, 2020-09-07), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'undampedSDOF_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{128.26020532bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.48707017)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(1.1050371,2.65208904){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39781334\unitlength}\raggedright asdd\end{minipage}}}%
+    \put(0.44201481,2.6962905){\color[rgb]{0,0,0}\transparent{0}\makebox(0,0)[lt]{\begin{minipage}{0.22100742\unitlength}\raggedright Berechnung\end{minipage}}}%
+    \put(0.37718594,2.63882856){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.42433423\unitlength}\raggedright \end{minipage}}}%
+    \put(-0.48621632,2.78469343){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39781334\unitlength}\centering Berechnung\end{minipage}}}%
+    \put(1.32604441,3.04990229){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.53041781\unitlength}\centering Bba\end{minipage}}}%
+    \put(1.32604441,3.04990229){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.53041781\unitlength}\centering Berechnung\end{minipage}}}%
+    \put(1.32604441,2.82889489){\color[rgb]{0,0,0}\transparent{0}\makebox(0,0)[lt]{\begin{minipage}{0.53041781\unitlength}\raggedright B\end{minipage}}}%
+    \put(1.06083563,2.51948448){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.30941039\unitlength}\centering sdfsdfsf\end{minipage}}}%
+    \put(0.00000005,3.04990229){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.53041781\unitlength}\centering Konstruktuion\end{minipage}}}%
+    \put(0.13260439,2.65208904){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\begin{minipage}{0.39781334\unitlength}\centering Ko\end{minipage}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{undampedSDOF_svg-tex.pdf}}%
+    \put(0.57463064,0.20667416){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{3.12499571}\smash{\begin{tabular}[t]{c}$m$\end{tabular}}}}%
+    \put(0.22101877,0.38863677){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{3.12499571}\smash{\begin{tabular}[t]{c}$k$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{undampedSDOF_svg-tex.pdf}}%
+    \put(0.92824259,0.26257059){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[t]{\lineheight{3.12499571}\smash{\begin{tabular}[t]{c}$F(t)$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{undampedSDOF_svg-tex.pdf}}%
+    \put(0.92824258,0.45107154){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{3.12499571}\smash{\begin{tabular}[t]{c}$u(t)$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{undampedSDOF_svg-tex.pdf}}%
+    \put(0.22101877,0.07406967){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{3.12499571}\smash{\begin{tabular}[t]{c}$r$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

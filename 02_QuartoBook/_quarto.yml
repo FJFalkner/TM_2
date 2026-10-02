@@ -1,0 +1,27 @@
+project:
+  type: book
+
+# Standard-Profil: Deutsch. Englisch: quarto render --profile en (siehe build.ps1)
+profile:
+  default: de
+
+book:
+  author: "Franz-Josef Falkner"
+  date: today
+  sidebar:
+    logo: images/mCi.png
+  search: true
+
+bibliography: lit.bib
+nocite: |
+  @*
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    html-math-method: mathjax
+    number-depth: 2
+    fig-align: center
+    reference-location: margin
+    include-after-body: lang-switch.html

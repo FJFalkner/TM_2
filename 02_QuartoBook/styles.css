@@ -1,0 +1,142 @@
+/* Farben aus header_FJ.tex */
+:root {
+  --my-blue: #004983;      /* myBlue  RGB(0,73,131)  */
+  --my-orange: #f49b00;    /* myOrange RGB(244,155,0) */
+  --light-blue: #80a4c1;   /* myBlue!50 */
+}
+
+a { color: var(--my-blue); }
+
+.figure-caption, figcaption { text-align: center; }
+.quarto-figure-center img, figure img { max-width: 100%; height: auto; }
+
+/* Beispiel-Box: siehe MCI-Abschnitt weiter unten */
+
+/* Motto im Vorwort */
+.epigraph {
+  margin: 2rem 0 3rem auto;
+  max-width: 22rem;
+  font-size: 1.15rem;
+  text-align: right;
+}
+.epigraph .quelle { font-size: 0.95rem; font-style: italic; }
+
+/* Sprachumschalter (DE/EN) */
+.lang-switch { display: flex; gap: .4rem; margin: .6rem 0 .2rem; }
+.lang-switch a {
+  display: inline-flex; align-items: center; gap: .4rem;
+  padding: .15rem .55rem; font-size: .85rem; text-decoration: none;
+  border: 1px solid var(--light-blue); border-radius: .35rem;
+  color: var(--my-blue);
+}
+.lang-switch a:hover { background: rgba(0, 73, 131, .08); }
+.lang-switch a.active { background: var(--my-blue); border-color: var(--my-blue); color: #fff; }
+.lang-switch svg { border: 1px solid rgba(0, 0, 0, .25); display: block; }
+.lang-switch-floating { position: fixed; top: .5rem; right: .8rem; z-index: 1030; }
+
+/* --- MCI-Farben (ergänzt) --- */
+:root { --my-red: #821131; }   /* myRed  RGB(130,17,49) – MCI Executive Education */
+
+/* === Beispiel-Box (blau) mit Info-Symbol === */
+div[id^="exm-"] {
+  background: rgba(0, 73, 131, .04);
+  border: 1px solid var(--light-blue);
+  border-left: 4px solid var(--my-blue);
+  border-radius: .4rem;
+  padding: .9rem 1.1rem;
+  margin: 1.5rem 0;
+}
+/* Titel „Beispiel N.x" in eigener Zeile (Platz für späteren Beispieltitel) */
+div[id^="exm-"] .theorem-title { color: var(--my-blue); display: block; margin-bottom: .4rem; }
+/* Info-Symbol (i) vor „Beispiel N.x" */
+div[id^="exm-"] .theorem-title::before {
+  content: "";
+  display: inline-block;
+  width: 1.15em; height: 1.15em;
+  margin-right: .45em;
+  vertical-align: -.22em;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23004983'%3E%3Cpath d='M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+/* === Aufklappbare Lösungs-Box (orange) mit Glühbirne === */
+.callout.loesung {
+  border-left-color: var(--my-orange) !important;
+  margin-top: 1rem;
+}
+.callout.loesung > .callout-header {
+  background-color: rgba(244, 155, 0, .12) !important;
+}
+.callout.loesung .callout-title-container {
+  color: var(--my-orange);
+  font-weight: 600;
+  letter-spacing: .02em;
+}
+/* Glühbirnen-Symbol vor „Lösung" */
+.callout.loesung .callout-title-container::before {
+  content: "";
+  display: inline-block;
+  width: 1.2em; height: 1.2em;
+  margin-right: .45em;
+  vertical-align: -.25em;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23f49b00'%3E%3Cpath d='M2 6a6 6 0 1 1 10.174 4.31c-.203.196-.359.4-.453.619l-.762 1.769A.5.5 0 0 1 10.5 13a.5.5 0 0 1 0 1 .5.5 0 0 1 0 1l-.224.447a1 1 0 0 1-.894.553H6.618a1 1 0 0 1-.894-.553L5.5 15a.5.5 0 0 1 0-1 .5.5 0 0 1 0-1 .5.5 0 0 1-.46-.302l-.761-1.77a1.964 1.964 0 0 0-.453-.618A5.984 5.984 0 0 1 2 6zm6-5a5 5 0 0 0-3.479 8.592c.263.254.514.564.676.941L5.83 12h4.342l.634-1.467c.162-.377.413-.687.676-.941A5 5 0 0 0 8 1z'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+/* === Video-Box (MCI-Rot) mit Play-Symbol === */
+.callout.video-box {
+  border-left-color: var(--my-red) !important;
+}
+.callout.video-box > .callout-header {
+  background-color: rgba(130, 17, 49, .10) !important;
+}
+.callout.video-box .callout-title-container {
+  color: var(--my-red);
+  font-weight: 600;
+  letter-spacing: .02em;
+}
+.callout.video-box .callout-title-container::before {
+  content: "";
+  display: inline-block;
+  width: 1.2em; height: 1.2em;
+  margin-right: .45em;
+  vertical-align: -.25em;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23821131'%3E%3Cpath d='M0 4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm11.5 1.75v4.5l3.45 2.3A.5.5 0 0 0 16 12.3V3.7a.5.5 0 0 0-.8-.4l-3.45 2.45z'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+/* === Interaktive Plot-Box (MCI-Rot) mit Diagramm-Symbol === */
+.callout.plot-box { border-left-color: var(--my-red) !important; }
+.callout.plot-box > .callout-header {
+  background-color: rgba(130, 17, 49, .10) !important;
+}
+.callout.plot-box .callout-title-container {
+  color: var(--my-red);
+  font-weight: 600;
+  letter-spacing: .02em;
+}
+.callout.plot-box .callout-title-container::before {
+  content: "";
+  display: inline-block;
+  width: 1.2em; height: 1.2em;
+  margin-right: .45em;
+  vertical-align: -.25em;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23821131'%3E%3Cpath fill-rule='evenodd' d='M0 0h1v15h15v1H0V0Zm14.817 3.113a.5.5 0 0 1 .07.704l-4.5 5.5a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61 4.15-5.073a.5.5 0 0 1 .704-.07Z'/%3E%3C/svg%3E") no-repeat center / contain;
+}
+
+/* Werkstoff-Auswahl im Plot (MCI-Rot) */
+.werkstoff-controls { display: flex; flex-wrap: wrap; align-items: center; gap: .4rem; margin: .2rem 0 .7rem; }
+.werkstoff-controls .wk-label { font-weight: 600; color: var(--my-red); margin-right: .2rem; }
+.wk-btn {
+  font-size: .85rem; padding: .22rem .65rem;
+  border: 1px solid var(--my-red); border-radius: .35rem;
+  background: #fff; color: var(--my-red); cursor: pointer;
+}
+.wk-btn:hover { background: rgba(130, 17, 49, .08); }
+.wk-btn.active { background: var(--my-red); color: #fff; }
+.wk-replay { margin-left: auto; border-style: dashed; }
+
+/* === Blocksatz (ganzes Dokument) === */
+#quarto-document-content p,
+#quarto-document-content li { text-align: justify; hyphens: auto; }
+/* Ausnahmen: Bildunterschriften, Callout-Titel, Tabellen bleiben unverändert */
+#quarto-document-content figcaption,
+#quarto-document-content .callout-title-container,
+#quarto-document-content caption { text-align: left; hyphens: manual; }

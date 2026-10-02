@@ -1,0 +1,809 @@
+{{< include _macros.qmd >}}
+
+# The Tension or Compression Bar {#sec-zugstab}
+
+## Stress {#sec-spannung}
+
+As an example of a tension bar we consider a tow bar as shown in @fig-abschleppstange.
+In the mechanical model this bar is treated as a *bar* with length $l$ and cross-sectional area $A$.
+The bar axis is the line connecting the centroids of the cross-sections.
+
+![Tow bar as an example of a tension bar](images/Abschleppstange.svg){#fig-abschleppstange}
+
+At both ends a force $F$ acts in the direction of the bar.
+These forces are exerted on the bar by the two cars in the directions indicated in @fig-abschleppstange.
+A precise specification of the support conditions is not required for the following considerations.
+
+Using the method of sections, the internal forces in the bar can be determined.
+Since only a load in the direction of the bar is applied, there is only a normal force, and this follows from the equilibrium condition in the horizontal direction as
+
+$$
+\sum H=0 \rightarrow N=F \; .
+$$ {#eq-gg-N}
+
+It is constant over the length of the bar and has a positive sign, i.e. a tensile force acts in the bar.
+
+In the next step we introduce the important concept of *stress*.
+To do so we cut the bar *normal* to the bar axis and consider the forces acting on the cut surfaces, see @fig-normalspannungen.
+If the normal force $N$ is distributed uniformly over the cut area $A$, we obtain the following quantity
+
+$$
+\sigma = \dfrac{N}{A} = \dfrac{F}{A} \; ,
+$$ {#eq-spannung}
+
+which we call stress.
+As can be seen from @fig-normalspannungen, $\sigma$ represents internal forces distributed over an area whose resultant is exactly equal to the normal force $N$.
+Typical units for stress are, for example, N/mm² or Pa = N/m².
+
+![Normal stresses in the cross-section](images/Normalspannungen.svg){#fig-normalspannungen}
+
+Furthermore, @fig-normalspannungen shows that $\sigma$ acts normal to the cut surface.
+This stress is therefore called *normal stress*.
+In addition, a further classification is made according to sign: a negative normal stress is called *compressive stress*, a positive one *tensile stress*.
+According to [Newton]{.smallcaps}'s third law, a stress of equal magnitude but in the *opposite* direction acts on the opposite cut surface, see @fig-normalspannungen.
+Each of the two parts must be in equilibrium!
+
+In the next step we no longer make the cut $s-s$ normal to the bar axis, but inclined by the angle $\alpha$ relative to the vertical, see @fig-schraeger-schnitt.
+
+![Stress on an inclined cut surface](images/schraegerSchnitt.svg){#fig-schraeger-schnitt}
+
+The stress, which is now no longer a normal stress, on the cut surface $A'$ is equal to
+
+$$
+\sigma' = \dfrac{F}{A'} = \dfrac{F}{A}\cos\alpha \; .
+$$ {#eq-spannung-schraeg}
+
+Using trigonometric functions, this stress is split into a component normal and tangential to the cut surface:
+
+$$
+\sigma = \sigma'\cos\alpha = \dfrac{F}{A}\cos^2\alpha
+\quad \text{and} \quad
+\tau = \sigma'\sin\alpha = \dfrac{F}{A}\sin\alpha\cos\alpha \; .
+$$ {#eq-sigma-tau}
+
+$\sigma$ is then again a normal stress, and the stress $\tau$ acting in the cut surface we shall call *shear stress*.
+Consequently, stresses can also be classified according to their direction of action relative to the cut surface into normal and shear stresses.
+
+![Normal and shear stresses](images/Schubspannungen.svg){#fig-schubspannungen}
+
+From relation ([-@eq-sigma-tau]) it becomes clearly apparent that stresses depend on the *orientation* of the cut surface to which they are referred.
+In the present case $\sigma$ and $\tau$ are a function of the angle $\alpha$.
+
+## Strain {#sec-dehnung}
+
+Next we want to investigate what happens to the tow bar in @fig-abschleppstange when the load is applied.
+Even if it is hard to see with the naked eye, the tow bar will stretch due to the tensile force, i.e. it elongates slightly.
+In @fig-gleichmassdehnung the bar is shown before and after load application.
+The change in total length is $\Delta l$.
+In addition, we also want to know the longitudinal displacement of a cross-section at an arbitrary position $x$.
+This is measured by the function $u$ (@fig-gleichmassdehnung).
+
+![Deformation of the tension bar under constant normal force](images/Gleichmassdehnung.svg){#fig-gleichmassdehnung}
+
+The distribution of $u$ for a *constant* normal force is also shown there.
+Starting from zero at the left end, it increases linearly and reaches the value $\Delta l$ at the right end.
+Another important quantity, namely the *strain*, is obtained when the change in length $\Delta l$ is referred to the original length $l$:
+
+$$
+\ve = \dfrac{\Delta l}{l} \; .
+$$ {#eq-dehnung}
+
+This value equals the slope of the longitudinal displacement $u$.
+The strain can also be understood as the relative change in distance between two neighbouring points.
+
+Unlike in @fig-gleichmassdehnung, the change in length is usually barely perceptible to the naked eye, i.e. $\Delta l \ll l$.
+Consequently, the strain is also very small ($\ve\ll 1$) and for this reason is usually given in percent or per mille.
+A positive strain corresponds to an elongation of the bar, negative values to a shortening of the bar.
+In that case one often also speaks of compression.
+
+If, for example, a variable distributed load acts along the bar, so that the normal force is also variable, then the displacement is no longer a linear function, see @fig-veraenderliche-dehnung.
+
+![Deformation of the tension bar under variable normal force](images/veraenderlicheDehnung.svg){#fig-veraenderliche-dehnung}
+
+The strain can still be interpreted as the slope of $u$ at position $x$.
+Using the first derivative we obtain the slope, i.e. the strain:
+
+$$
+\myBox{\ve(x)=\dfrac{du}{dx}} \; .
+$$ {#eq-dehnung-dudx}
+
+In contrast to the first load case, this is now no longer constant over the length of the bar.
+If the strain is known, the displacement and hence the change in length of the bar can be determined by integrating the above relation.
+
+## Constitutive Law {#sec-werkstoffgesetz}
+
+We have now introduced two important new mechanical quantities: stress and strain.
+But is there also a relationship between the two?
+To this end we carry out a tensile test, see @fig-zugversuch.
+A tensile specimen, usually of circular cross-section, is mounted in a suitable machine.
+The lower edge of the specimen is supported such that it cannot move.
+In contrast, the upper edge can be moved by a hydraulic cylinder.
+This results in the mechanical model shown in @fig-zugversuch.
+It is the same system as the tow bar.
+Both the force $F$ and the displacement $\Delta l$ at the upper edge are measured and recorded during the test.
+
+![Tensile test](images/Zugversuch.svg){#fig-zugversuch}
+
+If, from the measured data, one computes the stress according to ([-@eq-spannung]) and the strain according to ([-@eq-dehnung]) and plots them in a diagram, one obtains the curve shown in @fig-arbeitsdiagramm.
+The specimen in this case is a mild steel.
+The relationship between strain and stress can be read off from this diagram.
+Clearly recognisable is that, at the beginning, there is a *linear* relationship between strain and stress.
+A doubling of the strain therefore produces a stress twice as large.
+
+![Stress-strain diagram of a mild steel](images/ArbeitsdiagrammStahl.svg){#fig-arbeitsdiagramm}
+
+::: {.callout-important .plot-box icon=false}
+## Interactive: stress-strain curves compared
+
+```{=html}
+<div class="werkstoff-controls">
+  <span class="wk-label">Material:</span>
+  <button type="button" class="wk-btn" data-mat="S235">S235</button>
+  <button type="button" class="wk-btn" data-mat="S355">S355</button>
+  <button type="button" class="wk-btn" data-mat="Alu">Aluminium (AlMgSi)</button>
+  <button type="button" class="wk-btn" data-mat="AZ91">AZ91 (Mg)</button>
+  <button type="button" class="wk-btn" data-mat="Glas">Glass</button>
+  <button type="button" class="wk-btn wk-replay" title="Replay animation">▶ Play</button>
+</div>
+<div id="plot-werkstoffe" style="width:100%;height:440px;"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/plotly.js/2.27.0/plotly.min.js"></script>
+<script>
+(function () {
+  var blue = "#004983", orange = "#f49b00", red = "#821131", grey = "#c2c2c2";
+  var GD = "plot-werkstoffe";
+  function fmt(n) { return n.toString().replace(/\B(?=(\d{3})+(?!\d))/g, " "); }
+
+  // Structural steel: elastic -> yield plateau -> hardening -> necking
+  function steelMat(E, fy, fu, esh, eu, ef, sf) {
+    var xs = [], ys = [], i, n, e, ey = fy / E;
+    n = 12; for (i = 0; i <= n; i++) { e = ey * i / n;              xs.push(e); ys.push(E * e); }
+    n = 14; for (i = 1; i <= n; i++) { e = ey + (esh - ey) * i / n; xs.push(e); ys.push(fy); }
+    n = 70; for (i = 1; i <= n; i++) { e = esh + (eu - esh) * i / n; var t = (eu - e) / (eu - esh);
+            xs.push(e); ys.push(fy + (fu - fy) * (1 - t * t)); }
+    n = 24; for (i = 1; i <= n; i++) { e = eu + (ef - eu) * i / n;   xs.push(e); ys.push(fu + (sf - fu) * i / n); }
+    var x = xs.map(function (v) { return v * 100; });
+    var ann = [
+      { x: ey * 100, y: fy, text: "f<sub>y</sub> = " + fy + " MPa", showarrow: true, arrowhead: 2, ax: 55, ay: -14, font: { color: red, size: 14 } },
+      { x: eu * 100, y: fu, text: "f<sub>u</sub> = " + fu + " MPa", showarrow: true, arrowhead: 2, ax: -5, ay: -26, font: { color: red, size: 14 } }
+    ];
+    return { E: E, x: x, y: ys, ann: ann };
+  }
+
+  // Aluminium/Mg: rounded curve, no yield plateau, 0.2 % proof stress
+  function smoothMat(E, rm, ef) {
+    var xs = [], ys = [], i, n = 90, e, k = E / rm;
+    for (i = 0; i <= n; i++) { e = ef * i / n; xs.push(e); ys.push(rm * (1 - Math.exp(-k * e))); }
+    var x = xs.map(function (v) { return v * 100; });
+    var idx = xs.length - 1;
+    for (i = 0; i < xs.length; i++) { if (xs[i] - ys[i] / E >= 0.002) { idx = i; break; } }
+    var ann = [
+      { x: x[idx], y: ys[idx], text: "R<sub>p0.2</sub> ≈ " + Math.round(ys[idx]) + " MPa", showarrow: true, arrowhead: 2, ax: 60, ay: -6, font: { color: red, size: 14 } },
+      { x: x[x.length - 1], y: rm, text: "R<sub>m</sub> = " + rm + " MPa", showarrow: true, arrowhead: 2, ax: -5, ay: -26, font: { color: red, size: 14 } }
+    ];
+    return { E: E, x: x, y: ys, ann: ann };
+  }
+
+  // Glass: linear-elastic up to brittle fracture, no plastic deformation
+  function brittleMat(E, sf) {
+    var ef = sf / E, xs = [], ys = [], i, n = 30, e;
+    for (i = 0; i <= n; i++) { e = ef * i / n; xs.push(e); ys.push(E * e); }
+    var x = xs.map(function (v) { return v * 100; });
+    var ann = [
+      { x: x[x.length - 1], y: sf, text: "Brittle fracture at σ ≈ " + sf + " MPa", showarrow: true, arrowhead: 2, ax: 70, ay: -22, font: { color: red, size: 14 } }
+    ];
+    return { E: E, x: x, y: ys, ann: ann };
+  }
+
+  var MAT = {
+    S235: steelMat(210000, 235, 360, 0.018, 0.16, 0.25, 345),
+    S355: steelMat(210000, 355, 510, 0.015, 0.14, 0.22, 490),
+    Alu:  smoothMat(70000, 310, 0.10),
+    AZ91: smoothMat(45000, 230, 0.03),
+    Glas: brittleMat(70000, 90)
+  };
+  var CUR = "S235";
+  var ORDER = ["S235", "S355", "Alu", "AZ91", "Glas"];   // all curves as background
+
+  function traces(key) {
+    var d = MAT[key];
+    // all materials dotted grey in the background
+    var t = ORDER.map(function (k) {
+      var m = MAT[k];
+      return { x: m.x, y: m.y, mode: "lines", line: { color: grey, width: 1.5, dash: "dot" }, hoverinfo: "skip", showlegend: false };
+    });
+    // selected material coloured on top
+    t.push({ x: [d.x[0]], y: [d.y[0]], mode: "lines", line: { color: blue, width: 3 }, showlegend: false });
+    t.push({ x: [d.x[0]], y: [d.y[0]], mode: "markers", marker: { color: orange, size: 11, line: { color: red, width: 1.5 } },
+      showlegend: false, hovertemplate: "ε = %{x:.2f} %<br>σ = %{y:.0f} MPa<extra></extra>" });
+    return t;
+  }
+  function layoutFor(key) {
+    var eAnn = {
+      xref: "paper", yref: "paper", x: 0.98, y: 0.07, xanchor: "right", yanchor: "bottom",
+      text: "E-modulus = " + fmt(MAT[key].E) + " MPa", showarrow: false,
+      font: { color: blue, size: 12 }, align: "right",
+      bgcolor: "rgba(0,73,131,.06)", bordercolor: blue, borderwidth: 1, borderpad: 5
+    };
+    return {
+      xaxis: { title: "Strain ε in %", range: [-0.6, 26], zeroline: false, gridcolor: "#eee",
+               showline: true, linecolor: "#888", linewidth: 1, mirror: true },
+      yaxis: { title: "Stress σ in MPa", range: [0, 560], zeroline: false, gridcolor: "#eee",
+               showline: true, linecolor: "#888", linewidth: 1, mirror: true },
+      margin: { l: 62, r: 20, t: 20, b: 50 },
+      paper_bgcolor: "rgba(0,0,0,0)", plot_bgcolor: "#fff", showlegend: false,
+      annotations: MAT[key].ann.concat([eAnn])
+    };
+  }
+  function framesFor(key) {
+    var d = MAT[key], f = [], i, j, L = d.x.length - 1;
+    var empties = []; for (j = 0; j < ORDER.length; j++) empties.push({});  // background traces unchanged
+    for (i = 1; i < d.x.length; i += 2) {
+      f.push({ data: empties.concat([{ x: d.x.slice(0, i + 1), y: d.y.slice(0, i + 1) }, { x: [d.x[i]], y: [d.y[i]] }]) });
+    }
+    f.push({ data: empties.concat([{ x: d.x, y: d.y }, { x: [d.x[L]], y: [d.y[L]] }]) });
+    return f;
+  }
+
+  function show(key, animate) {
+    CUR = key;
+    highlight(key);
+    Plotly.react(GD, traces(key), layoutFor(key), { displayModeBar: false, responsive: true }).then(function () {
+      if (animate) {
+        Plotly.animate(GD, framesFor(key), { frame: { duration: 28, redraw: true }, transition: { duration: 0 }, mode: "immediate" });
+      }
+    });
+  }
+
+  var btns;
+  function highlight(key) {
+    if (!btns) return;
+    btns.forEach(function (b) { b.classList.toggle("active", b.getAttribute("data-mat") === key); });
+  }
+  function wire() {
+    btns = Array.prototype.slice.call(document.querySelectorAll(".werkstoff-controls .wk-btn[data-mat]"));
+    btns.forEach(function (b) { b.addEventListener("click", function () { show(b.getAttribute("data-mat"), true); }); });
+    var rp = document.querySelector(".werkstoff-controls .wk-replay");
+    if (rp) rp.addEventListener("click", function () { show(CUR, true); });
+    show("S235", true);
+  }
+  function ready() { if (window.Plotly) { wire(); } else { setTimeout(ready, 100); } }
+  if (document.readyState !== "loading") { ready(); } else { document.addEventListener("DOMContentLoaded", ready); }
+})();
+</script>
+```
+:::
+
+The slope of the straight line is determined by the *modulus of elasticity* (Young's modulus).
+This is a material parameter with the unit of a stress.
+Up to the so-called *yield limit* $f_y$, there is a *linear* relationship between strain and stress of the form
+
+$$
+\myBox{\sigma = E\ve} \; .
+$$ {#eq-hooke}
+
+The above relation is also often called [Hooke]{.smallcaps}'s law.
+It holds in the so-called *elastic* range, i.e. when the stress is smaller than the yield limit, and only *here*!
+Elastic material behaviour describes that when the force $F$ is reduced back to zero, the specimen returns to its *undeformed* initial state.
+At the end the strain is therefore zero again.
+
+If the yield limit is reached or exceeded, *plastic* material behaviour occurs.
+First, the strain increases at constant stress.
+Subsequently the stress can be increased again until necking of the specimen occurs, which in turn leads to fracture.
+If the specimen experiences a load in the plastic range, i.e. $\sigma\geq f_y$, then upon complete unloading it does *not* return to the undeformed initial state!
+A residual strain therefore remains in the specimen.
+
+Within this lecture we consider only the initial, linear elastic range.
+We therefore presuppose the validity of [Hooke]{.smallcaps}'s law ([-@eq-hooke]).
+Thus we have found a *linear* relationship between strain and stress, where the proportionality factor is the $E$-modulus (modulus of elasticity).
+[Hooke]{.smallcaps}'s law is applicable to many materials when restricted to small strains (displacements).
+In @tbl-material the $E$-modulus is listed for common metallic and non-metallic materials.
+
+| Material        | $E$ (N/mm²)                   | $\alpha$ (1/°C)                      |
+|:----------------|:-----------------------------:|:------------------------------------:|
+| Steel           | $2.1\cdot 10^5$               | $1.2\cdot 10^{-5}$                   |
+| Aluminium       | $0.7\cdot 10^5$               | $2.3\cdot 10^{-5}$                   |
+| Brass           | $1.0\cdot 10^5$               | $1.8\cdot 10^{-5}$                   |
+| Cast iron       | $1.0\cdot 10^5$               | $0.9\cdot 10^{-5}$                   |
+| Wood (in grain) | $0.7\ldots 2.0\cdot 10^4$     | $2.2\ldots 3.1\cdot 10^{-5}$         |
+| Concrete        | $0.3\cdot 10^5$               | $1.0\cdot 10^{-5}$                   |
+| Glass fibre     | $0.8\cdot 10^5$               |                                      |
+
+: Material properties {#tbl-material}
+
+Besides an external load, a *change* in temperature can also cause a strain (change in length).
+If the bar is installed at a temperature $T_0$ and subsequently experiences a uniform^[*Every* point experiences the *same* change in temperature!] temperature change of $\Delta T$, then it can be shown experimentally that the strain is equal to
+
+$$
+\ve_T = \alpha\Delta T
+$$ {#eq-dehnung-T}
+
+The *coefficient of thermal expansion* $\alpha$ is another material parameter and is given in 1/°C, see @tbl-material.
+Note that heating ($\Delta T>0$, $\Delta l>0$) leads to an elongation ($\ve_T>0$), and cooling ($\Delta T<0$) to a shortening ($\ve_T<0$, $\Delta l<0$).
+Together with [Hooke]{.smallcaps}'s law ([-@eq-hooke]), the strain due to external load and temperature change becomes
+
+$$
+\ve = \dfrac{\sigma}{E} + \alpha\Delta T \; .
+$$ {#eq-dehnung-gesamt}
+
+This relation can also be rewritten as
+
+$$
+\sigma = E(\ve-\alpha \Delta T) \; .
+$$ {#eq-sigma-T}
+
+::: {.callout-important .video-box collapse="true" icon=false}
+## Video
+
+{{< video https://www.youtube.com/watch?v=fEbkcTBNiGg >}}
+:::
+
+::: {#exm-thermisch}
+A bar of length $l$ and constant cross-section $A$ experiences a uniform temperature change $\Delta T$.
+What differences arise for the two different supports of the bar?
+
+![](images/thermischeDehnungBsp.svg){fig-align="center"}
+:::
+
+::: {.callout-tip .loesung collapse="true" icon=false}
+## Solution
+
+Cutting the supports free:
+
+![](images/thermischeDehnungBsp1.svg){fig-align="center"}
+
+Statically determinate?
+
+$$
+\begin{align*}
+\text{no!} & & \text{yes!}
+\end{align*}
+$$
+
+Equilibrium condition in the horizontal direction $\sum H = 0$:
+
+$$
+\begin{align*}
+\Cline[myBlue]{N(x)\neq 0} \rightarrow \sigma(x)\neq 0 & & N(x) = 0 \rightarrow \sigma(x) = 0
+\end{align*}
+$$
+
+Longitudinal displacement $u$:
+
+$$
+\begin{align*}
+u(x) = 0 \rightarrow \ve = 0 & & \Cline[myBlue]{u(x) \neq 0} \rightarrow \ve\neq0
+\end{align*}
+$$
+
+From ([-@eq-sigma-T]) it thus follows:
+
+$$
+\begin{align*}
+\ve = 0 = \dfrac{\sigma}{E} + \alpha\Delta T & & \ve = \dfrac{du}{dx} = \alpha\Delta T
+\end{align*}
+$$
+
+Solving for the unknowns:
+
+$$
+\begin{align*}
+\sigma(x) = -E\alpha\Delta T \rightarrow \Cline[myBlue]{N(x) = -EA\alpha\Delta T} & & du = \alpha\Delta T\, dx \rightarrow \int \rightarrow \Cline[myBlue]{u(x) = \alpha\Delta T x}
+\end{align*}
+$$
+
+Interpret the solutions! What is the difference between $\Delta T>0$ and $\Delta T<0$?
+:::
+
+From this simple example we observe the following: in statically determinate systems a pure temperature change leads to strains (deformations) but to no stresses!
+The situation is different for statically *in*determinate systems.
+There, stresses and in general also deformations arise under a temperature change!
+
+## Differential Equation for the Tension and Compression Bar {#sec-dgl-stab}
+
+With the relations obtained, we now derive the governing equation (differential equation) of the tension or compression bar in @fig-allg-zugstab.
+
+![General tension or compression bar](images/allgemeinerZugstab.svg){#fig-allg-zugstab}
+
+This describes the mechanical behaviour of the bar under the action of a single force $F$ or a distributed longitudinal load $q$.
+
+In mechanics, three categories of equations (relations) can be stated.
+For the bar in @fig-allg-zugstab these are:
+
+- **Equilibrium**
+
+  $$
+  \myfrac{dN}{dx} = -q(x)
+  $$ {#eq-gg-stab}
+
+  In words: the change of the normal force $N$ in the longitudinal direction $x$ of the bar is equal to the negative longitudinal load $q$!
+
+- **Kinematic relations** (strain)
+
+  $$
+  \ve = \dfrac{du}{dx}
+  $$ {#eq-kinematik}
+
+- **Constitutive relations** (material law)
+
+  $$
+  \sigma = E\ve
+  $$ {#eq-werkstoff}
+
+From the kinematic and constitutive relations, taking into account ([-@eq-spannung]), the normal force follows as
+
+$$
+N = A\sigma = A\,E\ve = EA \dfrac{du}{dx} \; .
+$$ {#eq-normalkraft}
+
+Inserting into the equilibrium condition ([-@eq-gg-stab]) yields
+
+$$
+\dfrac{d}{dx}\left(EA\dfrac{du}{dx}\right) = -q(x) \; .
+$$ {#eq-dgl-allg}
+
+If it is assumed that the cross-section and the $E$-modulus do not change along the bar ($EA=$ const.), we finally obtain^[The two notations for the derivatives are identical: $\dfrac{d^2 u}{dx^2}\equiv u''$]
+
+$$
+\myBox{\dfrac{d^2u}{dx^2}=-\dfrac{q(x)}{EA}} \; .
+$$ {#eq-dgl}
+
+This *linear* differential equation describes the mechanical behaviour of the tension or compression bar.
+By solving ([-@eq-dgl]) we can, for a known external load, determine the longitudinal displacement $u$, and subsequently, with the kinematic and constitutive relations, the strain and stress.
+
+::: {#exm-haengender-stab}
+Determine the displacement and stress distribution of a hanging bar under self-weight and a single load!
+
+![](images/haengenderStab.svg){fig-align="center"}
+:::
+
+::: {.callout-tip .loesung collapse="true" icon=false}
+## Solution
+
+The self-weight of the bar per unit length is given by
+
+$$
+q(x)\equiv q_0 = \rho A g \; .
+$$
+
+The differential equation ([-@eq-dgl]) therefore reads
+
+$$
+\dfrac{d^2u}{dx^2}=-\dfrac{q_0}{EA} \; .
+$$
+
+By separation of the variables,
+
+$$
+d^2u = -\dfrac{q_0}{EA}\,dx^2 \; ,
+$$
+
+and subsequent double integration we obtain:
+
+$$
+u(x) = -\dfrac{q_0}{EA}\dfrac{x^2}{2} + C_1x + C_2 \; .
+$$ {#eq-bsp-u}
+
+Now the constants of integration still have to be adapted to the *boundary conditions*.
+At the upper end of the bar the following must hold:
+
+$$
+u(x=0) = 0 \; .
+$$
+
+From this it follows immediately that $C_2=0$.
+At the lower end we cannot make any statement about the displacement, but we can about the stress:
+
+$$
+\sigma(x=l) = \dfrac{F}{A} \; .
+$$
+
+But how is the stress computed?
+Via [Hooke]{.smallcaps}'s law ([-@eq-hooke]) and the strain ([-@eq-dehnung-dudx]) as
+
+$$
+\sigma = E\ve = E\dfrac{du}{dx} \; .
+$$
+
+Inserting the longitudinal displacement ([-@eq-bsp-u]) and evaluating at the position $x=l$ gives:
+
+$$
+\sigma(x=l)=E\ve\big|_{x=l} = E\dfrac{du}{dx}\Bigg|_{x=l} = E\left(-\dfrac{q_0x}{EA}+C_1\right)\Bigg|_{x=l} = E\left(-\dfrac{q_0l}{EA}+C_1\right)=\dfrac{F}{A} \; ,
+$$
+
+from which $C_1$ can be determined as
+
+$$
+C_1 = \dfrac{1}{EA}\left(F+q_0l\right) \; .
+$$
+
+Thus the displacement along the bar is given by
+
+$$
+u(x) = \dfrac{1}{EA}\left(-\dfrac{q_0x^2}{2}+q_0lx+Fx\right) \; .
+$$
+
+Sketch this distribution and the associated stress distribution!
+:::
+
+Using the above example we want to emphasise the important significance of a linear mechanical system.
+The external load on the hanging bar can be divided into two *load cases* (LC):
+
+$$
+\color{myBlue}{\text{LC 1}}\rightarrow q_0 \quad \text{and} \quad \color{myOrange}{\text{LC 2}}\rightarrow F \; .
+$$
+
+Because of the *linear* behaviour, and the resulting *linear* differential equation ([-@eq-dgl]), we can compute each LC *separately* and subsequently *add* (or superpose) the results.
+This possibility of computation is called the *principle of superposition*.
+For example, the total displacement is then composed of the sum of the individual LCs:
+
+$$
+u(x) = u_{LF\;1} + u_{LF\;2} + u_{LF\;3} + \ldots \; .
+$$ {#eq-superposition}
+
+This can also be seen in the result of the previous example:
+
+$$
+u(x) = u_{\color{myBlue}{LF\;1}} \bs{+} u_{\color{myOrange}{LF\;2}} = \dfrac{1}{EA}\left(\Cline[myBlue]{\color{myBlue}{q_0}(x^2-lx)} \bs{+} \Cline[myOrange]{\color{myOrange}{F}x}\right) \, .
+$$ {#eq-superposition-bsp}
+
+The same applies to every other mechanical quantity, as in this case stress and strain.
+
+If at least one of the fundamental relations (equilibrium, kinematic and constitutive relations) has a nonlinear character, then the mechanical behaviour is no longer linear!
+As an example, [Hooke]{.smallcaps}'s law is replaced by a nonlinear elastic material law of the form
+
+$$
+\sigma = C\ln(1+\ve)
+$$ {#eq-gummi}
+
+where $C$ is a material parameter to be determined experimentally. Rubber exhibits such behaviour.
+In @fig-gummi the associated stress-strain diagram is shown.
+
+![Nonlinear elastic material behaviour](images/MaterialGummi.svg){#fig-gummi}
+
+The mechanical behaviour is then determined by the *nonlinear* differential equation^[cf. the *linear* differential equation ([-@eq-dgl])!]
+
+$$
+CA\,\color{myBlue}{\dfrac{1}{1+\dfrac{du}{dx}}}\,\dfrac{d^2u}{dx^2} = q(x) \; .
+$$ {#eq-dgl-nichtlinear}
+
+In this case the principle of superposition is *no longer* valid and applicable!
+A decisive disadvantage in practical computation.
+
+## Simply Statically Indeterminate Systems {#sec-statisch-unbestimmt}
+
+For statically indeterminate systems the equilibrium conditions are not sufficient to determine the support reactions and the internal bar forces.
+With the help of so-called *kinematic constraint conditions* one obtains additional equations for the computation of such systems.
+We discuss the procedure by means of an example.
+Beforehand, the essential steps can be stated as follows:
+
+- Releasing a constraint – reduction to a statically *determinate* system.
+- Computation of the displacement/deformation that arises at the location and in the direction of the released constraint, on the statically determinate system due to the external load.
+- Applying the force $X$, unknown in magnitude, associated with the released constraint on the statically determinate system and determining the displacement/deformation at the location and in the direction of $X$.
+- Setting up a kinematic constraint condition and computing the force $X$ from it.
+
+::: {#exm-starre-platte}
+A *rigid*, weightless plate is suspended from three bars.
+Rigid means that it does not deform! Two bars have an axial stiffness of $EA_1$, the third one of magnitude $EA_2$.
+All bars have the same length $l$. Bar $1$ experiences a temperature change of magnitude $\Delta T$.
+At point $A$ the rigid plate is held horizontally.
+The normal forces in the three bars are to be computed!
+
+![](images/abgehaengterStab.svg){fig-align="center"}
+:::
+
+::: {.callout-tip .loesung collapse="true" icon=false}
+## Solution
+
+To make the sought bar forces visible, we cut the rigid plate out, severing bars $1$ to $3$, and then enter all forces^[Enter normal forces as positive in tension!] in a sketch (method of sections):
+
+![](images/abgehaengterStab2.svg){fig-align="center"}
+
+Four unknown forces appear in the cut.
+For a planar force system, however, only three equilibrium conditions are available.
+Consequently, this is a *simply* ($4-3=1$) statically *indeterminate* system.
+The three equilibrium conditions read:
+
+$$
+\begin{aligned}
+\sum H=0: &\quad A_H = 0 \\
+\sum V=0: &\quad N_1 + N_2 + N_3 = 0 \\
+\sum M^{(A)} = 0: &\quad N_1\dfrac{a}{2} + N_2\dfrac{3a}{2} + N_3\dfrac{5a}{2} = 0 \;.
+\end{aligned}
+$$ {#eq-gg-platte}
+
+From the first it follows immediately that $A_H=0$.
+From the remaining two, however, we cannot compute the three unknown normal forces.
+
+In order to be able to compute the normal forces nonetheless, we proceed as follows.
+Now a constraint is released.
+In the present case this means that bar $3$ is severed immediately above its connection to the rigid plate.
+This renders the bar ineffective, i.e. the normal force in the bar is zero ($N_3=0$).
+Through this step a statically *determinate* system is obtained.
+Consequently, the normal forces $N_1$ and $N_2$ as well as $A_H$ can be determined from the equilibrium conditions ([-@eq-gg-platte]).
+
+![](images/abgehaengterStab3.svg){fig-align="center"}
+
+Which constraint of the statically indeterminate system is released is immaterial.
+Bar $1$ or bar $3$ can also be severed.
+
+If now bar $1$ in the above system experiences a temperature change of $\Delta T$, the normal forces $1$ and $2$ are equal to zero!^[Why, actually? Consider the equilibrium!]
+Consequently, the normal stress is also zero, and from ([-@eq-dehnung-gesamt]) one obtains for the strain in bar $1$
+
+$$
+\ve = \alpha\Delta T \; .
+$$
+
+This is *constant* over the length of the bar, and according to ([-@eq-dehnung]) the change in length due to the temperature change (superscript $T$) is then^[Note: if heating occurs ($\Delta T>0$), then bar $1$ experiences an elongation ($\Delta l_1^{(T)}>0$). Upon cooling ($\Delta T<0$) the bar is shortened ($\Delta l_1^{(T)}<0$).]:
+
+$$
+\Delta l_1^{(T)} = \ve l = \alpha\Delta T l \; .
+$$
+
+At the location where bar $3$ was severed, we obtain an overlap of the two bar ends of magnitude
+
+$$
+\Delta l_3^{(T)} = - \Delta l_1^{(T)} \; .
+$$
+
+This overlap naturally does not occur in the real system!
+In bar $2$ neither a normal force nor a temperature change acts.
+It therefore experiences no strain and its length thus remains unchanged.
+This results in the plate displacement under temperature action shown above.
+
+Now a force $X$, unknown in magnitude, is applied at the two ends of the severed bar.
+This corresponds to the normal force in bar $3$.
+Since, in the real system, a compressive force acts in bar $3$ due to a positive temperature change, we also apply $X$ in this way.
+
+![](images/abgehaengterStab4.svg){fig-align="center"}
+
+By cutting free and via the equilibrium conditions one obtains the normal forces, constant over the length, in bars $1$ and $2$ due to $X$:
+
+$$
+N_1^{(X)} = -X \quad \text{and} \quad N_2^{(X)} = 2X\; .
+$$
+
+In the upper sketch these are entered with correct signs. Knowing the normal force, we can again determine the respective change in length of the bars using ([-@eq-dehnung]) and ([-@eq-dehnung-gesamt]):
+
+$$
+\Delta l_1^{(X)}= \ve l = \dfrac{\sigma}{E}l = \dfrac{N_1^{(X)}}{EA_1}l = -\dfrac{Xl}{EA_1}
+\quad \text{and} \quad
+\Delta l_2^{(X)}= \dfrac{N_2^{(X)}}{EA}l = \dfrac{2Xl}{EA_1} \; .
+$$
+
+From geometric considerations (equation of a straight line), a gap of the severed bar ends of bar $3$ results for this load case as:
+
+$$
+\Delta l_3^{(X)}=\Delta l_1^{(X)} +\dfrac{\Delta l_2^{(X)}-\Delta l_1^{(X)}}{a}2a = 2\Delta l_2^{(X)}-\Delta l_1^{(X)} = \dfrac{5Xl}{EA_1} \; .
+$$
+
+This depends on the magnitude of $X$.
+
+![](images/abgehaengterStab5.svg){fig-align="center"}
+
+In the following sketch the vertical displacement of the lower severed bar end (blue line) due to temperature change and force $X$ is shown.
+The unknown force $X$ also acts, however, on the upper part of the hanging bar $3$.
+The vertical displacement of the upper bar end (orange line) is
+
+$$
+\Delta l_3 = -\dfrac{Xl}{EA_2} \; .
+$$
+
+But how large are the vertical displacements of the two severed bar ends in the real system?
+
+![](images/abgehaengterStab6.svg){fig-align="center"}
+
+These *must* be at the same position, i.e. there must be neither a gap nor an overlap at the severed location!
+From this we can set up the following kinematic compatibility
+
+$$
+\Delta l_3^{(T)} + \Delta l_3^{(X)} = \Delta l_3 \; .
+$$
+
+And from this we can determine the unknown force $X$:
+
+$$
+X = \dfrac{1}{5+\dfrac{EA_1}{EA_2}}\,EA_1\alpha\Delta T \; .
+$$
+
+Since $X$ was applied as a compressive force on bar $3$, $N_3=-X$. By solving the equilibrium conditions ([-@eq-gg-platte]) we then obtain the two other normal forces:
+
+$$
+N_1 = -\dfrac{1}{5+\dfrac{EA_1}{EA_2}}\,EA_1\alpha\Delta T \qquad
+N_2 = \dfrac{2}{5+\dfrac{EA_1}{EA_2}}\,EA_1\alpha\Delta T \; .
+$$
+
+Knowing the normal forces, the change in length of the bars can subsequently be determined:
+
+$$
+\Delta l_1= \left(1-\dfrac{1}{5+\dfrac{EA_1}{EA_2}}\right)\alpha\Delta T l \qquad
+\Delta l_2= \dfrac{2}{5+\dfrac{EA_1}{EA_2}}\alpha\Delta T l \qquad
+\Delta l_3= -\dfrac{1}{5+\dfrac{EA_1}{EA_2}}\alpha\Delta T l \; .
+$$
+
+In @fig-steifigkeitsverhaeltnis the normal force in the bars and their change in length are shown for different stiffness ratios $EA_1/EA_2$.
+This clearly shows that for a statically *indeterminate* system the support reactions and internal forces also depend on the stiffness ratio!
+
+The marked points represent the solution for the axially rigid bar, i.e. $EA_2\rightarrow\infty$.
+In this case the change in length of bar $3$ is equal to zero.
+The other limiting case, $EA_2=0$, is equivalent to the absence of the bar.
+Then the system would be statically determinate.
+
+From these results important conclusions can be drawn:
+
+- In statically *determinate* systems ($EA_2=0$), a temperature change causes deformations, but *no* additional forces!
+- If the system is statically *indeterminate*, a temperature change leads to deformations *and* additional forces!
+
+![Normal forces and changes in length of the bars as a function of the stiffness ratio $EA_1/EA_2$](images/axialForceRatio.svg){#fig-steifigkeitsverhaeltnis}
+:::
+
+::: {#exm-vordach}
+Given is the structural system of a canopy. Both bars have the same axial stiffness $EA$.
+Compute the bar forces, their change in length, and the horizontal and vertical displacement of point $A$! *Small* displacements are assumed!
+
+![](images/Vordach.svg){fig-align="center"}
+:::
+
+::: {.callout-tip .loesung collapse="true" icon=false}
+## Solution
+
+- Bar forces: $S_1 = \dfrac{2F}{\sqrt{3}}, \; S_2=-\dfrac{F}{\sqrt{3}}$
+- Change in length: $\Delta l_1 = \dfrac{4}{\sqrt{3}}\dfrac{Fl}{EA}, \; \Delta l_2 = -\dfrac{1}{\sqrt{3}}\dfrac{Fl}{EA}$
+- Horizontal and vertical displacement: $u_H = -\dfrac{1}{\sqrt{3}}\dfrac{Fl}{EA},\; u_V = \dfrac{\sqrt{3}}{2}\Delta l_1 + \sqrt{3}|\Delta l_2| = 3\dfrac{Fl}{EA}$
+:::
+
+::: {#exm-drei-staebe}
+Determine the normal forces in bars $1$ to $3$ as well as the horizontal and vertical displacement of point $A$!
+
+![](images/DreiStabe.svg){fig-align="center"}
+:::
+
+::: {.callout-tip .loesung collapse="true" icon=false}
+## Solution
+
+- Bar forces: $S_1 = \dfrac{F}{3}\;, \; S_2 = -F\;, \; S_3 =-\dfrac{2F}{3}$
+- Horizontal and vertical displacement: $u_H=\dfrac{Fl}{3EA}\;, \; u_V=\dfrac{Fl}{EA}$
+:::
+
+::: {#exm-starre-platte-T}
+A rigid plate is loaded by a single force $F$ and held by two bars.
+How large is the deflection at point $A$?
+By how much would bar $1$ have to be heated so that no deflection occurs?
+
+![](images/starrePlatteT.svg){fig-align="center"}
+:::
+
+::: {.callout-tip .loesung collapse="true" icon=false}
+## Solution
+
+- Bar forces: $S_1 = -2F,\;S_2 = -F$
+- Deflection: $u_V = \dfrac{3Fl}{EA}$
+- Heating: $\Delta T = +\dfrac{3F}{2\alpha EA}$
+:::
+
+::: {#exm-seilbagger}
+We consider a simplified model of a cable excavator.
+The boom and the back-anchoring are treated as bars with an axial stiffness of $42000\,\text{kN/cm}$.
+At the common point $A$ of the two bars a deflection pulley with a radius of $30\,\text{cm}$ is mounted.
+The cable with a length of $15\,\text{m}$ and an axial stiffness of $21000\,\text{kN/cm}$ is guided frictionlessly from the suspension point $B$ around this pulley to the winch.
+At point $B$ a mass of $2000\,\text{kg}$ is attached to the cable.
+
+![](images/Winde.svg){fig-align="center"}
+
+For the static case, the following are sought:
+
+1) Cable force before and after the deflection pulley.
+2) Force action on bars $1$ and $2$ at point $A$.
+3) Computation of the normal force in bar $1$ and bar $2$.
+4) Horizontal and vertical displacement of point $A$.
+5) By how much does point $B$ lower in total?
+:::
+
+::: {.callout-tip .loesung collapse="true" icon=false}
+## Solution
+
+1) $S_\text{vor}=S_\text{nach}=19.62\,\text{kN}$
+2) $F_H=17.0\,\text{kN} \quad F_V=29.43\,\text{kN}$
+3) $S_1=33.99\,\text{kN} \quad S_2=0$
+4) $u_H=0.19\,\text{cm} \quad u_V=0.32\,\text{cm}$
+5) $u_V=1.72\,\text{cm}$
+:::

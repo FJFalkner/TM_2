@@ -1,0 +1,75 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Schubspannungen_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{440.93062934bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.16936515)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Schubspannungen_svg-tex.pdf}}%
+    \put(0.41983034,0.09643178){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$F$\end{tabular}}}}%
+    \put(0.0173118,0.09443034){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$F$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Schubspannungen_svg-tex.pdf}}%
+    \put(0.17309249,0.13860322){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$s$\end{tabular}}}}%
+    \put(0.23738029,0.01002762){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$s$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Schubspannungen_svg-tex.pdf}}%
+    \put(0.20095991,0.15365796){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$\alpha$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Schubspannungen_svg-tex.pdf}}%
+    \put(0.49399128,0.08994985){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$F$\end{tabular}}}}%
+    \put(0.68234855,0.13106501){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{23.44000053}\smash{\begin{tabular}[t]{r}$\sigma$\end{tabular}}}}%
+    \put(0.70574012,0.01614544){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{23.44000053}\smash{\begin{tabular}[t]{c}$\tau$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Schubspannungen_svg-tex.pdf}}%
+    \put(0.98257857,0.09555002){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$F$\end{tabular}}}}%
+    \put(0.80174606,0.00421583){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{23.44000053}\smash{\begin{tabular}[t]{c}$\sigma$\end{tabular}}}}%
+    \put(0.78337859,0.127069){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{23.44000053}\smash{\begin{tabular}[t]{c}$\tau$\end{tabular}}}}%
+    \put(0.64882216,0.00665308){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{23.44000053}\smash{\begin{tabular}[t]{r}$A'=A/\cos\alpha$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Schubspannungen_svg-tex.pdf}}%
+  \end{picture}%
+\endgroup%

@@ -1,0 +1,85 @@
+%% Creator: Inkscape 1.1.1 (c3084ef, 2021-09-22), www.inkscape.org
+%% PDF/EPS/PS + LaTeX output extension by Johan Engelen, 2010
+%% Accompanies image file 'Koordinatentransformation_svg-tex.pdf' (pdf, eps, ps)
+%%
+%% To include the image in your LaTeX document, write
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics{<filename>.pdf}
+%% To scale the image, write
+%%   \def\svgwidth{<desired width>}
+%%   \input{<filename>.pdf_tex}
+%%  instead of
+%%   \includegraphics[width=<desired width>]{<filename>.pdf}
+%%
+%% Images with a different path to the parent latex file can
+%% be accessed with the `import' package (which may need to be
+%% installed) using
+%%   \usepackage{import}
+%% in the preamble, and then including the image with
+%%   \import{<path to file>}{<filename>.pdf_tex}
+%% Alternatively, one can specify
+%%   \graphicspath{{<path to file>/}}
+%% 
+%% For more information, please see info/svg-inkscape on CTAN:
+%%   http://tug.ctan.org/tex-archive/info/svg-inkscape
+%%
+\begingroup%
+  \makeatletter%
+  \providecommand\color[2][]{%
+    \errmessage{(Inkscape) Color is used for the text in Inkscape, but the package 'color.sty' is not loaded}%
+    \renewcommand\color[2][]{}%
+  }%
+  \providecommand\transparent[1]{%
+    \errmessage{(Inkscape) Transparency is used (non-zero) for the text in Inkscape, but the package 'transparent.sty' is not loaded}%
+    \renewcommand\transparent[1]{}%
+  }%
+  \providecommand\rotatebox[2]{#2}%
+  \newcommand*\fsize{\dimexpr\f@size pt\relax}%
+  \newcommand*\lineheight[1]{\fontsize{\fsize}{#1\fsize}\selectfont}%
+  \ifx\svgwidth\undefined%
+    \setlength{\unitlength}{395.84678852bp}%
+    \ifx\svgscale\undefined%
+      \relax%
+    \else%
+      \setlength{\unitlength}{\unitlength * \real{\svgscale}}%
+    \fi%
+  \else%
+    \setlength{\unitlength}{\svgwidth}%
+  \fi%
+  \global\let\svgwidth\undefined%
+  \global\let\svgscale\undefined%
+  \makeatother%
+  \begin{picture}(1,0.32646984)%
+    \lineheight{1}%
+    \setlength\tabcolsep{0pt}%
+    \put(0,0){\includegraphics[width=\unitlength,page=1]{Koordinatentransformation_svg-tex.pdf}}%
+    \put(0.19383272,0.00400768){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$x$\end{tabular}}}}%
+    \put(0.09547201,0.11526288){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$y$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=2]{Koordinatentransformation_svg-tex.pdf}}%
+    \put(0.15738221,0.27433052){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$\bs{t}_x$\end{tabular}}}}%
+    \put(0.23897484,0.08223115){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$\bs{t}_y$\end{tabular}}}}%
+    \put(0.16573089,0.19606155){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$\sigma_x$\end{tabular}}}}%
+    \put(0.14486473,0.23497974){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$\tau_{xy}$\end{tabular}}}}%
+    \put(0.30035905,0.0784418){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$\sigma_y$\end{tabular}}}}%
+    \put(0.26763266,0.02417535){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$\tau_{yx}$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=3]{Koordinatentransformation_svg-tex.pdf}}%
+    \put(0.2544357,0.24980623){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$\vp$\end{tabular}}}}%
+    \put(0.31979668,0.25933534){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}$dS$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=4]{Koordinatentransformation_svg-tex.pdf}}%
+    \put(0.21099564,0.15309159){\color[rgb]{0,0,0}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$\cos\vp dS$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=5]{Koordinatentransformation_svg-tex.pdf}}%
+    \put(0.33517591,0.10578041){\color[rgb]{0,0,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$\sin\vp dS$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=6]{Koordinatentransformation_svg-tex.pdf}}%
+    \put(0.37841576,0.20592606){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$\bs{t}_n$\end{tabular}}}}%
+    \put(0.40002194,0.28333675){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[rt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{r}$\sigma(\vp)$\end{tabular}}}}%
+    \put(0.42109086,0.26453157){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[lt]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{l}$\tau(\vp)$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=7]{Koordinatentransformation_svg-tex.pdf}}%
+    \put(0.69492832,0.23272913){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{2.08333325}\smash{\begin{tabular}[t]{c}Krafteck: $\Sigma\bs{F}=\bs{0}$\end{tabular}}}}%
+    \put(0.7656527,0.1792723){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[lt]{\lineheight{2.34375}\smash{\begin{tabular}[t]{l}$\bs{t}_x\cos\vp\,dS$\end{tabular}}}}%
+    \put(0.6750926,0.16194653){\color[rgb]{0,0.28627451,0.51372549}\makebox(0,0)[rt]{\lineheight{2.34375}\smash{\begin{tabular}[t]{r}$\bs{t}_y\sin\vp\,dS$\end{tabular}}}}%
+    \put(0.73806616,0.10465877){\color[rgb]{0.95686275,0.60784314,0}\makebox(0,0)[t]{\lineheight{2.34375}\smash{\begin{tabular}[t]{c}$\bs{t}_n\,dS$\end{tabular}}}}%
+    \put(0,0){\includegraphics[width=\unitlength,page=8]{Koordinatentransformation_svg-tex.pdf}}%
+    \put(0.27943899,0.15633806){\color[rgb]{0,0,0}\makebox(0,0)[t]{\lineheight{1.25}\smash{\begin{tabular}[t]{c}$P$\end{tabular}}}}%
+  \end{picture}%
+\endgroup%

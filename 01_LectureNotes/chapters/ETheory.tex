@@ -1,0 +1,523 @@
+%!TEX root = ../TM2.tex
+
+\chapter{Der Spannungszustand in einer Scheibe}
+
+\section{Der Spannungstensor}
+
+Zunächst gilt es zu definieren, was in der Mechanik unter einer Scheibe verstanden wird.
+Als Beispiel dafür betrachten wir das Knotenblech eines Hochspannungsmasten, siehe Abb.~\ref{fig:5-1}.
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{BspESZ}
+	\caption{Beispiel für eine Scheibe: (a) Knotenblech eines Hochspannungsmasten, (b) Geometrie und angreifende Kräfte}
+	\label{fig:5-1}
+\end{figure}
+%
+Eine Scheibe ist ein \emph{ebener} Körper, dessen Dicke $t$ wesentlich kleiner als die beiden anderen Körperabmessungen ist.
+Des Weiteren greifen die äußeren Kräfte alle \emph{in} der Scheibenebene an.
+Für das Knotenblech sind dies die Kräfte in den Streben (Einzelkräfte in Abb.~\ref{fig:5-1}(b)).
+Durch diese Art der Beanspruchung kommt es zu \emph{keiner} Verschiebung normal zur Scheibe, d.h. sie bleibt eben.  
+
+Nun gilt es die in einem beliebigen Punkt $P$ der Scheibe wirkenden inneren Kräfte zu bestimmen.
+Damit diese sichtbar werden, schneidet man ein infinitesimales Elemente um den betrachteten Punkt heraus (Abb.~\ref{fig:5-2}(a)).
+Betrachtet wird dieses Element nun mit Blickrichtung normal zur Scheibenebene.
+Des Weiteren wird ein kartesischen $x - y$ Koordinatensystem definiert.
+In Analogie zum Stab lassen sich damit die positiven und negativen Schnittufer bestimmen.
+Zeigt der Normalenvektor in die positive Koordinatenrichtung, handelt es sich um das positive Schnittufer (blaue Flächen in Abb.~\ref{fig:5-2}(a)).
+Bei entgegengesetzter Richtung handelt es sich um das negative Schnittufer (orange Flächen).  
+%
+\begin{figure}[h!]
+	\centering
+	\includegraphics{pdf/ESZ.pdf}
+	\caption{Spannungszustand im Punkt $P$: (a) positive und negative Schnittflächen, (b) wirkende Normal- und Schubspannungen, (c) Benennung der Spannungen.}
+	\label{fig:5-2}
+\end{figure}
+%
+Somit lassen sich nun in jede der vier Flächen die wirkenden Normal- (blau) und Schubspannungen (orange) eintragen (Abb.~\ref{fig:5-2}(b)).
+Zur Erinnerung: Am positiven Schnittufer wirken die Spannungen in die positiven Koordinatenrichtungen!
+Damit wir diese Spannungen unterscheiden können, werden sowohl der Normalspannung $\sigma$ wie auch der Schubspannung $\tau$ \emph{zwei} Indizes angehängt.
+Der Erste gibt die Richtung des Normalenvektors der Fläche an, in der die Spannung wirkt, und der Zweite die Richtung der Spannung selber.
+Somit ergibt sich die Benennung der Spannungen wie sie in Abb.~\ref{fig:5-2}(c) angegeben ist. 
+
+Damit \emph{Gleichgewicht} erfüllt ist, sind die beiden horizontalen Normalspannungen $\sigma_{xx}$ gleich groß.
+Gleiches gilt für die beiden vertikalen Normalspannungen $\sigma_{yy}$.
+Aus dem Momentengleichgewicht folgt, dass alle vier wirkenden Schubspannungen gleich groß sind (Satz der zugeordneten Schubspannungen).
+Damit wirken in einem Punkt $P$ der Scheibe die drei Spannungen:
+%
+\begin{equation}
+\sigma_x\;,\quad \sigma_y\;, \quad \text{und} \quad \tau_{xy}=\tau_{yx} \;.
+\label{eq:5-1}
+\end{equation}
+%
+Zur einfacheren Schreibweise wird nachfolgend nur mehr ein Indizes für die Normalspannung angeschrieben ($\sigma_{xx}\equiv\sigma_x$ und $\sigma_{yy}\equiv\sigma_y$).
+Diese Spannungen werden nun in einen Tensor (Matrix) geschrieben, wobei auf der Diagonale die Normalspannungen stehen:
+%
+\begin{equation}
+\bs{\sigma} = 
+\begin{bmatrix}
+\sigma_x & \tau_{xy} \\ \tau_{yx} & \sigma_y
+\end{bmatrix}
+\label{eq:5-2}
+\end{equation}
+%
+Der \emph{Spannungstensor} $\bs{\sigma}$ ist aufgrund des Satzes der zugeordneten Schubspannungen ($\tau_{xy}=\tau_{yx}$) \emph{symmetrisch}.
+Wie die Schnittgrößen ($N$, $Q$ und $M_y$) in einem Stab, beschreibt dieser die Beanspruchung in einem Punkt durch die äußere Belastung.
+Ist der Spannungstensor bekannt, kann ein Festigkeitsnachweis durchgeführt werden.
+
+
+
+\section{Koordinatentransformation und Hauptspannungen}
+
+Bereits beim Zugstab wurde erkannt, dass die Größe der Normal- und Schubspannungen abhängig von der Orientierung der Schnittfläche sind (siehe Abb.~\ref{fig:1-2} bis Abb.~\ref{fig:1-4}).
+Gleiches gilt natürlich auch in einer Scheibe!
+Um die Beziehungen zur Bestimmung der Spannungen in beliebig gerichteten Flächen herzuleiten, schneidet man nun ein infinitesimales Dreieck um den Punkt $P$ aus der Scheibe heraus (Abb.~\ref{fig:5-3}). 
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{Koordinatentransformation}
+	\caption{Gleichgewicht am infinitesimalen Dreieck}
+	\label{fig:5-3}
+\end{figure}
+%
+Es wird davon ausgegangen, dass der Spannungstensor \eqref{eq:5-2} bezogen auf das $x-y$ Koordinatensystem im Punkt $P$ bekannt ist.
+Die in der vertikalen und horizontalen Flächen wirkende Spannungen werden nun in Vektoren geschrieben:
+%
+\begin{equation}
+	\bs{t}_x = \begin{Bmatrix}
+	\sigma_x \\ \tau_{xy}
+	\end{Bmatrix} \quad \text{und} \quad
+	\bs{t}_y = \begin{Bmatrix}
+	\sigma_y \\ \tau_{yx}
+	\end{Bmatrix} \; .
+	\label{eq5-2a:}
+\end{equation}
+%
+Ebenso werden die \emph{unbekannte} Normal- und Schubspannung in der schrägen Fläche $dS$ in einen Vektor eingetragen:
+%
+\begin{equation}
+\bs{t}_n = \begin{Bmatrix}
+\sigma(\vp) \\ \tau(\vp) 
+\end{Bmatrix} \; .
+\label{eq:5-2b}
+\end{equation}
+% 
+Im infinitesimale Dreieckselement in Abb.~\ref{fig:5-3} sind all diese (Spannungs-)Vektoren eingetragen.
+
+Wie kann nun $\bs{t}_n$ berechnet werden?
+Die \emph{Kräfte} müssen im \emph{Gleichgewicht} sein!
+Um von den Spannungen auf die resultierenden Kräfte zu kommen, müssen diese mit der jeweiligen Fläche ($\cos\vp dS$, $\sin\vp dS$, $dS$) multipliziert werden.
+Die Gleichgewichtsbedingung lautet (geschlossenes Krafteck in Abb.~\ref{fig:5-3}):
+%
+\begin{equation}
+	\sum\bs{F}=\bs{0}: \bs{t}_x\cos\vp\,\cancel{dS} + \bs{t}_y\sin\vp\,\cancel{dS} +\bs{t}_n\,\cancel{dS} = \bs{0} \quad \rightarrow \quad \bs{t}_n(\vp) = -\bs{t}_x\cos\vp - \bs{t}_y\sin\vp \; .
+	\label{eq:5-3}
+\end{equation}
+%
+Daraus geht eindeutig hervor, dass $\bs{t}_n$ und damit die Normal- und Schubspannung in der schrägen Fläche $dS$ \emph{abhängig} vom Winkel $\vp$  sind, d.h. von der Orientierung der Fläche!
+Zur Erinnerung: $\bs{t}_x$ und $\bs{t}_y$ sind ja bekannt.
+
+Auf Basis dieser Gleichgewichtsbetrachtung lassen sich die sogenannten Koordinatentransformationen für die Spannungen herleiten.
+Um die Ausrichtung einer beliebigen Fläche beschreiben zu können, wird ein $\xi - \eta$ Koordinatensystem eingeführt.
+Dieses wird durch eine Drehung um den Winkel $\vp$ erhalten, siehe Abb.~\ref{fig:5-4}. 
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{ESZtransf}
+	\caption{Spannungen im Punkt $P$ in unterschiedlich ausgerichteten Koordinatensystemen}
+	\label{fig:5-4}
+\end{figure}
+%
+Zu beachten ist, dass $\vp$ im Gegenuhrzeigersinn positiv gezählt wird. 
+In Abb.~\ref{fig:5-4} sind auch die Indizes der Spannungen im $\xi - \eta$ Koordinatensystem nach der eingangs erläuterten Konvention eingetragen.
+Ihre Größen berechnen sich zu:
+%
+\begin{equation}
+	\begin{split}
+	\sigma_\xi &= \dfrac{\sigma_x+\sigma_y}{2}+\dfrac{\sigma_x-\sigma_y}{2}\cos 2\vp + \tau_{xy}\sin 2\vp \\
+	\sigma_\eta &= \dfrac{\sigma_x+\sigma_y}{2}-\dfrac{\sigma_x-\sigma_y}{2}\cos 2\vp - \tau_{xy}\sin 2\vp \\ 
+	\tau_{\xi\eta} &= -\dfrac{\sigma_x-\sigma_y}{2}\sin 2\vp + \tau_{xy}\cos 2\vp \; .
+	\end{split}
+\label{eq:5-4}
+\end{equation}
+%
+Bei \eqref{eq:5-4} handelt es sich um die sogenannten Transformationsbeziehungen für des Spannungstensors einer Scheibe.
+
+Als Beispiel ist in Abb.~\ref{fig:5-5} der Spannungszustand (Spannungstensor) im Punkt $P$ einer Scheibe angegeben.
+Diese Spannungen beziehen sich anfänglich auf ein $x - y$ Koordinatensystem.
+Anschließend wird das System um $20^\circ$ im Gegenuhrzeigersinn gedreht. 
+Mit Hilfe von \eqref{eq:5-4} werden die Spannungen im $\xi - \eta$ Koordinatensystem berechnet.
+%
+\begin{figure}[h!]
+	\begin{minipage}{\textwidth}
+		\begin{center}
+			\includesvg{transformierteSpannungen}
+		\end{center} 
+	\end{minipage}
+	\newline
+	\begin{center}
+	\begin{minipage}{0.35\textwidth}
+		\[
+		\bs{\sigma} =
+		\begin{bmatrix}
+		\sigma_x & \tau_{xy} \\ \tau_{yx}  & \sigma_y
+		\end{bmatrix} = 
+		\begin{bmatrix}
+		7.0 & 4.0 \\ 4.0 & 1.0
+		\end{bmatrix}
+		\]
+	\end{minipage}
+	\begin{minipage}{0.4\textwidth}
+		\[
+		\bs{\sigma} = 
+		\begin{bmatrix}
+		\sigma_\xi & \tau_{\xi\eta} \\ \tau_{\eta\xi}  & \sigma_\eta
+		\end{bmatrix} = 
+		\begin{bmatrix}
+		8.87 & 1.14 \\ 1.14 & -0.87
+		\end{bmatrix}
+		\]
+	\end{minipage}
+	\end{center}
+	\caption{Beispiel für die Transformation des Spannungstensors ($\unit{N/mm^2}$)}
+	\label{fig:5-5}
+\end{figure}
+%
+Die Normalspannung in einer horizontalen Faser ($x$ Richtung) ist zunächst $7.0\,\unit{N/mm^2}$.
+Eine Faser, die um $20^\circ$ gegenüber der horizontalen geneigt ist, erfährt in diesem Fall eine höhere Normalspannung (Zug) von der Größe $8.87\,\unit{N/mm^2}$. 
+
+Des Weiteren erkennt man, dass im $x - y$ Koordinatensystem beide Normalspannungen Zugspannungen sind.
+Betrachtet man hingegen eine Faser in $\eta$ Richtung, erfährt diese eine Druckspannung ($\sigma_\eta=-0.87\,\unit{N/mm^2}$)!
+Mit diesem Beispiel soll die Änderung der Größe der Spannungen in unterschiedlich ausgerichteten Flächen untermauert werden.
+Es ist zu beachten, dass die Scheibe selbst \emph{nicht} gedreht wird, nur die Schnittflächen!
+Interessanterweise ändert sich allerdings die Spur und Determinante von $\bs{\sigma}$ bei einer Koordinatentransformation nicht.
+
+\FloatBarrier
+Die Transformationsbeziehungen \eqref{eq:5-4} können auch grafisch dargestellt werden im sogenannten \textsc{Mo\-hr}'schen Spannungskreis.
+Aus diesem lassen sich können auf sehr einfachen Wege die Änderungen der Spannungen abgeschätzt werden.
+Konstruiert wird der \textsc{Mohr}'sche Spannungskreis auf folgendem Wege (siehe Abb.~\ref{fig:5-6}):
+%
+\begin{itemize}
+	\item Es wird ein Achsensystem gewählt in dem auf der horizontalen Achse die Normalspannung $\sigma$ und auf der vertikalen Achse die Schubspannung $\tau$ aufgetragen wird.
+	\item Über den Wert der Normalspannung $\sigma_x$ wird die Schubspannung $\tau_{xy}$ aufgetragen und über $\sigma_y$ der \emph{negative} Wert von $\tau_{xy}$.
+	\item Die so erhaltenen Punkte $P$ und $P'$ werden miteinander verbunden. Der Schnittpunkt dieser Gerade mit der $\sigma$-Achse ist der Mittelpunkt des Spannungskreises.
+\end{itemize} 
+%
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{MohrCircle}
+	\caption{Konstruktion des \textsc{Mohr}'schen Spannungskreises}
+	\label{fig:5-6}
+\end{figure}
+%
+Der blaue Kreis in Abb.~\ref{fig:5-6} ist der \textsc{Mohr}'sche Spannungskreis. 
+\FloatBarrier
+
+Nach diesen Konstruktionsregeln ist für das Zahlenbeispiel in Abb.~\ref{fig:5-5} der \textsc{Mohr}'sche Spannungskreis in Abb.~\ref{fig:5-7} dargestellt.
+Aus dem Kreis lassen sich die Werte für die Spannungen $\sigma_\xi$, $\sigma_\eta$ und $\tau_{\eta\xi}$ ablesen.
+Um dies zu bewerkstelligen, muss zuerst die Gerade $P-P'$ um den \emph{doppelten} Winkel $2\vp$ und in die \emph{entgegengesetzte} Drehrichtung (zu $\vp$) um den Kreismittelpunkt gedreht werden.
+Für den vorliegenden Fall muss also die strichlierte blaue Geraden um $40^\circ$ im Uhrzeigersinn gedreht werden.
+So ergeben sich die Punkte $Q$ und $Q'$ in Abb.~\ref{fig:5-7}.
+Die Koordinaten dieser beiden Punkte entsprechen dann den Spannungen im $\xi-\eta$ Koordinatensystem, denn Punkt $Q$ liegt bei $(\sigma_\xi=8.87\,\unit{N/mm^2}$, $\tau_{\xi\eta}=1.14\,\unit{N/mm^2})$ und  $Q'$ bei $(\sigma_\xi=-0.87\,\unit{N/mm^2}$, $\tau_{\xi\eta}=-1.14\,\unit{N/mm^2})$.
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{BspMohrscheKreis}
+	\caption{Beispiel zum \textsc{Mohr}'schen Spannungskreis ($\unit{N/mm^2}$)}
+	\label{fig:5-7}
+\end{figure}
+%
+
+Für die Dimensionierung einer Scheibe sind natürlich die Größtwerte der Spannungen von Interesse.
+Wie man im Beispiel in Abb.~\ref{fig:5-5} erkennt, ändern sich die Normalspannungen in Abhängigkeit vom Winkel $\vp$.
+Über eine Extremwertaufgabe lassen sich die Größtwerte der Normalspannungen bestimmen.
+Leichter kann man diese aber aus dem \textsc{Mohr}'schen Spannungskreis bestimmen.
+Wie aus Abb.~\ref{fig:5-6} hervorgeht, werden die größten auftretenden Normalspannungen am linken und rechten Scheitelpunkt des Kreises erreicht.
+Diese Größtwerte werden als \emph{Hauptnormalspannungen} $\sigma_1$ und $\sigma_2$ bezeichnet.
+Man erkennt weiters aus dem \textsc{Mohr}'schen Spannungskreis, dass die dabei auftretenden Schubspannungen gleich Null sind!
+Die Größe der Hauptnormalspannungen berechnet sich zu
+%
+\begin{equation}
+\sigma_{1,2}=\dfrac{\sigma_x+\sigma_y}{2}\pm\sqrt{\left(\dfrac{\sigma_x-\sigma_y}{2}\right)^2+\tau_{xy}^2} \; .
+\label{eq:5-5}
+\end{equation}
+%
+Diese werden der Größe nach geordnet, d.h. $\sigma_1>\sigma_2$.
+Ein Vergleich mit Abb.~\ref{fig:5-6} ergibt, dass der erste Term auf der rechten Seite von \eqref{eq:5-5} der Mittelpunkt und der Wurzelausdruck gleich dem Radius des \textsc{Mohr}'schen Spannungskreises ist.
+Ebenfalls daraus ergibt sich die Richtung der Hauptnormalspannungen $\vp_\sigma$ zu
+%
+\begin{equation}
+\tan 2\vp_\sigma=\dfrac{2\tau_{xy}}{\sigma_x-\sigma_y} \; .
+\label{eq:5-6}
+\end{equation}
+%
+Für das Beispiel in Abb.~\ref{fig:5-5} sind die Hauptnormalspannungen in Abb.~\ref{fig:5-8}(a) dargestellt.
+Im Spannungskreis muss die Gerade $P-P'$ um $53.2^\circ$ im Uhrzeigersinn gedreht werden, um auf die Gerade der Hauptnormalspannungen $\sigma_1-\sigma_2$ zu kommen.
+Die größte Zugspannung von $\sigma_1=9.0\,\unit{N/mm^2}$ tritt unter einem Winkel von $26.6^\circ$ auf, und die größte Druckspannung $\sigma_2=-1.0\,\unit{N/mm^2}$ tritt in einem Winkel von $116.6^\circ$ auf.
+Es wird nochmals betont, dass in diesen Richtungen \emph{keine} Schubspannungen wirken!
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{BspPrincipalStresses}
+	\caption{Hauptspannungen und -richtungen: (a) Hauptnormalspannungen, (b) Hauptschubspannung ($\unit{N/mm^2}$)}
+	\label{fig:5-8}
+\end{figure}
+%
+
+Aus analogen Betrachtungen am \textsc{Mohr}'schen Spannungskreis lassen sich auch die größten Schubspannungen (Hauptschubspannungen), die am oberen und unteren Scheitelpunkt auftreten, bestimmen.
+Ihre Größe entspricht genau dem Radius des Spannungskreises:
+%
+\begin{equation}
+\tau_{max}=\pm\sqrt{\left(\dfrac{\sigma_x-\sigma_y}{2}\right)^2+\tau_{xy}^2} \; ,
+\label{eq:5-7}
+\end{equation}
+%
+und sie treten in einer Richtung von 
+%
+\begin{equation}
+\tan 2\vp_\tau=-\dfrac{\sigma_x-\sigma_y}{2\tau_{xy}}
+\label{eq:5-8}
+\end{equation}
+%
+auf.
+Die Normalspannungen sind in diesen Richtungen nicht Null, aber gleich groß und entsprechen dem Mittelpunkt des Spannungskreise.
+In Abb.~\ref{fig:5-8}(b) ist die Richtung und die Größe der Hauptschubspannungen für das Zahlenbeispiel dargestellt.
+
+Hauptnormalspannungen werden heute - vor allem in Finite-Elemente Programmen - aber vorwiegend durch Lösen eines Eigenwertproblems bestimmt.
+Die Eigenwerte des Spannungstensors entsprechen dabei den Hauptnormalspannungen.
+Um dies zu zeigen, formulieren wir zunächst das Eigenwertproblem%
+\footnote{Aus der Mathematik: $\bs{Ax}=\lambda\bs{x}\;\rightarrow\;(\bs{A}-\lambda\bs{I})\bs{x}=\bs{0}$}
+%
+\begin{equation}
+(\bs{\sigma}-\lambda\bs{I})\bs{n}=\bs{0} \;\rightarrow\;
+\begin{bmatrix}
+\sigma_x-\lambda & \tau_{xy} \\ \tau_{xy} & \sigma_y-\lambda
+\end{bmatrix}
+\begin{Bmatrix}n_x \\ n_y\end{Bmatrix} = 
+\begin{Bmatrix}0 \\ 0\end{Bmatrix} \; ,
+\label{eq:5-9}
+\end{equation}
+%
+mit den Eigenwerten $\lambda$ und den dazugehörigen Eigenvektoren $\bs{n}$.
+Durch Nullsetzen der Determinante der Koeffizientenmatrix 
+%
+\begin{equation}
+\det\left[\bs{\sigma}-\lambda\bs{I}\right] = (\sigma_x-\lambda)(\sigma_y-\lambda)-\tau_{xy}^2 =\lambda^2-\lambda(\sigma_x+\sigma_y) + \sigma_x\sigma_y - \tau_{xy}^2= 0 \; ,
+\label{eq:5-10}
+\end{equation}
+%
+lassen sich aus dieser quadratischen Gleichung\footnote{$x^2+px+q=0\;\rightarrow\;x_{1,2}=-\dfrac{p}{2}\pm\sqrt{\left(\dfrac{p}{2}\right)^2-q}$} die Eigenwerte berechnen:
+%
+\begin{equation}
+\lambda_{1,2} = \dfrac{\sigma_y+\sigma_x}{2}\pm\sqrt{\left(\dfrac{\sigma_x+\sigma_y}{2}\right)^2-\sigma_x\sigma_y+\tau_{xy}^2} \; .
+\label{eq:5-11}
+\end{equation}
+%
+Ein Vergleich der Eigenwerte $\lambda_{1,2}$ mit \eqref{eq:5-5} ergibt, dass diese beiden Ausdrücke ident sind, d.h. $\lambda_1\equiv\sigma_1$ und $\lambda_2\equiv\sigma_2$ gilt.
+Da es sich beim Spannungstensor \eqref{eq:5-2} um eine \emph{symmetrische} Matrix handelt, sind die Eigenwerte (Hauptspannungen) immer reell.
+Die Eigenvektoren $\bs{n}_1$ und $\bs{n}_2$ geben die Wirkungsrichtung der Hauptnormalspannungen an.
+Ebenfalls durch die Symmetrie sind diese zueinander orthogonal, vgl. Abb.~\ref{fig:5-8}(a).
+
+\FloatBarrier
+
+\begin{example}
+	Eine Glasscheibe von der Dicke $t=5\,\unit{mm}$ wird an ihrem unteren Rand gehalten und am oberen Rand gleichförmig belastet.
+	Die Größe der Belastung in vertikaler Richtung ist $p_y=3.5\,\unit{kN/cm}$ und in horizontaler Richtung $p_x=2.0\,\unit{kN/cm}$.
+	Die Zugfestigkeit (max. aufnehmbare Zugspannung) für Glas ist zu $f_t=3.0\,\unit{kN/cm^2}$ und die Druckfestigkeit (max. aufnehmbare Druckspannung) ist zu $f_c=90\,\unit{kN/cm^2}$ gegeben.
+	%
+	\begin{center}
+		\includesvg{BspGlasscheibe}
+	\end{center}
+	%
+	Im mittleren Bereich der Glasscheibe (oranger Bereich) kann der Spannungszustand zu
+	\[
+	\bs{\sigma} = \begin{bmatrix}\sigma_x & \tau_{xy} \\ \tau_{yx} & \sigma_y\end{bmatrix} = \begin{bmatrix}0 & \dfrac{p_x}{t} \\ \dfrac{p_x}{t} & -\dfrac{p_y}{t}\end{bmatrix} = \begin{bmatrix}0 & 4.0 \\ 4.0 & -7.0\end{bmatrix} \quad (\unit{kN/cm^2}) 
+	\]
+	angenähert werden.
+	Kommt es in diesem Bereich zum Materialversagen (Bruch), d.h. werden größere Spannungen als die angegebenen Festigkeiten erreicht?
+	Wenn nein, um wie viel kann $p_x$ (bei gleichbleibenden $p_y$) maximal gesteigert werden?
+	
+	Zuerst müssen dazu die größten Normalspannungen bestimmt werden, d.h. die Hauptnormalspannungen.
+	Der dazugehörige \text{Mohr}'sche Spannungskreis ist in nachfolgender Abbildung  blau dargestellt.
+	Für den gegebenen Spannungstensor berechnen sich die Hauptnormalspannungen nach \eqref{eq:5-5} zu 
+	\[
+	\sigma_{1,2} = -\dfrac{7}{2}\pm\sqrt{\left(\dfrac{7}{2}\right)^2+4^2} = -3.5\pm 5.3 \; .
+	\]
+	Aus den Zahlenwerten erkennt man, dass $\sigma_1$ eine Zug- und $\sigma_2$ eine Druckspannung ist.
+	Ein Vergleich mit den dazugehörigen Festigkeiten ergibt:
+	\[
+	\sigma_1 = 1.8\,\unit{kN/cm^2} < f_t=3.0\,\unit{kN/cm^2} \quad \text{und} \quad |\sigma_2| = 8.8\,\unit{kN/cm^2} < f_c=90\,\unit{kN/cm^2} \; .
+	\]
+	Weder $\sigma_1$ noch $\sigma_2$ nehmen Werte größer der gegebenen Festigkeiten an.
+	Es kommt daher nicht zum Versagen des Glases in diesem Bereich.
+	
+	Folglich kann $p_x$ noch gesteigert werden kann.
+	Aus dem oberen Ergebnis sieht man, dass bei einer weiteren Steigerung von $p_y$ \emph{zuerst} die Zugfestigkeit $f_t$ erreicht wird.
+	Bei spröden Materialien kommt es meist zu Zugversagen.
+	Wird nun $p_x$ um den Faktor $\lambda$ gesteigert, ändert sich die Schubspannung ebenfalls um diesen Wert.
+	Es kommt dann zum Bruch, wenn $\sigma_1$ den Wert der Zugfestigkeit erreicht.
+	Daraus können wir $\lambda$ bestimmen: 
+	\[
+	\sigma_1 = f_t \;\rightarrow\; \sigma_1 = -\dfrac{7}{2}\pm\sqrt{\left(\dfrac{7}{2}\right)^2+(\lambda 4)^2} = 3.0 \;\rightarrow\; \lambda = 1.3693
+	\]
+	Die horizontale Belastung, bei gleichbleibender vertikaler Belastung, von der Größe
+	\[
+	p_{x,c} = \lambda p_x= 2.7\,\unit{kN/cm^2}
+	\]
+	führt zum Zugversagen des Glases! 
+	
+	Eine Vergrößerung der Schubspannung vergrößert gleichzeitig den Radius des \textsc{Mohr}'schen Spannungskreises (oranger Kreis).
+	Der Mittelpunkt bleibt an der gleichen Stelle.
+	Berührt der Kreis die Versagensgrenze ($\sigma_1=f_t$) kommt es zum Bruch!
+	%
+	\begin{center}
+		\includesvg{GlasscheibeMohrscheKreis}
+	\end{center}
+	%
+	
+	Wie groß wäre die Laststeigerung, wenn $p_x$ und $p_y$ gleichzeitig gesteigert werden?
+	(Lösung: $\lambda=1.667$).
+	Warum kann die Last in diesem Fall größere Werte annehmen?
+\end{example}
+
+
+
+\section{Versagen von spröden und duktilen Werkstoffen}
+
+In diesem Abschnitt wird kurz beschrieben, welche Spannungen zum Versagen von spröden (Glas, Gusseisen, Keramik, ...) und duktilen (Stahl, Aluminium, ... ) Werkstoffen führen.
+Aufschlussreich ist dabei, die Verformung und Versagensfläche der Probe eines Zugversuches zu betrachten.  
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{bruecheZugversuch}
+	\caption{Versagen im Zugversuch: (a) Sprödbruch, (b) duktiler Bruch, (c) vollständig duktiler Bruch}
+	\label{fig:5-10}
+\end{figure}
+%
+In Abb.~\ref{fig:5-10} ist das Bruchbild der Zugprobe für spröde und duktile Werkstoffe schematisch dargestellt.
+Beim  spröden Werkstoff ist die Bruchfläche genau rechtwinkelig zur Stabachse (Kraftrichtung).
+Mit steigender Duktilität wird die Verformung an der Bruchstelle immer spitziger.
+Die größten plastischen Verformungen treten in geneigten Ebenen zur Stabachse auf.
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{duktilerBruch}
+	\caption{Orientierung der Versagensflächen: (a) spröder Werkstoff, (b) duktiler Werkstoff}
+	\label{fig:5-11}
+\end{figure}
+%
+In Abb.~\ref{fig:5-11} sind reale Bruch- und Versagensflächen eines spröden und duktilen Werkstoffs dargestellt.
+Die Längenänderung $\Delta l$ der Zugprobe beim Versagen nimmt mit wachsender Duktilität zu.
+Gleichzeitig wird die Verformung an der Bruchstelle immer flacher. 
+
+Mit Hilfe des \textsc{Mohr}'schen Spannungskreises sollen nun die Spannungen in diesen Bruch- und Versagensflächen bestimmt werden.
+Beim Zugversuch herrscht in einer Fläche normal zur Stabachse nur eine Normalspannung $\sigma_x$ von der Größe $F/A$, wenn ein Koordinatensystem wie in Abb.~\ref{fig:5-12} gewählt wird.
+Da die Schubspannungen Null sind, handelt es sich bei $\sigma_x$ um eine Hauptnormalspannung.
+Die Normalspannung in $y$-Richtung ist Null.
+Daher ergibt sich der in Abb.~\ref{fig:5-12} dargestellte \textsc{Mohr}'sche Spannungskreis.
+Aus Abb.~\ref{fig:5-12}(a) erkennt man, dass beim spröden Werkstoff die Bruchfläche genau orthogonal zur größten Normalspannung in Zug $\sigma_1$ steht.
+Daraus lässt sich ableiten, dass es in einem Punkt eines \emph{spröden} Werkstoffs dann zum Versagen kommt, wenn die größte Normalspannung auf \emph{Zug} (das ist $\sigma_1$) die Zugfestigkeit des Werkstoffes erreicht.
+Nach diesem Kriterium wurde auch die Glasscheibe im vorherigen Beispiel bemessen.
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{MohrZugversuch}
+	\caption{Wirkende Spannungen in den Versagensflächen beim Zugversuch: (a) spröder Werkstoff - Hauptnormalspannung (Zug), (b) duktiler Werkstoff - Hauptschubspannung}
+	\label{fig:5-12}
+\end{figure}
+%
+
+Aus der Werkstofftechnologie ist bekannt, dass plastische Verformungen (wie sie bei einem duktilen Werkstoff auftreten) durch das Abgleiten von Atomschichten entlang von Gleitebenen entstehen.
+Zu diesem Phänomen kommt es aber nur dann, wenn in den Gleitebenen Schubspannungen wirken.
+Aus dem \textsc{Mohr}'schen Spannungskreis erkennt man, dass die größten Schubspannungen beim Zugversuch in einer Ebene unter $45^\circ$ zur Stabachse auftreten, siehe Abb.~\ref{fig:5-12}(b).
+Häufig setzt gleiten daher in diesen Ebenen ein.
+Führt bei einem spröden Werkstoff die größte Zugspannung zum Versagen, so sind es große Schubspannungen, die einen duktilen Werkstoff zum Plastizieren bringen.
+
+Abschließend sei noch ein weiteres Beispiel für das Versagen eines spröden Werkstoffes erwähnt, nämlich eine Torsionsfraktur (Abb.~\ref{fig:5-13}).
+Vereinfachend werden dazu die Knochen als ein Stab mit kreisrunden Querschnitt betrachtet, die durch ein Torsionsmoment beansprucht werden. 
+%
+\begin{figure}[h!]
+	\centering
+	\includesvg{TorsionsFraktur}
+	\caption{Torsionsfraktur beider Unterschenkelknochen: (a) Röntgenbild, (b) Richtung der größten Hauptnormalspannung $\sigma_1$}
+	\label{fig:5-13}
+\end{figure}
+%
+Wie im Abschnitt der Torsion der runden Welle (vgl. Abb.~\ref{fig:4-4}) diskutiert, treten im Stabquerschnitt nur Schubspannungen auf.
+Die Größtwerte werden an der Oberfläche erreicht.
+Da in einem Element an der Oberfläche nur Schubspannungen wirken (Abb.~\ref{fig:5-13}(b)), wird dieser Zustand als reiner Schub bezeichnet.
+Der Mittelpunkt des Spannungskreises ist in diesem Fall genau der Ursprung des $\sigma-\tau$-Koordinatensystems.
+Durch das spröde Verhalten der Knochen ist für das Versagen wiederum die größte Zugspannung von ausschlaggebend.
+Aus dem Spannungskreis folgt, dass diese in einer Ebene unter $45^\circ$ zu Stabachse auftritt.
+Diese Ebene ist zugleich die Bruchfläche, die man eindeutig auch im Röntgenbild in Abb.~\ref{fig:5-13}(a) erkennt.
+
+\FloatBarrier
+\begin{example}
+	Ein Holzstab wird axial mit einer Zugspannung von $1\,\unit{N/cm^2}$ belastet und ist durch eine schräge Leimfuge verbunden.
+	Die Leimfuge kann eine maximale Schubspannung von $0.4\,\unit{N/cm^2}$ und eine maximale Zugspannung von $0.3\,\unit{N/cm^2}$ übertragen.
+	Wie groß darf der Winkel $\alpha$ maximal gewählt werden? 
+	%
+	\begin{center}
+		\includesvg{LeimFuge}
+	\end{center}
+	%
+	
+	\textit{Lösung}:
+	
+	$\alpha\leq 26.6\,^\circ$
+	
+\end{example}
+
+\begin{example}
+	Ein Stab, in Form eines rechteckigen Hohlprofils, besteht im unteren Bereich aus Stahl und im oberen Bereich aus Aluminium.
+	Beansprucht wird der Stab durch ein Torsionsmoment von $M_t = 
+	17\,\unit{kNm}$.
+	Zusätzlich wird der Bereich aus Stahl noch durch eine Kraft $F=620\,\unit{kN}$ axial belastet.
+	Es wird angenommen, dass eine maximale Schubspannung von $5\,\unit{kN/cm^2}$ in Aluminium und $7\,\unit{kN/cm^2}$ in Stahl zum Fließen führt.
+	Wird einer der beiden Bereiche plastisch beansprucht? 
+	%
+	\begin{center}
+		\includesvg{BspESZ2}
+	\end{center}
+	%
+	
+	\textit{Lösung}: \\
+	Der Stahlbereich plastiziert.	
+\end{example}
+
+\begin{example}
+	In einer Scheibe, hergestellt aus einem Faserverbundwerkstoff, wirkt der gegebene Spannungszustand.
+	Bei einem derartigen Werkstoff werden verstärkende Fasern in einer Matrix eingebettet.
+	Die Faserrichtung ist mit $\alpha=30^\circ$ gegeben.
+	Wie groß ist die Normalspannung in den Fasern?
+	Was wäre die optimale Richtung der Fasern, wenn ihre Zugfestigkeit deutlich größer ist als jene der Matrix?
+	%
+	\begin{center}
+		\includesvg{BspESZ3}
+	\end{center}
+	%
+	
+	\textit{Lösung:}
+	\begin{itemize}
+		\item $\sigma_{\text{Faser}} = 19.7\,\unit{kN/cm^2}$
+		\item $\alpha_{\text{opt}} = 25.7^\circ$
+	\end{itemize}
+\end{example}
+
+\begin{example}
+	Bestimmme die Hauptnormalspannungen des Spannungstensors in Abb.~\ref{fig:5-5} durch Lösen des Eigenwertproblems in \textsc{Matlab}.
+	Durch Eingabe von
+	\begin{center}
+		\texttt{sig = [ 7.0   4.0 ; 4.0   1.0 ]}
+	\end{center}
+	wird der Spannungstensor definiert.
+	Das Eigenwertproblem wird gelöst durch 
+	\begin{center}
+		\texttt{[n,sig12] = eig(sig)} 
+	\end{center}
+	Stimmt die Lösung mit den in Abb.~\ref{fig:5-8}(a) angegebenen Werten überein?
+\end{example}
+
+
+%https://books.google.at/books?id=7iGBBwAAQBAJ&pg=PA58&lpg=PA58&dq=knochenbruch+torsion&source=bl&ots=jxnFtvsSpV&sig=mT-CPzJgVaLVygT2XvVCsy0q8qo&hl=en&sa=X&ved=0ahUKEwiIl8m8l-jTAhVCApoKHVGBDg8Q6AEIWTAF#v=onepage&q=knochenbruch%20torsion&f=false
