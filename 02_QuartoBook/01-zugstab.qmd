@@ -332,7 +332,7 @@ $$
 \sigma = E(\ve-\alpha \Delta T) \; .
 $$ {#eq-sigma-T}
 
-::: {.callout-important .video-box collapse="true" icon=false}
+::: {.callout-important .video-box icon=false}
 ## Video
 
 {{< video https://www.youtube.com/watch?v=fEbkcTBNiGg >}}
