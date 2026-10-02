@@ -36,8 +36,10 @@ jobs:
       - name: Englisch rendern (-> _book/en/)
         run: quarto render --profile en
 
-      - name: Pages konfigurieren
+      - name: Pages konfigurieren (aktiviert Pages bei Bedarf selbst)
         uses: actions/configure-pages@v5
+        with:
+          enablement: true
 
       - name: Artefakt hochladen
         uses: actions/upload-pages-artifact@v3
