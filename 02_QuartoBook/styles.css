@@ -140,3 +140,12 @@ div[id^="exm-"] .theorem-title::before {
 #quarto-document-content figcaption,
 #quarto-document-content .callout-title-container,
 #quarto-document-content caption { text-align: left; hyphens: manual; }
+
+/* Bilder in Beispielen/Lösungen zentrieren (und generell fig-align=center-Bilder) */
+#quarto-document-content img.quarto-figure-center,
+#quarto-document-content div[id^="exm-"] img,
+#quarto-document-content .callout.loesung img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
