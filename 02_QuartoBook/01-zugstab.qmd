@@ -124,6 +124,12 @@ Sowohl die Kraft $F$ als auch die Verschiebung am oberen Rand $\Delta l$ werden 
 
 ![Zugversuch](images/Zugversuch.svg){#fig-zugversuch}
 
+::: {.callout-important .video-box icon=false}
+## Video
+
+{{< video https://www.youtube.com/watch?v=fEbkcTBNiGg >}}
+:::
+
 Berechnet man sich aus den Messdaten nach ([-@eq-spannung]) die Spannung und nach ([-@eq-dehnung]) die Dehnung und trägt diese in einem Diagramm auf, erhält man die in @fig-arbeitsdiagramm dargestellte Kurve.
 Bei der Zugprobe handelt es sich dabei um einen naturharten Stahl.
 Der Zusammenhang zwischen Dehnung und Spannung kann aus diesem Diagramm abgelesen werden.
@@ -331,12 +337,6 @@ Diese Beziehung lässt sich auch umschreiben zu
 $$
 \sigma = E(\ve-\alpha \Delta T) \; .
 $$ {#eq-sigma-T}
-
-::: {.callout-important .video-box icon=false}
-## Video
-
-{{< video https://www.youtube.com/watch?v=fEbkcTBNiGg >}}
-:::
 
 ::: {#exm-thermisch}
 Ein Stab der Länge $l$ und konstantem Querschnitt $A$ erfährt eine gleichförmige Temperaturänderung $\Delta T$.

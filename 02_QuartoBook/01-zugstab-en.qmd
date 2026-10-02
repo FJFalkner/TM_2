@@ -124,6 +124,12 @@ Both the force $F$ and the displacement $\Delta l$ at the upper edge are measure
 
 ![Tensile test](images/Zugversuch.svg){#fig-zugversuch}
 
+::: {.callout-important .video-box icon=false}
+## Video
+
+{{< video https://www.youtube.com/watch?v=fEbkcTBNiGg >}}
+:::
+
 If, from the measured data, one computes the stress according to ([-@eq-spannung]) and the strain according to ([-@eq-dehnung]) and plots them in a diagram, one obtains the curve shown in @fig-arbeitsdiagramm.
 The specimen in this case is a mild steel.
 The relationship between strain and stress can be read off from this diagram.
@@ -330,12 +336,6 @@ This relation can also be rewritten as
 $$
 \sigma = E(\ve-\alpha \Delta T) \; .
 $$ {#eq-sigma-T}
-
-::: {.callout-important .video-box icon=false}
-## Video
-
-{{< video https://www.youtube.com/watch?v=fEbkcTBNiGg >}}
-:::
 
 ::: {#exm-thermisch}
 A bar of length $l$ and constant cross-section $A$ experiences a uniform temperature change $\Delta T$.
